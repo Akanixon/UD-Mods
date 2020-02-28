@@ -56,6 +56,8 @@
     <None Include="Data\QC_Component.sbc" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Data\BlueprintClasses_Consumables.sbc" />
+    <None Include="Data\Blueprints_Consumables.sbc" />
     <Content Include="Textures\GUI\Icons\component\super_computer_component.dds" />
     <Content Include="Textures\GUI\Icons\ingot\HH2o.dds" />
   </ItemGroup>
