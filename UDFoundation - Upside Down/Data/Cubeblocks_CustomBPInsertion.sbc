@@ -62,7 +62,7 @@
         <Class>BuildPlanner</Class>
         <!--Custom Blueprint-->
         <Class>FuelCells</Class> <!--ThoriumFusionReactor-->
-        <Class>TradingGoods</Class>
+        <Class>TradingGoods</Class> <!--TradingGoods-->
       </BlueprintClasses>
       <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
       <DamagedSound>ParticleHeavyMech</DamagedSound>

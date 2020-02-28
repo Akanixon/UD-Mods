@@ -4,18 +4,18 @@
     <PhysicalItem xsi:type="MyObjectBuilder_PackageDefinition">
       <Id>
         <TypeId>Package</TypeId>
-        <SubtypeId>Iron_Ingot_Package_250k</SubtypeId>
+        <SubtypeId>Iron_Ingot_Package_10k</SubtypeId>
       </Id>
-      <DisplayName>Iron Ingot Package 250k</DisplayName>
-      <Description>Package that contains 250k Iron Ingots</Description>
+      <DisplayName>Iron Ingot Package 10k</DisplayName>
+      <Description>Package that contains 10k Iron Ingots</Description>
       <Icon>Textures\GUI\Icons\Items\ContractPackage.dds</Icon>
       <Size>
         <X>0.5</X>
         <Y>0.5</Y>
         <Z>0.5</Z>
       </Size>
-      <Mass>250000</Mass>
-      <Volume>31750</Volume>
+      <Mass>10000</Mass>
+      <Volume>1270</Volume>
       <Model>Models\Components\ContractPackage.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
       <MinimalPricePerUnit>1</MinimalPricePerUnit>
@@ -28,17 +28,17 @@
     <PhysicalItem xsi:type="MyObjectBuilder_PackageDefinition">
       <Id>
         <TypeId>Package</TypeId>
-        <SubtypeId>Cobalt_Ingot_Package_250k</SubtypeId>
+        <SubtypeId>Cobalt_Ingot_Package_10k</SubtypeId>
       </Id>
-      <DisplayName>Cobalt Ingot Package 250k</DisplayName>
-      <Description>Package that contains 250k Cobalt Ingots</Description>
+      <DisplayName>Cobalt Ingot Package 10k</DisplayName>
+      <Description>Package that contains 10k Cobalt Ingots</Description>
       <Icon>Textures\GUI\Icons\Items\ContractPackage.dds</Icon>
       <Size>
         <X>0.5</X>
         <Y>0.5</Y>
         <Z>0.5</Z>
       </Size>
-      <Mass>250000</Mass>
+      <Mass>10000</Mass>
       <Volume>28000</Volume>
       <Model>Models\Components\ContractPackage.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
@@ -52,18 +52,18 @@
     <PhysicalItem xsi:type="MyObjectBuilder_PackageDefinition">
       <Id>
         <TypeId>Package</TypeId>
-        <SubtypeId>Gold_Ingot_Package_250k</SubtypeId>
+        <SubtypeId>Gold_Ingot_Package_10k</SubtypeId>
       </Id>
-      <DisplayName>Gold Ingot Package 250k</DisplayName>
-      <Description>Package that contains 250k Gold Ingots</Description>
+      <DisplayName>Gold Ingot Package 10k</DisplayName>
+      <Description>Package that contains 10k Gold Ingots</Description>
       <Icon>Textures\GUI\Icons\Items\ContractPackage.dds</Icon>
       <Size>
         <X>0.5</X>
         <Y>0.5</Y>
         <Z>0.5</Z>
       </Size>
-      <Mass>250000</Mass>
-      <Volume>13000</Volume>
+      <Mass>10000</Mass>
+      <Volume>520</Volume>
       <Model>Models\Components\ContractPackage.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
       <MinimalPricePerUnit>1</MinimalPricePerUnit>
@@ -76,18 +76,18 @@
     <PhysicalItem xsi:type="MyObjectBuilder_PackageDefinition">
       <Id>
         <TypeId>Package</TypeId>
-        <SubtypeId>Magnesium_Powder_Package_125k</SubtypeId>
+        <SubtypeId>Magnesium_Powder_Package_10k</SubtypeId>
       </Id>
-      <DisplayName>Magnesium Powder Package 125k</DisplayName>
-      <Description>Package that contains 125k Magnesium Powder</Description>
+      <DisplayName>Magnesium Powder Package 10k</DisplayName>
+      <Description>Package that contains 10k Magnesium Powder</Description>
       <Icon>Textures\GUI\Icons\Items\ContractPackage.dds</Icon>
       <Size>
         <X>0.5</X>
         <Y>0.5</Y>
         <Z>0.5</Z>
       </Size>
-      <Mass>250000</Mass>
-      <Volume>71875</Volume>
+      <Mass>10000</Mass>
+      <Volume>2875</Volume>
       <Model>Models\Components\ContractPackage.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
       <MinimalPricePerUnit>1</MinimalPricePerUnit>
@@ -100,18 +100,18 @@
     <PhysicalItem xsi:type="MyObjectBuilder_PackageDefinition">
       <Id>
         <TypeId>Package</TypeId>
-        <SubtypeId>Nickel_Ingot_Package_250k</SubtypeId>
+        <SubtypeId>Nickel_Ingot_Package_10k</SubtypeId>
       </Id>
-      <DisplayName>Nickel Ingot Package 250k</DisplayName>
-      <Description>Package that contains 250k Nickel Ingots</Description>
+      <DisplayName>Nickel Ingot Package 10k</DisplayName>
+      <Description>Package that contains 10k Nickel Ingots</Description>
       <Icon>Textures\GUI\Icons\Items\ContractPackage.dds</Icon>
       <Size>
         <X>0.5</X>
         <Y>0.5</Y>
         <Z>0.5</Z>
       </Size>
-      <Mass>250000</Mass>
-      <Volume>28000</Volume>
+      <Mass>10000</Mass>
+      <Volume>1120</Volume>
       <Model>Models\Components\ContractPackage.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
       <MinimalPricePerUnit>1</MinimalPricePerUnit>
@@ -124,18 +124,18 @@
     <PhysicalItem xsi:type="MyObjectBuilder_PackageDefinition">
       <Id>
         <TypeId>Package</TypeId>
-        <SubtypeId>Platinum_Ingot_Package_250k</SubtypeId>
+        <SubtypeId>Platinum_Ingot_Package_10k</SubtypeId>
       </Id>
-      <DisplayName>Platinum Ingot Package 250k</DisplayName>
-      <Description>Package that contains 250k Platinum</Description>
+      <DisplayName>Platinum Ingot Package 10k</DisplayName>
+      <Description>Package that contains 10k Platinum</Description>
       <Icon>Textures\GUI\Icons\Items\ContractPackage.dds</Icon>
       <Size>
         <X>0.5</X>
         <Y>0.5</Y>
         <Z>0.5</Z>
       </Size>
-      <Mass>250000</Mass>
-      <Volume>11750</Volume>
+      <Mass>10000</Mass>
+      <Volume>470</Volume>
       <Model>Models\Components\ContractPackage.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
       <MinimalPricePerUnit>1</MinimalPricePerUnit>
@@ -148,18 +148,18 @@
     <PhysicalItem xsi:type="MyObjectBuilder_PackageDefinition">
       <Id>
         <TypeId>Package</TypeId>
-        <SubtypeId>Silicon_Wafer_Package_125k</SubtypeId>
+        <SubtypeId>Silicon_Wafer_Package_10k</SubtypeId>
       </Id>
-      <DisplayName>Silicon Wafer Package 125k</DisplayName>
-      <Description>Package that contains 125k Silicon Wafers</Description>
+      <DisplayName>Silicon Wafer Package 10k</DisplayName>
+      <Description>Package that contains 10k Silicon Wafers</Description>
       <Icon>Textures\GUI\Icons\Items\ContractPackage.dds</Icon>
       <Size>
         <X>0.5</X>
         <Y>0.5</Y>
         <Z>0.5</Z>
       </Size>
-      <Mass>250000</Mass>
-      <Volume>11750</Volume>
+      <Mass>10000</Mass>
+      <Volume>470</Volume>
       <Model>Models\Components\ContractPackage.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
       <MinimalPricePerUnit>1</MinimalPricePerUnit>
@@ -172,18 +172,18 @@
     <PhysicalItem xsi:type="MyObjectBuilder_PackageDefinition">
       <Id>
         <TypeId>Package</TypeId>
-        <SubtypeId>Silver_Ingot_Package_250k</SubtypeId>
+        <SubtypeId>Silver_Ingot_Package_10k</SubtypeId>
       </Id>
-      <DisplayName>Silver Ingot Package 250k</DisplayName>
-      <Description>Package that contains 250k Silver Ingots</Description>
+      <DisplayName>Silver Ingot Package 10k</DisplayName>
+      <Description>Package that contains 10k Silver Ingots</Description>
       <Icon>Textures\GUI\Icons\Items\ContractPackage.dds</Icon>
       <Size>
         <X>0.5</X>
         <Y>0.5</Y>
         <Z>0.5</Z>
       </Size>
-      <Mass>250000</Mass>
-      <Volume>23750</Volume>
+      <Mass>10000</Mass>
+      <Volume>950</Volume>
       <Model>Models\Components\ContractPackage.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
       <MinimalPricePerUnit>1</MinimalPricePerUnit>
@@ -196,18 +196,18 @@
     <PhysicalItem xsi:type="MyObjectBuilder_PackageDefinition">
       <Id>
         <TypeId>Package</TypeId>
-        <SubtypeId>Uranium_Ingot_Package_250k</SubtypeId>
+        <SubtypeId>Uranium_Ingot_Package_10k</SubtypeId>
       </Id>
-      <DisplayName>Uranium Ingot Package 250k</DisplayName>
-      <Description>Package that contains 250k Uranium Ingots</Description>
+      <DisplayName>Uranium Ingot Package 10k</DisplayName>
+      <Description>Package that contains 10k Uranium Ingots</Description>
       <Icon>Textures\GUI\Icons\Items\ContractPackage.dds</Icon>
       <Size>
         <X>0.5</X>
         <Y>0.5</Y>
         <Z>0.5</Z>
       </Size>
-      <Mass>250000</Mass>
-      <Volume>13000</Volume>
+      <Mass>10000</Mass>
+      <Volume>520</Volume>
       <Model>Models\Components\ContractPackage.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
       <MinimalPricePerUnit>1</MinimalPricePerUnit>

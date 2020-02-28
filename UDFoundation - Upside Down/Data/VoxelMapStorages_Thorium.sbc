@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <VoxelMapStorages>
+    <VoxelMapStorage>
+      <Id>
+        <TypeId>VoxelMapStorageDefinition</TypeId>
+        <SubtypeId>Thorium</SubtypeId>
+      </Id>
+      <StorageFile>VoxelMaps\Thorium.vx2</StorageFile>
+    </VoxelMapStorage>
+    <VoxelMapStorage>
+      <Id>
+        <TypeId>VoxelMapStorageDefinition</TypeId>
+        <SubtypeId>ThoriumV2</SubtypeId>
+      </Id>
+      <StorageFile>VoxelMaps\ThoriumV2.vx2</StorageFile>
+    </VoxelMapStorage>
+    <VoxelMapStorage>
+      <Id>
+        <TypeId>VoxelMapStorageDefinition</TypeId>
+        <SubtypeId>Thorium_V3c</SubtypeId>
+      </Id>
+      <StorageFile>VoxelMaps\Thorium_V3c.vx2</StorageFile>
+    </VoxelMapStorage>
+
+  </VoxelMapStorages>
+</Definitions>

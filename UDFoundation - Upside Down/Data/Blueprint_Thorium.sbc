@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Blueprints>
+  	
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ThoriumOreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Thorium Ingot</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\Thorium_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ore" SubtypeId="Thorium" />
+      </Prerequisites>
+      <Result Amount="0.004" TypeId="Ingot" SubtypeId="Thorium" />
+      <BaseProductionTimeInSeconds>480</BaseProductionTimeInSeconds>
+    </Blueprint>
+ 
+
+  </Blueprints>
+</Definitions>
