@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Components>
+  <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>SuperComputer</SubtypeId>
+      </Id>
+      <DisplayName>Quantum Computer</DisplayName>
+      <Icon>Textures\GUI\Icons\component\super_computer_component.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.02</Z>
+      </Size>
+      <Mass>10</Mass>
+      <Volume>10</Volume>
+      <Model>Models\Components\computer_component.mwm</Model>
+      <MaxIntegrity>25</MaxIntegrity>
+      <DropProbability>0.1</DropProbability>
+      <Health>1666</Health>
+            <MinimalPricePerUnit>100000</MinimalPricePerUnit>
+            <MinimumOfferAmount>1</MinimumOfferAmount>
+            <MaximumOfferAmount>10000</MaximumOfferAmount>
+            <MinimumOrderAmount>1</MinimumOrderAmount>
+            <MaximumOrderAmount>10000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+    </Component>
+  </Components>
+</Definitions>

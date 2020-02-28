@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Blueprints>
+  
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SuperComputer</SubtypeId>
+      </Id>
+      <DisplayName>Quantum Computer</DisplayName>
+      <Icon>Textures\GUI\Icons\component\super_computer_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="75" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="30" TypeId="Ingot" SubtypeId="Silicon" />
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Thorium" />
+        <Item Amount="75" TypeId="Ingot" SubtypeId="Silver" />
+        <Item Amount="180" TypeId="Ingot" SubtypeId="Gold" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="SuperComputer" />
+      <BaseProductionTimeInSeconds>120</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+  </Blueprints>
+</Definitions>

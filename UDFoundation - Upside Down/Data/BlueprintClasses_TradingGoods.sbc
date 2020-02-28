@@ -1,0 +1,18 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <BlueprintClasses>
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>TradingGoods</SubtypeId>
+      </Id>
+      <DisplayName>Trading Goods</DisplayName>
+      <Icon>Textures\GUI\Icons\Items\ContractPackage.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\Items\ContractPackage.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+  </BlueprintClasses>
+</Definitions>

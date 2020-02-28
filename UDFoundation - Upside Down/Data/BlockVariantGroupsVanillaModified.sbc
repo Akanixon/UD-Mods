@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <BlockVariantGroups>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="MedicalGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\medical_room.dds</Icon>
+            <DisplayName>DisplayName_BlockGroup_MedicalGroup</DisplayName>
+            <Description>Description_BlockGroup_MedicalGroup</Description>
+            <Blocks>                
+                <Block Type="MyObjectBuilder_MedicalRoom" Subtype="LargeMedicalRoom" />                
+                <Block Type="MyObjectBuilder_LCDPanelsBlock" Subtype="MedicalStation" />                
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AssemblerGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\assembler.dds</Icon>
+            <DisplayName>DisplayName_Block_Assembler</DisplayName>
+            <Description>Description_Assembler</Description>
+            <Blocks>                
+                <Block Type="MyObjectBuilder_SurvivalKit" Subtype="SurvivalKitLarge" />
+                <Block Type="MyObjectBuilder_SurvivalKit" Subtype="SurvivalKit" />
+                <Block Type="MyObjectBuilder_Assembler" Subtype="LargeAssembler" />
+                <Block Type="MyObjectBuilder_Assembler" Subtype="BasicAssembler" />
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="RefineryGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\refinery.dds</Icon>
+            <DisplayName>DisplayName_Block_Refinery</DisplayName>
+            <Description>Description_Refinery</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_Refinery" Subtype="LargeRefinery" />
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="RefineryGroupBasic" />
+            <Icon>Textures\GUI\Icons\Cubes\BlastFurnace.dds</Icon>
+            <DisplayName>DisplayName_Block_Arc_Furnace</DisplayName>
+            <Description>Description_RefineryBasic</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_Refinery" Subtype="Blast Furnace" />
+            </Blocks>
+        </BlockVariantGroup>
+
+    </BlockVariantGroups>
+</Definitions>
