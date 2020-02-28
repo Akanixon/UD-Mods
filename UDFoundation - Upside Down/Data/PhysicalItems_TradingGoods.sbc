@@ -1,0 +1,221 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PhysicalItems>
+    <PhysicalItem xsi:type="MyObjectBuilder_PackageDefinition">
+      <Id>
+        <TypeId>Package</TypeId>
+        <SubtypeId>Iron_Ingot_Package_250k</SubtypeId>
+      </Id>
+      <DisplayName>Iron Ingot Package 250k</DisplayName>
+      <Description>Package that contains 250k Iron Ingots</Description>
+      <Icon>Textures\GUI\Icons\Items\ContractPackage.dds</Icon>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.5</Z>
+      </Size>
+      <Mass>250000</Mass>
+      <Volume>31750</Volume>
+      <Model>Models\Components\ContractPackage.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MinimalPricePerUnit>1</MinimalPricePerUnit>
+      <MinimumOfferAmount>1</MinimumOfferAmount>
+      <MaximumOfferAmount>99999</MaximumOfferAmount>
+      <MinimumOrderAmount>1</MinimumOrderAmount>
+      <MaximumOrderAmount>99999</MaximumOrderAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+    </PhysicalItem>
+    <PhysicalItem xsi:type="MyObjectBuilder_PackageDefinition">
+      <Id>
+        <TypeId>Package</TypeId>
+        <SubtypeId>Cobalt_Ingot_Package_250k</SubtypeId>
+      </Id>
+      <DisplayName>Cobalt Ingot Package 250k</DisplayName>
+      <Description>Package that contains 250k Cobalt Ingots</Description>
+      <Icon>Textures\GUI\Icons\Items\ContractPackage.dds</Icon>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.5</Z>
+      </Size>
+      <Mass>250000</Mass>
+      <Volume>28000</Volume>
+      <Model>Models\Components\ContractPackage.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MinimalPricePerUnit>1</MinimalPricePerUnit>
+      <MinimumOfferAmount>1</MinimumOfferAmount>
+      <MaximumOfferAmount>99999</MaximumOfferAmount>
+      <MinimumOrderAmount>1</MinimumOrderAmount>
+      <MaximumOrderAmount>99999</MaximumOrderAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+    </PhysicalItem>
+    <PhysicalItem xsi:type="MyObjectBuilder_PackageDefinition">
+      <Id>
+        <TypeId>Package</TypeId>
+        <SubtypeId>Gold_Ingot_Package_250k</SubtypeId>
+      </Id>
+      <DisplayName>Gold Ingot Package 250k</DisplayName>
+      <Description>Package that contains 250k Gold Ingots</Description>
+      <Icon>Textures\GUI\Icons\Items\ContractPackage.dds</Icon>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.5</Z>
+      </Size>
+      <Mass>250000</Mass>
+      <Volume>13000</Volume>
+      <Model>Models\Components\ContractPackage.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MinimalPricePerUnit>1</MinimalPricePerUnit>
+      <MinimumOfferAmount>1</MinimumOfferAmount>
+      <MaximumOfferAmount>99999</MaximumOfferAmount>
+      <MinimumOrderAmount>1</MinimumOrderAmount>
+      <MaximumOrderAmount>99999</MaximumOrderAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+    </PhysicalItem>
+    <PhysicalItem xsi:type="MyObjectBuilder_PackageDefinition">
+      <Id>
+        <TypeId>Package</TypeId>
+        <SubtypeId>Magnesium_Powder_Package_125k</SubtypeId>
+      </Id>
+      <DisplayName>Magnesium Powder Package 125k</DisplayName>
+      <Description>Package that contains 125k Magnesium Powder</Description>
+      <Icon>Textures\GUI\Icons\Items\ContractPackage.dds</Icon>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.5</Z>
+      </Size>
+      <Mass>250000</Mass>
+      <Volume>71875</Volume>
+      <Model>Models\Components\ContractPackage.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MinimalPricePerUnit>1</MinimalPricePerUnit>
+      <MinimumOfferAmount>1</MinimumOfferAmount>
+      <MaximumOfferAmount>99999</MaximumOfferAmount>
+      <MinimumOrderAmount>1</MinimumOrderAmount>
+      <MaximumOrderAmount>99999</MaximumOrderAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+    </PhysicalItem>
+    <PhysicalItem xsi:type="MyObjectBuilder_PackageDefinition">
+      <Id>
+        <TypeId>Package</TypeId>
+        <SubtypeId>Nickel_Ingot_Package_250k</SubtypeId>
+      </Id>
+      <DisplayName>Nickel Ingot Package 250k</DisplayName>
+      <Description>Package that contains 250k Nickel Ingots</Description>
+      <Icon>Textures\GUI\Icons\Items\ContractPackage.dds</Icon>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.5</Z>
+      </Size>
+      <Mass>250000</Mass>
+      <Volume>28000</Volume>
+      <Model>Models\Components\ContractPackage.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MinimalPricePerUnit>1</MinimalPricePerUnit>
+      <MinimumOfferAmount>1</MinimumOfferAmount>
+      <MaximumOfferAmount>99999</MaximumOfferAmount>
+      <MinimumOrderAmount>1</MinimumOrderAmount>
+      <MaximumOrderAmount>99999</MaximumOrderAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+    </PhysicalItem>
+    <PhysicalItem xsi:type="MyObjectBuilder_PackageDefinition">
+      <Id>
+        <TypeId>Package</TypeId>
+        <SubtypeId>Platinum_Ingot_Package_250k</SubtypeId>
+      </Id>
+      <DisplayName>Platinum Ingot Package 250k</DisplayName>
+      <Description>Package that contains 250k Platinum</Description>
+      <Icon>Textures\GUI\Icons\Items\ContractPackage.dds</Icon>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.5</Z>
+      </Size>
+      <Mass>250000</Mass>
+      <Volume>11750</Volume>
+      <Model>Models\Components\ContractPackage.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MinimalPricePerUnit>1</MinimalPricePerUnit>
+      <MinimumOfferAmount>1</MinimumOfferAmount>
+      <MaximumOfferAmount>99999</MaximumOfferAmount>
+      <MinimumOrderAmount>1</MinimumOrderAmount>
+      <MaximumOrderAmount>99999</MaximumOrderAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+    </PhysicalItem>
+    <PhysicalItem xsi:type="MyObjectBuilder_PackageDefinition">
+      <Id>
+        <TypeId>Package</TypeId>
+        <SubtypeId>Silicon_Wafer_Package_125k</SubtypeId>
+      </Id>
+      <DisplayName>Silicon Wafer Package 125k</DisplayName>
+      <Description>Package that contains 125k Silicon Wafers</Description>
+      <Icon>Textures\GUI\Icons\Items\ContractPackage.dds</Icon>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.5</Z>
+      </Size>
+      <Mass>250000</Mass>
+      <Volume>11750</Volume>
+      <Model>Models\Components\ContractPackage.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MinimalPricePerUnit>1</MinimalPricePerUnit>
+      <MinimumOfferAmount>1</MinimumOfferAmount>
+      <MaximumOfferAmount>99999</MaximumOfferAmount>
+      <MinimumOrderAmount>1</MinimumOrderAmount>
+      <MaximumOrderAmount>99999</MaximumOrderAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+    </PhysicalItem>
+    <PhysicalItem xsi:type="MyObjectBuilder_PackageDefinition">
+      <Id>
+        <TypeId>Package</TypeId>
+        <SubtypeId>Silver_Ingot_Package_250k</SubtypeId>
+      </Id>
+      <DisplayName>Silver Ingot Package 250k</DisplayName>
+      <Description>Package that contains 250k Silver Ingots</Description>
+      <Icon>Textures\GUI\Icons\Items\ContractPackage.dds</Icon>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.5</Z>
+      </Size>
+      <Mass>250000</Mass>
+      <Volume>23750</Volume>
+      <Model>Models\Components\ContractPackage.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MinimalPricePerUnit>1</MinimalPricePerUnit>
+      <MinimumOfferAmount>1</MinimumOfferAmount>
+      <MaximumOfferAmount>99999</MaximumOfferAmount>
+      <MinimumOrderAmount>1</MinimumOrderAmount>
+      <MaximumOrderAmount>99999</MaximumOrderAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+    </PhysicalItem>
+    <PhysicalItem xsi:type="MyObjectBuilder_PackageDefinition">
+      <Id>
+        <TypeId>Package</TypeId>
+        <SubtypeId>Uranium_Ingot_Package_250k</SubtypeId>
+      </Id>
+      <DisplayName>Uranium Ingot Package 250k</DisplayName>
+      <Description>Package that contains 250k Uranium Ingots</Description>
+      <Icon>Textures\GUI\Icons\Items\ContractPackage.dds</Icon>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.5</Z>
+      </Size>
+      <Mass>250000</Mass>
+      <Volume>13000</Volume>
+      <Model>Models\Components\ContractPackage.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MinimalPricePerUnit>1</MinimalPricePerUnit>
+      <MinimumOfferAmount>1</MinimumOfferAmount>
+      <MaximumOfferAmount>99999</MaximumOfferAmount>
+      <MinimumOrderAmount>1</MinimumOrderAmount>
+      <MaximumOrderAmount>99999</MaximumOrderAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+    </PhysicalItem>
+  </PhysicalItems>
+</Definitions>

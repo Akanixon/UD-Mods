@@ -15,4 +15,15 @@
       <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
     </Class>
   </BlueprintClasses>
+  <BlueprintClassEntries>
+    <Entry Class="TradingGoods" BlueprintSubtypeId="Iron_Ingot_Package_250k" />
+    <Entry Class="TradingGoods" BlueprintSubtypeId="Cobalt_Ingot_Package_250k" />
+    <Entry Class="TradingGoods" BlueprintSubtypeId="Gold_Ingot_Package_250k" />
+    <Entry Class="TradingGoods" BlueprintSubtypeId="Magnesium_Powder_Package_125k" />
+    <Entry Class="TradingGoods" BlueprintSubtypeId="Nickel_Ingot_Package_250k" />
+    <Entry Class="TradingGoods" BlueprintSubtypeId="Platinum_Ingot_Package_250k" />
+    <Entry Class="TradingGoods" BlueprintSubtypeId="Silicon_Wafer_Package_125k" />
+    <Entry Class="TradingGoods" BlueprintSubtypeId="Silver_Ingot_Package_250k" />
+    <Entry Class="TradingGoods" BlueprintSubtypeId="Uranium_Ingot_Package_250k" />
+  </BlueprintClassEntries>
 </Definitions>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Definition xsi:type="MyObjectBuilder_BankingSystemDefinition">
+    <Id Type="MyObjectBuilder_BankingSystemDefinition" Subtype="BankingSystem" />
+
+    <Icon>Textures\GUI\Icons\SpaceCredits.dds</Icon>
+    <CurrencyFullName>Space Credits</CurrencyFullName>
+    <CurrencyShortName>SC</CurrencyShortName>
+    <StartingBalance>0</StartingBalance>  <!--Changed from 10k to 0-->
+    <AccountLogLen>25</AccountLogLen>
+
+    <PhysicalItemId Type="MyObjectBuilder_PhysicalObject" Subtype="SpaceCredit" />
+  </Definition>
+</Definitions>

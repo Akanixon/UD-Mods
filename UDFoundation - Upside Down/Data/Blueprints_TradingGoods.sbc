@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Blueprints>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Iron_Ingot_Package_250k</SubtypeId>
+      </Id>
+      <DisplayName>Iron Ingot Package 250k</DisplayName>
+      <Icon>Textures\GUI\Icons\Items\ContractPackage.dds</Icon>
+      <Prerequisites>
+        <Item Amount="250000" TypeId="Ingot" SubtypeId="Iron" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Package" SubtypeId="Iron_Ingot_Package_250k" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Cobalt_Ingot_Package_250k</SubtypeId>
+      </Id>
+      <DisplayName>Cobalt Ingot Package 250k</DisplayName>
+      <Icon>Textures\GUI\Icons\Items\ContractPackage.dds</Icon>
+      <Prerequisites>
+        <Item Amount="2500000" TypeId="Ingot" SubtypeId="Cobalt" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Package" SubtypeId="Cobalt_Ingot_Package_250k" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Gold_Ingot_Package_250k</SubtypeId>
+      </Id>
+      <DisplayName>Gold Ingot Package 250k</DisplayName>
+      <Icon>Textures\GUI\Icons\Items\ContractPackage.dds</Icon>
+      <Prerequisites>
+        <Item Amount="2500000" TypeId="Ingot" SubtypeId="Gold" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Package" SubtypeId="Gold_Ingot_Package_250k" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Magnesium_Powder_Package_125k</SubtypeId>
+      </Id>
+      <DisplayName>Magnesium Powder Package 125k</DisplayName>
+      <Icon>Textures\GUI\Icons\Items\ContractPackage.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1250000" TypeId="Ingot" SubtypeId="Magnesium" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Package" SubtypeId="Magnesium_Powder_Package_125k" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Nickel_Ingot_Package_250k</SubtypeId>
+      </Id>
+      <DisplayName>Nickel Ingot Package 250k</DisplayName>
+      <Icon>Textures\GUI\Icons\Items\ContractPackage.dds</Icon>
+      <Prerequisites>
+        <Item Amount="2500000" TypeId="Ingot" SubtypeId="Nickel" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Package" SubtypeId="Nickel_Ingot_Package_250k" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Platinum_Ingot_Package_250k</SubtypeId>
+      </Id>
+      <DisplayName>Platinum Ingot Package 250k</DisplayName>
+      <Icon>Textures\GUI\Icons\Items\ContractPackage.dds</Icon>
+      <Prerequisites>
+        <Item Amount="2500000" TypeId="Ingot" SubtypeId="Platinum" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Package" SubtypeId="Platinum_Ingot_Package_250k" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Silicon_Wafer_Package_125k</SubtypeId>
+      </Id>
+      <DisplayName>Silicon Wafer Package 125k</DisplayName>
+      <Icon>Textures\GUI\Icons\Items\ContractPackage.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1250000" TypeId="Ingot" SubtypeId="Silicon" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Package" SubtypeId="Silicon_Wafer_Package_125k" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Silver_Ingot_Package_250k</SubtypeId>
+      </Id>
+      <DisplayName>Silver Ingot Package 250k</DisplayName>
+      <Icon>Textures\GUI\Icons\Items\ContractPackage.dds</Icon>
+      <Prerequisites>
+        <Item Amount="2500000" TypeId="Ingot" SubtypeId="Silver" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Package" SubtypeId="Silver_Ingot_Package_250k" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Uranium_Ingot_Package_250k</SubtypeId>
+      </Id>
+      <DisplayName>Uranium Ingot Package 250k</DisplayName>
+      <Icon>Textures\GUI\Icons\Items\ContractPackage.dds</Icon>
+      <Prerequisites>
+        <Item Amount="2500000" TypeId="Ingot" SubtypeId="Uranium" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Package" SubtypeId="Uranium_Ingot_Package_250k" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+    </Blueprint>
+  </Blueprints>
+</Definitions>
