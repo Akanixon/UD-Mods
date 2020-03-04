@@ -1,0 +1,369 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BlueprintClasses>
+    <Class>
+      <Id>                   
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>StoneCrusher</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_BlueprintClass_Ingots</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+  </BlueprintClasses>
+  <BlueprintClassEntries>
+
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Refinery/StoneCrusher" />
+    <Entry Class="StoneCrusher" BlueprintSubtypeId="StoneToOre" />
+
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="BatteryBlock/LargeBlockBatteryBlockMK2" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="BatteryBlock/LargeBlockBatteryBlockMK3" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="BatteryBlock/LargeBlockBatteryBlockMK4" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="BatteryBlock/LargeBlockBatteryBlockMK5" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="BatteryBlock/LargeBlockBatteryBlockMK6" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="BatteryBlock/LargeBlockBatteryBlockMK7" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="BatteryBlock/LargeBlockBatteryBlockMK8" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="BatteryBlock/LargeBlockBatteryBlockMK9" />
+
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="OxygenGenerator/OxygenGeneratorMK2" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="OxygenGenerator/OxygenGeneratorMK3" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="OxygenGenerator/OxygenGeneratorMK4" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="OxygenGenerator/OxygenGeneratorMK5" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="OxygenGenerator/OxygenGeneratorMK6" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="OxygenGenerator/OxygenGeneratorMK7" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="OxygenGenerator/OxygenGeneratorMK8" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="OxygenGenerator/OxygenGeneratorMK9" />
+
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="JumpDrive/LargeJumpDriveMK2" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="JumpDrive/LargeJumpDriveMK3" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="JumpDrive/LargeJumpDriveMK4" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="JumpDrive/LargeJumpDriveMK5" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="JumpDrive/LargeJumpDriveMK6" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="JumpDrive/LargeJumpDriveMK7" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="JumpDrive/LargeJumpDriveMK8" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="JumpDrive/LargeJumpDriveMK9" />
+
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="OxygenTank/OxygenTankLargeMK2" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="OxygenTank/OxygenTankLargeMK3" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="OxygenTank/OxygenTankLargeMK4" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="OxygenTank/OxygenTankLargeMK5" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="OxygenTank/OxygenTankLargeMK6" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="OxygenTank/OxygenTankLargeMK7" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="OxygenTank/OxygenTankLargeMK8" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="OxygenTank/OxygenTankLargeMK9" />
+
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="OxygenTank/LargeHydrogenTankMK2" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="OxygenTank/LargeHydrogenTankMK3" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="OxygenTank/LargeHydrogenTankMK4" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="OxygenTank/LargeHydrogenTankMK5" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="OxygenTank/LargeHydrogenTankMK6" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="OxygenTank/LargeHydrogenTankMK7" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="OxygenTank/LargeHydrogenTankMK8" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="OxygenTank/LargeHydrogenTankMK9" />
+
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="UpgradeModule/LargeProductivityModuleMK2" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="UpgradeModule/LargeProductivityModuleMK3" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="UpgradeModule/LargeProductivityModuleMK4" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="UpgradeModule/LargeProductivityModuleMK5" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="UpgradeModule/LargeProductivityModuleMK6" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="UpgradeModule/LargeProductivityModuleMK7" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="UpgradeModule/LargeProductivityModuleMK8" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="UpgradeModule/LargeProductivityModuleMK9" />
+
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="CargoContainer/LargeBlockSmallContainerMK2" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="CargoContainer/LargeBlockSmallContainerMK3" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="CargoContainer/LargeBlockSmallContainerMK4" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="CargoContainer/LargeBlockSmallContainerMK5" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="CargoContainer/LargeBlockSmallContainerMK6" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="CargoContainer/LargeBlockSmallContainerMK7" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="CargoContainer/LargeBlockSmallContainerMK8" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="CargoContainer/LargeBlockSmallContainerMK9" />
+
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="CargoContainer/LargeCargoContainerMK2" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="CargoContainer/LargeCargoContainerMK3" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="CargoContainer/LargeCargoContainerMK4" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="CargoContainer/LargeCargoContainerMK5" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="CargoContainer/LargeCargoContainerMK6" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="CargoContainer/LargeCargoContainerMK7" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="CargoContainer/LargeCargoContainerMK8" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="CargoContainer/LargeCargoContainerMK9" />
+
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Thrust/LargeBlockSmallThrustMK2" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Thrust/LargeBlockSmallThrustMK3" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Thrust/LargeBlockSmallThrustMK4" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Thrust/LargeBlockSmallThrustMK5" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Thrust/LargeBlockSmallThrustMK6" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Thrust/LargeBlockSmallThrustMK7" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Thrust/LargeBlockSmallThrustMK8" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Thrust/LargeBlockSmallThrustMK9" />
+
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Thrust/LargeBlockLargeThrustMK2" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Thrust/LargeBlockLargeThrustMK3" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Thrust/LargeBlockLargeThrustMK4" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Thrust/LargeBlockLargeThrustMK5" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Thrust/LargeBlockLargeThrustMK6" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Thrust/LargeBlockLargeThrustMK7" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Thrust/LargeBlockLargeThrustMK8" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Thrust/LargeBlockLargeThrustMK9" />
+
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Thrust/LargeBlockLargeHydrogenThrustMK2" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Thrust/LargeBlockLargeHydrogenThrustMK3" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Thrust/LargeBlockLargeHydrogenThrustMK4" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Thrust/LargeBlockLargeHydrogenThrustMK5" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Thrust/LargeBlockLargeHydrogenThrustMK6" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Thrust/LargeBlockLargeHydrogenThrustMK7" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Thrust/LargeBlockLargeHydrogenThrustMK8" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Thrust/LargeBlockLargeHydrogenThrustMK9" />
+
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Thrust/LargeBlockSmallHydrogenThrustMK2" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Thrust/LargeBlockSmallHydrogenThrustMK3" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Thrust/LargeBlockSmallHydrogenThrustMK4" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Thrust/LargeBlockSmallHydrogenThrustMK5" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Thrust/LargeBlockSmallHydrogenThrustMK6" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Thrust/LargeBlockSmallHydrogenThrustMK7" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Thrust/LargeBlockSmallHydrogenThrustMK8" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Thrust/LargeBlockSmallHydrogenThrustMK9" />
+
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Thrust/LargeBlockLargeAtmosphericThrustMK2" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Thrust/LargeBlockLargeAtmosphericThrustMK3" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Thrust/LargeBlockLargeAtmosphericThrustMK4" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Thrust/LargeBlockLargeAtmosphericThrustMK5" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Thrust/LargeBlockLargeAtmosphericThrustMK6" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Thrust/LargeBlockLargeAtmosphericThrustMK7" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Thrust/LargeBlockLargeAtmosphericThrustMK8" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Thrust/LargeBlockLargeAtmosphericThrustMK9" />
+
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Thrust/LargeBlockSmallAtmosphericThrustMK2" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Thrust/LargeBlockSmallAtmosphericThrustMK3" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Thrust/LargeBlockSmallAtmosphericThrustMK4" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Thrust/LargeBlockSmallAtmosphericThrustMK5" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Thrust/LargeBlockSmallAtmosphericThrustMK6" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Thrust/LargeBlockSmallAtmosphericThrustMK7" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Thrust/LargeBlockSmallAtmosphericThrustMK8" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Thrust/LargeBlockSmallAtmosphericThrustMK9" />
+
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Gyro/LargeBlockGyroMK2" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Gyro/LargeBlockGyroMK3" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Gyro/LargeBlockGyroMK4" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Gyro/LargeBlockGyroMK5" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Gyro/LargeBlockGyroMK6" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Gyro/LargeBlockGyroMK7" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Gyro/LargeBlockGyroMK8" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Gyro/LargeBlockGyroMK9" />
+
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Reactor/LargeBlockSmallGeneratorMK2" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Reactor/LargeBlockSmallGeneratorMK3" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Reactor/LargeBlockSmallGeneratorMK4" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Reactor/LargeBlockSmallGeneratorMK5" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Reactor/LargeBlockSmallGeneratorMK6" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Reactor/LargeBlockSmallGeneratorMK7" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Reactor/LargeBlockSmallGeneratorMK8" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Reactor/LargeBlockSmallGeneratorMK9" />
+
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Reactor/LargeBlockLargeGeneratorMK2" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Reactor/LargeBlockLargeGeneratorMK3" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Reactor/LargeBlockLargeGeneratorMK4" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Reactor/LargeBlockLargeGeneratorMK5" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Reactor/LargeBlockLargeGeneratorMK6" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Reactor/LargeBlockLargeGeneratorMK7" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Reactor/LargeBlockLargeGeneratorMK8" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Reactor/LargeBlockLargeGeneratorMK9" />
+
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="SolarPanel/LargeBlockSolarPanelMK2" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="SolarPanel/LargeBlockSolarPanelMK3" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="SolarPanel/LargeBlockSolarPanelMK4" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="SolarPanel/LargeBlockSolarPanelMK5" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="SolarPanel/LargeBlockSolarPanelMK6" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="SolarPanel/LargeBlockSolarPanelMK7" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="SolarPanel/LargeBlockSolarPanelMK8" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="SolarPanel/LargeBlockSolarPanelMK9" />
+
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="HydrogenEngine/LargeHydrogenEngineMK2" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="HydrogenEngine/LargeHydrogenEngineMK3" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="HydrogenEngine/LargeHydrogenEngineMK4" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="HydrogenEngine/LargeHydrogenEngineMK5" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="HydrogenEngine/LargeHydrogenEngineMK6" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="HydrogenEngine/LargeHydrogenEngineMK7" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="HydrogenEngine/LargeHydrogenEngineMK8" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="HydrogenEngine/LargeHydrogenEngineMK9" />
+
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Refinery/Blast FurnaceMK2" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Refinery/Blast FurnaceMK3" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Refinery/Blast FurnaceMK4" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Refinery/Blast FurnaceMK5" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Refinery/Blast FurnaceMK6" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Refinery/Blast FurnaceMK7" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Refinery/Blast FurnaceMK8" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Refinery/Blast FurnaceMK9" />
+
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="OxygenGenerator/OxygenGeneratorSmallMK2" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="OxygenGenerator/OxygenGeneratorSmallMK3" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="OxygenGenerator/OxygenGeneratorSmallMK4" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="OxygenGenerator/OxygenGeneratorSmallMK5" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="OxygenGenerator/OxygenGeneratorSmallMK6" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="OxygenGenerator/OxygenGeneratorSmallMK7" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="OxygenGenerator/OxygenGeneratorSmallMK8" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="OxygenGenerator/OxygenGeneratorSmallMK9" />
+
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="OxygenTank/OxygenTankSmallMK2" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="OxygenTank/OxygenTankSmallMK3" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="OxygenTank/OxygenTankSmallMK4" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="OxygenTank/OxygenTankSmallMK5" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="OxygenTank/OxygenTankSmallMK6" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="OxygenTank/OxygenTankSmallMK7" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="OxygenTank/OxygenTankSmallMK8" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="OxygenTank/OxygenTankSmallMK9" />
+
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="OxygenTank/SmallHydrogenTankMK2" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="OxygenTank/SmallHydrogenTankMK3" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="OxygenTank/SmallHydrogenTankMK4" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="OxygenTank/SmallHydrogenTankMK5" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="OxygenTank/SmallHydrogenTankMK6" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="OxygenTank/SmallHydrogenTankMK7" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="OxygenTank/SmallHydrogenTankMK8" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="OxygenTank/SmallHydrogenTankMK9" />
+
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="CargoContainer/SmallBlockSmallContainerMK2" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="CargoContainer/SmallBlockSmallContainerMK3" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="CargoContainer/SmallBlockSmallContainerMK4" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="CargoContainer/SmallBlockSmallContainerMK5" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="CargoContainer/SmallBlockSmallContainerMK6" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="CargoContainer/SmallBlockSmallContainerMK7" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="CargoContainer/SmallBlockSmallContainerMK8" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="CargoContainer/SmallBlockSmallContainerMK9" />
+
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="CargoContainer/SmallBlockMediumContainerMK2" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="CargoContainer/SmallBlockMediumContainerMK3" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="CargoContainer/SmallBlockMediumContainerMK4" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="CargoContainer/SmallBlockMediumContainerMK5" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="CargoContainer/SmallBlockMediumContainerMK6" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="CargoContainer/SmallBlockMediumContainerMK7" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="CargoContainer/SmallBlockMediumContainerMK8" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="CargoContainer/SmallBlockMediumContainerMK9" />
+
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="CargoContainer/SmallBlockLargeContainerMK2" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="CargoContainer/SmallBlockLargeContainerMK3" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="CargoContainer/SmallBlockLargeContainerMK4" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="CargoContainer/SmallBlockLargeContainerMK5" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="CargoContainer/SmallBlockLargeContainerMK6" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="CargoContainer/SmallBlockLargeContainerMK7" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="CargoContainer/SmallBlockLargeContainerMK8" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="CargoContainer/SmallBlockLargeContainerMK9" />
+
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/SmallBlockSmallThrustMK2" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/SmallBlockSmallThrustMK3" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/SmallBlockSmallThrustMK4" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/SmallBlockSmallThrustMK5" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/SmallBlockSmallThrustMK6" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/SmallBlockSmallThrustMK7" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/SmallBlockSmallThrustMK8" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/SmallBlockSmallThrustMK9" />
+
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/SmallBlockLargeThrustMK2" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/SmallBlockLargeThrustMK3" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/SmallBlockLargeThrustMK4" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/SmallBlockLargeThrustMK5" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/SmallBlockLargeThrustMK6" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/SmallBlockLargeThrustMK7" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/SmallBlockLargeThrustMK8" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/SmallBlockLargeThrustMK9" />
+
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/SmallBlockLargeHydrogenThrustMK2" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/SmallBlockLargeHydrogenThrustMK3" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/SmallBlockLargeHydrogenThrustMK4" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/SmallBlockLargeHydrogenThrustMK5" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/SmallBlockLargeHydrogenThrustMK6" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/SmallBlockLargeHydrogenThrustMK7" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/SmallBlockLargeHydrogenThrustMK8" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/SmallBlockLargeHydrogenThrustMK9" />
+
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/SmallBlockSmallHydrogenThrustMK2" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/SmallBlockSmallHydrogenThrustMK3" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/SmallBlockSmallHydrogenThrustMK4" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/SmallBlockSmallHydrogenThrustMK5" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/SmallBlockSmallHydrogenThrustMK6" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/SmallBlockSmallHydrogenThrustMK7" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/SmallBlockSmallHydrogenThrustMK8" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/SmallBlockSmallHydrogenThrustMK9" />
+
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/SmallBlockLargeAtmosphericThrustMK2" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/SmallBlockLargeAtmosphericThrustMK3" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/SmallBlockLargeAtmosphericThrustMK4" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/SmallBlockLargeAtmosphericThrustMK5" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/SmallBlockLargeAtmosphericThrustMK6" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/SmallBlockLargeAtmosphericThrustMK7" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/SmallBlockLargeAtmosphericThrustMK8" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/SmallBlockLargeAtmosphericThrustMK9" />
+
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/SmallBlockSmallAtmosphericThrustMK2" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/SmallBlockSmallAtmosphericThrustMK3" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/SmallBlockSmallAtmosphericThrustMK4" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/SmallBlockSmallAtmosphericThrustMK5" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/SmallBlockSmallAtmosphericThrustMK6" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/SmallBlockSmallAtmosphericThrustMK7" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/SmallBlockSmallAtmosphericThrustMK8" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/SmallBlockSmallAtmosphericThrustMK9" />
+
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Gyro/SmallBlockGyroMK2" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Gyro/SmallBlockGyroMK3" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Gyro/SmallBlockGyroMK4" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Gyro/SmallBlockGyroMK5" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Gyro/SmallBlockGyroMK6" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Gyro/SmallBlockGyroMK7" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Gyro/SmallBlockGyroMK8" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Gyro/SmallBlockGyroMK9" />
+
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Reactor/SmallBlockSmallGeneratorMK2" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Reactor/SmallBlockSmallGeneratorMK3" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Reactor/SmallBlockSmallGeneratorMK4" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Reactor/SmallBlockSmallGeneratorMK5" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Reactor/SmallBlockSmallGeneratorMK6" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Reactor/SmallBlockSmallGeneratorMK7" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Reactor/SmallBlockSmallGeneratorMK8" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Reactor/SmallBlockSmallGeneratorMK9" />
+
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Reactor/SmallBlockLargeGeneratorMK2" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Reactor/SmallBlockLargeGeneratorMK3" />
+
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="SolarPanel/SmallBlockSolarPanelMK2" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="SolarPanel/SmallBlockSolarPanelMK3" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="SolarPanel/SmallBlockSolarPanelMK4" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="SolarPanel/SmallBlockSolarPanelMK5" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="SolarPanel/SmallBlockSolarPanelMK6" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="SolarPanel/SmallBlockSolarPanelMK7" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="SolarPanel/SmallBlockSolarPanelMK8" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="SolarPanel/SmallBlockSolarPanelMK9" />
+
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="BatteryBlock/SmallBlockBatteryBlockMK2" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="BatteryBlock/SmallBlockBatteryBlockMK3" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="BatteryBlock/SmallBlockBatteryBlockMK4" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="BatteryBlock/SmallBlockBatteryBlockMK5" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="BatteryBlock/SmallBlockBatteryBlockMK6" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="BatteryBlock/SmallBlockBatteryBlockMK7" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="BatteryBlock/SmallBlockBatteryBlockMK8" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="BatteryBlock/SmallBlockBatteryBlockMK9" />
+
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="BatteryBlock/SmallBlockBatteryBlockMK2" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="BatteryBlock/SmallBlockBatteryBlockMK3" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="BatteryBlock/SmallBlockBatteryBlockMK4" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="BatteryBlock/SmallBlockBatteryBlockMK5" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="BatteryBlock/SmallBlockBatteryBlockMK6" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="BatteryBlock/SmallBlockBatteryBlockMK7" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="BatteryBlock/SmallBlockBatteryBlockMK8" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="BatteryBlock/SmallBlockBatteryBlockMK9" />
+
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="HydrogenEngine/SmallHydrogenEngineMK2" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="HydrogenEngine/SmallHydrogenEngineMK3" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="HydrogenEngine/SmallHydrogenEngineMK4" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="HydrogenEngine/SmallHydrogenEngineMK5" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="HydrogenEngine/SmallHydrogenEngineMK6" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="HydrogenEngine/SmallHydrogenEngineMK7" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="HydrogenEngine/SmallHydrogenEngineMK8" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="HydrogenEngine/SmallHydrogenEngineMK9" />
+
+    <Entry Class="Components" BlueprintSubtypeId="SuperComputer" />
+
+  </BlueprintClassEntries>
+</Definitions>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PhysicalItems>
+    <PhysicalItem>
+      <Id>
+        <TypeId>Ingot</TypeId>
+        <SubtypeId>ThUFuelCell</SubtypeId>
+      </Id>
+      <DisplayName>Thorium Enriched Fuel Cells</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\HH2o.dds</Icon>
+      <Size>
+        <X>0.08</X>
+        <Y>0.08</Y>
+        <Z>0.08</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.1</Volume>
+      <Model>Models\Ingots\ThoriumContainer.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MinimalPricePerUnit>4700</MinimalPricePerUnit>
+      <MinimumOfferAmount>100</MinimumOfferAmount>
+      <MaximumOfferAmount>900</MaximumOfferAmount>
+      <MinimumOrderAmount>100</MinimumOrderAmount>
+      <MaximumOrderAmount>900</MaximumOrderAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+      <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+      <MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
+      <IconSymbol>ThU</IconSymbol>
+    </PhysicalItem>
+  </PhysicalItems>
+</Definitions>

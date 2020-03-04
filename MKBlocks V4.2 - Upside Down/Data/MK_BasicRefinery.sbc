@@ -1,0 +1,507 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+    <Definition xsi:type="MyObjectBuilder_RefineryDefinition">
+      <Id>
+        <TypeId>Refinery</TypeId>
+        <SubtypeId>Blast FurnaceMK2</SubtypeId>
+      </Id>
+      <DisplayName>Basic Refinery MK2</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\MK2\BlastFurnace_MK2.dds</Icon>
+      <Description>Description_RefineryBasic</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="2" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\BasicRefinery.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="160" />
+        <Component Subtype="Construction" Count="32" />
+        <Component Subtype="Motor" Count="16" />
+        <Component Subtype="Computer" Count="16" />
+        <Component Subtype="SteelPlate" Count="32" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MirroringZ>Y</MirroringZ>
+      <MirroringY>Z</MirroringY>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="2" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BasicRefineryConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BasicRefineryConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BasicRefineryConstruction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>Blast FurnaceMK2</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>60</BuildTimeSeconds>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <InventoryMaxVolume>8</InventoryMaxVolume>
+      <InventorySize>
+        <X>2.5198421</X>
+        <Y>2.5198421</Y>
+        <Z>2.5198421</Z>
+      </InventorySize>
+      <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+      <OperationalPowerConsumption>0.528</OperationalPowerConsumption>
+      <BlueprintClasses>
+        <Class>CommonMetals</Class>
+      </BlueprintClasses>
+      <RefineSpeed>1.04</RefineSpeed>
+      <MaterialEfficiency>0.7</MaterialEfficiency>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <PrimarySound>BlockRafinery</PrimarySound>
+      <ActionSound>BlockRafineryProcess</ActionSound>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <OreAmountPerPullRequest>3200.00005</OreAmountPerPullRequest>
+      <PCU>75</PCU>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_RefineryDefinition">
+      <Id>
+        <TypeId>Refinery</TypeId>
+        <SubtypeId>Blast FurnaceMK3</SubtypeId>
+      </Id>
+      <DisplayName>Basic Refinery MK3</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\MK3\BlastFurnace_MK3.dds</Icon>
+      <Description>Description_RefineryBasic</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="2" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\BasicRefinery.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="256" />
+        <Component Subtype="Construction" Count="51" />
+        <Component Subtype="Motor" Count="26" />
+        <Component Subtype="Computer" Count="26" />
+        <Component Subtype="SteelPlate" Count="51" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MirroringZ>Y</MirroringZ>
+      <MirroringY>Z</MirroringY>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="2" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BasicRefineryConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BasicRefineryConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BasicRefineryConstruction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>Blast FurnaceMK3</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>90</BuildTimeSeconds>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <InventoryMaxVolume>16</InventoryMaxVolume>
+      <InventorySize>
+        <X>3.1748021</X>
+        <Y>3.1748021</Y>
+        <Z>3.1748021</Z>
+      </InventorySize>
+      <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+      <OperationalPowerConsumption>0.8448</OperationalPowerConsumption>
+      <BlueprintClasses>
+        <Class>CommonMetals</Class>
+      </BlueprintClasses>
+      <RefineSpeed>1.664</RefineSpeed>
+      <MaterialEfficiency>0.7</MaterialEfficiency>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <PrimarySound>BlockRafinery</PrimarySound>
+      <ActionSound>BlockRafineryProcess</ActionSound>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <OreAmountPerPullRequest>5120.00015</OreAmountPerPullRequest>
+      <PCU>75</PCU>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_RefineryDefinition">
+      <Id>
+        <TypeId>Refinery</TypeId>
+        <SubtypeId>Blast FurnaceMK4</SubtypeId>
+      </Id>
+      <DisplayName>Basic Refinery MK4</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\MK4\BlastFurnace_MK4.dds</Icon>
+      <Description>Description_RefineryBasic</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="2" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\BasicRefinery.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="410" />
+        <Component Subtype="Construction" Count="82" />
+        <Component Subtype="Motor" Count="41" />
+        <Component Subtype="SuperComputer" Count="5" />
+        <Component Subtype="Computer" Count="41" />
+        <Component Subtype="SteelPlate" Count="82" />
+      </Components>
+      <CriticalComponent Subtype="SuperComputer" Index="0" />
+      <MirroringZ>Y</MirroringZ>
+      <MirroringY>Z</MirroringY>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="2" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BasicRefineryConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BasicRefineryConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BasicRefineryConstruction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>Blast FurnaceMK4</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>135</BuildTimeSeconds>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <InventoryMaxVolume>32</InventoryMaxVolume>
+      <InventorySize>
+        <X>4</X>
+        <Y>4</Y>
+        <Z>4</Z>
+      </InventorySize>
+      <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+      <OperationalPowerConsumption>1.35168</OperationalPowerConsumption>
+      <BlueprintClasses>
+        <Class>CommonMetals</Class>
+      </BlueprintClasses>
+      <RefineSpeed>2.6624</RefineSpeed>
+      <MaterialEfficiency>0.7</MaterialEfficiency>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <PrimarySound>BlockRafinery</PrimarySound>
+      <ActionSound>BlockRafineryProcess</ActionSound>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <OreAmountPerPullRequest>8192.00037</OreAmountPerPullRequest>
+      <PCU>75</PCU>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_RefineryDefinition">
+      <Id>
+        <TypeId>Refinery</TypeId>
+        <SubtypeId>Blast FurnaceMK5</SubtypeId>
+      </Id>
+      <DisplayName>Basic Refinery MK5</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\MK5\BlastFurnace_MK5.dds</Icon>
+      <Description>Description_RefineryBasic</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="2" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\BasicRefinery.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="655" />
+        <Component Subtype="Construction" Count="131" />
+        <Component Subtype="Motor" Count="66" />
+        <Component Subtype="SuperComputer" Count="8" />
+        <Component Subtype="Computer" Count="66" />
+        <Component Subtype="SteelPlate" Count="131" />
+      </Components>
+      <CriticalComponent Subtype="SuperComputer" Index="0" />
+      <MirroringZ>Y</MirroringZ>
+      <MirroringY>Z</MirroringY>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="2" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BasicRefineryConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BasicRefineryConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BasicRefineryConstruction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>Blast FurnaceMK5</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>202.5</BuildTimeSeconds>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <InventoryMaxVolume>64</InventoryMaxVolume>
+      <InventorySize>
+        <X>5.0396842</X>
+        <Y>5.0396842</Y>
+        <Z>5.0396842</Z>
+      </InventorySize>
+      <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+      <OperationalPowerConsumption>2.16269</OperationalPowerConsumption>
+      <BlueprintClasses>
+        <Class>CommonMetals</Class>
+      </BlueprintClasses>
+      <RefineSpeed>4.25984</RefineSpeed>
+      <MaterialEfficiency>0.7</MaterialEfficiency>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <PrimarySound>BlockRafinery</PrimarySound>
+      <ActionSound>BlockRafineryProcess</ActionSound>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <OreAmountPerPullRequest>13107.20078</OreAmountPerPullRequest>
+      <PCU>75</PCU>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_RefineryDefinition">
+      <Id>
+        <TypeId>Refinery</TypeId>
+        <SubtypeId>Blast FurnaceMK6</SubtypeId>
+      </Id>
+      <DisplayName>Basic Refinery MK6</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\MK6\BlastFurnace_MK6.dds</Icon>
+      <Description>Description_RefineryBasic</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="2" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\BasicRefinery.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="1049" />
+        <Component Subtype="Construction" Count="210" />
+        <Component Subtype="Motor" Count="105" />
+        <Component Subtype="SuperComputer" Count="13" />
+        <Component Subtype="Computer" Count="105" />
+        <Component Subtype="SteelPlate" Count="210" />
+      </Components>
+      <CriticalComponent Subtype="SuperComputer" Index="0" />
+      <MirroringZ>Y</MirroringZ>
+      <MirroringY>Z</MirroringY>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="2" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BasicRefineryConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BasicRefineryConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BasicRefineryConstruction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>Blast FurnaceMK6</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>303.75</BuildTimeSeconds>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <InventoryMaxVolume>128</InventoryMaxVolume>
+      <InventorySize>
+        <X>6.3496042</X>
+        <Y>6.3496042</Y>
+        <Z>6.3496042</Z>
+      </InventorySize>
+      <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+      <OperationalPowerConsumption>3.4603</OperationalPowerConsumption>
+      <BlueprintClasses>
+        <Class>CommonMetals</Class>
+      </BlueprintClasses>
+      <RefineSpeed>6.81574</RefineSpeed>
+      <MaterialEfficiency>0.7</MaterialEfficiency>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <PrimarySound>BlockRafinery</PrimarySound>
+      <ActionSound>BlockRafineryProcess</ActionSound>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <OreAmountPerPullRequest>20971.52156</OreAmountPerPullRequest>
+      <PCU>75</PCU>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_RefineryDefinition">
+      <Id>
+        <TypeId>Refinery</TypeId>
+        <SubtypeId>Blast FurnaceMK7</SubtypeId>
+      </Id>
+      <DisplayName>Basic Refinery MK7</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\MK7\BlastFurnace_MK7.dds</Icon>
+      <Description>Description_RefineryBasic</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="2" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\BasicRefinery.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="1678" />
+        <Component Subtype="Construction" Count="336" />
+        <Component Subtype="Motor" Count="168" />
+        <Component Subtype="SuperComputer" Count="21" />
+        <Component Subtype="Computer" Count="168" />
+        <Component Subtype="SteelPlate" Count="336" />
+      </Components>
+      <CriticalComponent Subtype="SuperComputer" Index="0" />
+      <MirroringZ>Y</MirroringZ>
+      <MirroringY>Z</MirroringY>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="2" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BasicRefineryConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BasicRefineryConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BasicRefineryConstruction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>Blast FurnaceMK7</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>455.625</BuildTimeSeconds>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <InventoryMaxVolume>256</InventoryMaxVolume>
+      <InventorySize>
+        <X>8</X>
+        <Y>8</Y>
+        <Z>8</Z>
+      </InventorySize>
+      <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+      <OperationalPowerConsumption>5.53648</OperationalPowerConsumption>
+      <BlueprintClasses>
+        <Class>CommonMetals</Class>
+      </BlueprintClasses>
+      <RefineSpeed>10.90519</RefineSpeed>
+      <MaterialEfficiency>0.7</MaterialEfficiency>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <PrimarySound>BlockRafinery</PrimarySound>
+      <ActionSound>BlockRafineryProcess</ActionSound>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <OreAmountPerPullRequest>33554.435</OreAmountPerPullRequest>
+      <PCU>75</PCU>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_RefineryDefinition">
+      <Id>
+        <TypeId>Refinery</TypeId>
+        <SubtypeId>Blast FurnaceMK8</SubtypeId>
+      </Id>
+      <DisplayName>Basic Refinery MK8</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\MK8\BlastFurnace_MK8.dds</Icon>
+      <Description>Description_RefineryBasic</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="2" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\BasicRefinery.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="2684" />
+        <Component Subtype="Construction" Count="537" />
+        <Component Subtype="Motor" Count="268" />
+        <Component Subtype="SuperComputer" Count="34" />
+        <Component Subtype="Computer" Count="268" />
+        <Component Subtype="SteelPlate" Count="537" />
+      </Components>
+      <CriticalComponent Subtype="SuperComputer" Index="0" />
+      <MirroringZ>Y</MirroringZ>
+      <MirroringY>Z</MirroringY>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="2" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BasicRefineryConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BasicRefineryConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BasicRefineryConstruction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>Blast FurnaceMK8</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>683.4375</BuildTimeSeconds>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <InventoryMaxVolume>512</InventoryMaxVolume>
+      <InventorySize>
+        <X>10.0793684</X>
+        <Y>10.0793684</Y>
+        <Z>10.0793684</Z>
+      </InventorySize>
+      <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+      <OperationalPowerConsumption>8.85837</OperationalPowerConsumption>
+      <BlueprintClasses>
+        <Class>CommonMetals</Class>
+      </BlueprintClasses>
+      <RefineSpeed>17.44831</RefineSpeed>
+      <MaterialEfficiency>0.7</MaterialEfficiency>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <PrimarySound>BlockRafinery</PrimarySound>
+      <ActionSound>BlockRafineryProcess</ActionSound>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <OreAmountPerPullRequest>53687.0968</OreAmountPerPullRequest>
+      <PCU>75</PCU>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_RefineryDefinition">
+      <Id>
+        <TypeId>Refinery</TypeId>
+        <SubtypeId>Blast FurnaceMK9</SubtypeId>
+      </Id>
+      <DisplayName>Basic Refinery MK9</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\MK9\BlastFurnace_MK9.dds</Icon>
+      <Description>Description_RefineryBasic</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="2" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\BasicRefinery.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="4295" />
+        <Component Subtype="Construction" Count="859" />
+        <Component Subtype="Motor" Count="429" />
+        <Component Subtype="SuperComputer" Count="54" />
+        <Component Subtype="Computer" Count="429" />
+        <Component Subtype="SteelPlate" Count="859" />
+      </Components>
+      <CriticalComponent Subtype="SuperComputer" Index="0" />
+      <MirroringZ>Y</MirroringZ>
+      <MirroringY>Z</MirroringY>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="2" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BasicRefineryConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BasicRefineryConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BasicRefineryConstruction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>Blast FurnaceMK9</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>1025.15625</BuildTimeSeconds>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <InventoryMaxVolume>1024</InventoryMaxVolume>
+      <InventorySize>
+        <X>12.6992084</X>
+        <Y>12.6992084</Y>
+        <Z>12.6992084</Z>
+      </InventorySize>
+      <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+      <OperationalPowerConsumption>14.17339</OperationalPowerConsumption>
+      <BlueprintClasses>
+        <Class>CommonMetals</Class>
+      </BlueprintClasses>
+      <RefineSpeed>27.91729</RefineSpeed>
+      <MaterialEfficiency>0.7</MaterialEfficiency>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <PrimarySound>BlockRafinery</PrimarySound>
+      <ActionSound>BlockRafineryProcess</ActionSound>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <OreAmountPerPullRequest>85899.35616</OreAmountPerPullRequest>
+      <PCU>75</PCU>
+    </Definition>
+  </CubeBlocks>
+</Definitions>

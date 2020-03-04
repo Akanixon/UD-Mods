@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BlueprintClassEntries>
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Reactor/SBFusionReactor" />
+    <Entry Class="SmallBlocks" BlueprintSubtypeId="Reactor/SBFusionReactoradv" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Reactor/LBFusionReactoradv" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="Reactor/LBFusionReactor" />
+    <Entry Class="FuelCells" BlueprintSubtypeId="ThUFuelCell" />
+  </BlueprintClassEntries>
+</Definitions>
+

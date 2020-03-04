@@ -1,0 +1,217 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CategoryClasses>
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>MK Blocks 2 > 3</DisplayName>
+      <Name>MK Blocks 2 > 3</Name>
+      <ItemIds>
+
+        <string>LargeBlockBatteryBlockMK2</string>
+        <string>SmallBlockSmallBatteryBlockMK2</string>
+        <string>OxygenGeneratorMK2</string>
+        <string>LargeJumpDriveMK2</string>
+        <string>OxygenTankLargeMK2</string>
+        <string>LargeHydrogenTankMK2</string>
+        <string>LargeProductivityModuleMK2</string>
+        <string>LargeBlockSmallContainerMK2</string>
+        <string>LargeCargoContainerMK2</string>
+        <string>LargeBlockSmallThrustMK2</string>
+        <string>LargeBlockLargeThrustMK2</string>
+        <string>LargeBlockLargeHydrogenThrustMK2</string>
+        <string>LargeBlockSmallHydrogenThrustMK2</string>
+        <string>LargeBlockLargeAtmosphericThrustMK2</string>
+        <string>LargeBlockSmallAtmosphericThrustMK2</string>
+        <string>LargeBlockGyroMK2</string>
+        <string>LargeBlockSmallGeneratorMK2</string>
+        <string>LargeBlockLargeGeneratorMK2</string>
+        <string>LargeBlockSolarPanelMK2</string>
+        <string>LargeHydrogenEngineMK2</string>
+        <string>Blast FurnaceMK2</string>
+
+        <string>LargeBlockBatteryBlockMK3</string>
+        <string>SmallBlockSmallBatteryBlockMK3</string>
+        <string>OxygenGeneratorMK3</string>
+        <string>LargeJumpDriveMK3</string>
+        <string>OxygenTankLargeMK3</string>
+        <string>LargeHydrogenTankMK3</string>
+        <string>LargeProductivityModuleMK3</string>
+        <string>LargeBlockSmallContainerMK3</string>
+        <string>LargeCargoContainerMK3</string>
+        <string>LargeBlockSmallThrustMK3</string>
+        <string>LargeBlockLargeThrustMK3</string>
+        <string>LargeBlockLargeHydrogenThrustMK3</string>
+        <string>LargeBlockSmallHydrogenThrustMK3</string>
+        <string>LargeBlockLargeAtmosphericThrustMK3</string>
+        <string>LargeBlockSmallAtmosphericThrustMK3</string>
+        <string>LargeBlockGyroMK3</string>
+        <string>LargeBlockSmallGeneratorMK3</string>
+        <string>LargeBlockLargeGeneratorMK3</string>
+        <string>LargeBlockSolarPanelMK3</string>
+        <string>LargeBlockLaserAntennaMK3</string>
+        <string>LargeHydrogenEngineMK3</string>
+        <string>Blast FurnaceMK3</string>
+    
+      </ItemIds>
+    </Category>
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>MK Blocks 4 > 9</DisplayName>
+      <Name>MK Blocks 4 > 9</Name>
+      <ItemIds>
+      	<string>LargeBlockBatteryBlockMK4</string>
+        <string>SmallBlockSmallBatteryBlockMK4</string>
+        <string>OxygenGeneratorMK4</string>
+        <string>LargeJumpDriveMK4</string>
+        <string>OxygenTankLargeMK4</string>
+        <string>LargeHydrogenTankMK4</string>
+        <string>LargeProductivityModuleMK4</string>
+        <string>LargeBlockSmallContainerMK4</string>
+        <string>LargeCargoContainerMK4</string>
+        <string>LargeBlockSmallThrustMK4</string>
+        <string>LargeBlockLargeThrustMK4</string>
+        <string>LargeBlockLargeHydrogenThrustMK4</string>
+        <string>LargeBlockSmallHydrogenThrustMK4</string>
+        <string>LargeBlockLargeAtmosphericThrustMK4</string>
+        <string>LargeBlockSmallAtmosphericThrustMK4</string>
+        <string>LargeBlockGyroMK4</string>
+        <string>LargeBlockSolarPanelMK4</string>
+        <string>LargeHydrogenEngineMK4</string>
+        <string>Blast FurnaceMK4</string>
+
+        <string>LargeBlockBatteryBlockMK5</string>
+        <string>SmallBlockSmallBatteryBlockMK5</string>
+        <string>OxygenGeneratorMK5</string>
+        <string>LargeJumpDriveMK5</string>
+        <string>OxygenTankLargeMK5</string>
+        <string>LargeHydrogenTankMK5</string>
+        <string>LargeProductivityModuleMK5</string>
+        <string>LargeBlockSmallContainerMK5</string>
+        <string>LargeCargoContainerMK5</string>
+        <string>LargeBlockSmallThrustMK5</string>
+        <string>LargeBlockLargeThrustMK5</string>
+        <string>LargeBlockLargeHydrogenThrustMK5</string>
+        <string>LargeBlockSmallHydrogenThrustMK5</string>
+        <string>LargeBlockLargeAtmosphericThrustMK5</string>
+        <string>LargeBlockSmallAtmosphericThrustMK5</string>
+        <string>LargeBlockGyroMK5</string>
+        <string>LargeBlockSolarPanelMK5</string>
+        <string>LargeHydrogenEngineMK5</string>
+        <string>Blast FurnaceMK5</string>
+
+        <string>LargeBlockBatteryBlockMK6</string>
+        <string>SmallBlockSmallBatteryBlockMK6</string>
+        <string>OxygenGeneratorMK6</string>
+        <string>LargeJumpDriveMK6</string>
+        <string>OxygenTankLargeMK6</string>
+        <string>LargeHydrogenTankMK6</string>
+        <string>LargeProductivityModuleMK6</string>
+        <string>LargeBlockSmallContainerMK6</string>
+        <string>LargeCargoContainerMK6</string>
+        <string>LargeBlockSmallThrustMK6</string>
+        <string>LargeBlockLargeThrustMK6</string>
+        <string>LargeBlockLargeHydrogenThrustMK6</string>
+        <string>LargeBlockSmallHydrogenThrustMK6</string>
+        <string>LargeBlockLargeAtmosphericThrustMK6</string>
+        <string>LargeBlockSmallAtmosphericThrustMK6</string>
+        <string>LargeBlockGyroMK6</string>
+        <string>LargeBlockSolarPanelMK6</string>
+        <string>LargeHydrogenEngineMK6</string>
+        <string>Blast FurnaceMK6</string>
+
+        <string>LargeBlockBatteryBlockMK7</string>
+        <string>SmallBlockSmallBatteryBlockMK7</string>
+        <string>OxygenGeneratorMK7</string>
+        <string>LargeJumpDriveMK7</string>
+        <string>OxygenTankLargeMK7</string>
+        <string>LargeHydrogenTankMK7</string>
+        <string>LargeProductivityModuleMK7</string>
+        <string>LargeBlockSmallContainerMK7</string>
+        <string>LargeCargoContainerMK7</string>
+        <string>LargeBlockSmallThrustMK7</string>
+        <string>LargeBlockLargeThrustMK7</string>
+        <string>LargeBlockLargeHydrogenThrustMK7</string>
+        <string>LargeBlockSmallHydrogenThrustMK7</string>
+        <string>LargeBlockLargeAtmosphericThrustMK7</string>
+        <string>LargeBlockSmallAtmosphericThrustMK7</string>
+        <string>LargeBlockGyroMK7</string>
+        <string>LargeBlockSolarPanelMK7</string>
+        <string>LargeHydrogenEngineMK7</string>
+        <string>Blast FurnaceMK7</string>
+
+        <string>LargeBlockBatteryBlockMK8</string>
+        <string>SmallBlockSmallBatteryBlockMK8</string>
+        <string>OxygenGeneratorMK8</string>
+        <string>LargeJumpDriveMK8</string>
+        <string>OxygenTankLargeMK8</string>
+        <string>LargeHydrogenTankMK8</string>
+        <string>LargeProductivityModuleMK8</string>
+        <string>LargeBlockSmallContainerMK8</string>
+        <string>LargeCargoContainerMK8</string>
+        <string>LargeBlockSmallThrustMK8</string>
+        <string>LargeBlockLargeThrustMK8</string>
+        <string>LargeBlockLargeHydrogenThrustMK8</string>
+        <string>LargeBlockSmallHydrogenThrustMK8</string>
+        <string>LargeBlockLargeAtmosphericThrustMK8</string>
+        <string>LargeBlockSmallAtmosphericThrustMK8</string>
+        <string>LargeBlockGyroMK8</string>
+        <string>LargeBlockSolarPanelMK8</string>
+        <string>LargeHydrogenEngineMK8</string>
+        <string>Blast FurnaceMK8</string>
+
+        <string>LargeBlockBatteryBlockMK9</string>
+        <string>SmallBlockSmallBatteryBlockMK9</string>
+        <string>OxygenGeneratorMK9</string>
+        <string>LargeJumpDriveMK9</string>
+        <string>OxygenTankLargeMK9</string>
+        <string>LargeHydrogenTankMK9</string>
+        <string>LargeProductivityModuleMK9</string>
+        <string>LargeBlockSmallContainerMK9</string>
+        <string>LargeCargoContainerMK9</string>
+        <string>LargeBlockSmallThrustMK9</string>
+        <string>LargeBlockLargeThrustMK9</string>
+        <string>LargeBlockLargeHydrogenThrustMK9</string>
+        <string>LargeBlockSmallHydrogenThrustMK9</string>
+        <string>LargeBlockLargeAtmosphericThrustMK9</string>
+        <string>LargeBlockSmallAtmosphericThrustMK9</string>
+        <string>LargeBlockGyroMK9</string>
+        <string>LargeBlockSolarPanelMK9</string>
+        <string>LargeHydrogenEngineMK9</string>
+        <string>Blast FurnaceMK9</string>
+
+
+      </ItemIds>
+    </Category> 
+
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>DisplayName_Category_LargeBlocks</DisplayName>
+      <Name>LargeBlocks</Name>
+      <ItemIds>
+        <string>Refinery/LargeStoneCrusher</string>
+      </ItemIds>
+    </Category>
+
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>DisplayName_Category_Production</DisplayName>
+      <Name>Production</Name>
+      <ItemIds>
+        <string>Refinery/LargeStoneCrusher</string>
+      </ItemIds>
+    </Category>  
+
+  </CategoryClasses>
+</Definitions>

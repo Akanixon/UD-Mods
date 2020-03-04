@@ -35,10 +35,12 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="Data\BlockVariantGroupsVanillaModified.sbc" />
+    <None Include="Data\BlueprintClasses_Thorium.sbc" />
     <None Include="Data\BlueprintClasses_ThoriumFusionReactor.sbc" />
     <None Include="Data\BlueprintClasses_TradingGoods.sbc" />
     <None Include="Data\Blueprints_AdminCoin.sbc" />
     <None Include="Data\Blueprints_TradingGoods.sbc" />
+    <None Include="Data\Blueprint_Thorium.sbc" />
     <None Include="Data\Characters.sbc" />
     <None Include="Data\Components_AdminCoin.sbc" />
     <None Include="Data\Components_Economy.sbc" />
@@ -50,16 +52,30 @@
     <None Include="Data\Game\SessionComponents_Economy.sbc" />
     <None Include="Data\PhysicalItems.sbc" />
     <None Include="Data\PhysicalItems_Economy.sbc" />
+    <None Include="Data\PhysicalItems_Thorium.sbc" />
     <None Include="Data\PhysicalItems_TradingGoods.sbc" />
     <None Include="Data\QC_Blueprint.sbc" />
     <None Include="Data\QC_BlueprintClasses.sbc" />
     <None Include="Data\QC_Component.sbc" />
+    <None Include="Data\VoxelMapStorages_Thorium.sbc" />
+    <None Include="Data\VoxelMaterials_Thorium.sbc" />
+    <None Include="VoxelMaps\MediumStoneIronCoreStoneCoverage.vx2" />
+    <None Include="VoxelMaps\Thorium.vx2" />
+    <None Include="VoxelMaps\ThoriumV2.vx2" />
+    <None Include="VoxelMaps\Thorium_V3c.vx2" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Data\BlueprintClasses_Consumables.sbc" />
-    <None Include="Data\Blueprints_Consumables.sbc" />
     <Content Include="Textures\GUI\Icons\component\super_computer_component.dds" />
     <Content Include="Textures\GUI\Icons\ingot\HH2o.dds" />
+    <Content Include="Textures\GUI\Icons\ingot\Thorium_ingot.dds" />
+    <Content Include="Textures\GUI\Icons\ore_thorium.dds" />
+    <Content Include="Textures\Lights\reflector.dds" />
+    <Content Include="Textures\OresIngotsComponents\ingots_SG_add.dds" />
+    <Content Include="Textures\OresIngotsComponents\ingots_SG_cm.dds" />
+    <Content Include="Textures\OresIngotsComponents\ingots_SG_ng.dds" />
+    <Content Include="Textures\Voxels\Thorium_01_ForAxisXZ_add.dds" />
+    <Content Include="Textures\Voxels\Thorium_01_ForAxisXZ_cm.dds" />
+    <Content Include="Textures\Voxels\Thorium_01_ForAxisXZ_ng.dds" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
