@@ -18,14 +18,14 @@
       <Volume>0.1</Volume>
       <Model>Models\Ingots\ThoriumContainer.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
-      <MinimalPricePerUnit>4700</MinimalPricePerUnit>
-      <MinimumOfferAmount>100</MinimumOfferAmount>
-      <MaximumOfferAmount>900</MaximumOfferAmount>
-      <MinimumOrderAmount>100</MinimumOrderAmount>
-      <MaximumOrderAmount>900</MaximumOrderAmount>
+      <MinimalPricePerUnit>0</MinimalPricePerUnit>
+      <MinimumOfferAmount>1</MinimumOfferAmount>
+      <MaximumOfferAmount>99999</MaximumOfferAmount>
+      <MinimumOrderAmount>1</MinimumOrderAmount>
+      <MaximumOrderAmount>99999</MaximumOrderAmount>
       <CanPlayerOrder>true</CanPlayerOrder>
-      <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
-      <MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
+      <MinimumAcquisitionAmount>1</MinimumAcquisitionAmount>
+      <MaximumAcquisitionAmount>99999</MaximumAcquisitionAmount>
       <IconSymbol>ThU</IconSymbol>
     </PhysicalItem>
   </PhysicalItems>
