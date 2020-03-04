@@ -11,4 +11,9 @@ Changes:
   <li>Introduction of deconstructable packages</li>
   <li>Storeblock listing changes and fee removal</li>
   <li>Thorium Material now integrated in UD Foundation Mod</li>
+  <li>Switched to BlockVariant.sbc variant definitions</li>
+  </ul>
+Pending:
+<ul>
+  <li>UD Economy Mod integration</li>
   </ul>
