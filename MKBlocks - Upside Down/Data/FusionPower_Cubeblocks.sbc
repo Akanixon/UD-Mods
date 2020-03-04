@@ -1,337 +1,337 @@
 <?xml version="1.0"?>
-<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <CubeBlocks>
     <!-- Begin Reactors -->
-      <!--Begin Large Reactor-->
-        <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
-          <Id>
-            <TypeId>Reactor</TypeId>
-            <SubtypeId>LBFusionReactor</SubtypeId>
-          </Id>
-          <DisplayName>Thorium Fusion Reactor</DisplayName>
-          <Icon>Textures\GUI\Icons\Cubes\FusionReactor.dds</Icon>
-          <CubeSize>Large</CubeSize>
-          <BlockTopology>TriangleMesh</BlockTopology>
-          <Size x="3" y="2" z="3" />
-          <ModelOffset x="0" y="0" z="0" />
-          <Model>Models\Cubes\LBFusionReactor.mwm</Model>
-          <Components>
-            <Component Subtype="SteelPlate" Count="5000" />
-            <Component Subtype="Construction" Count="700" />
-            <Component Subtype="MetalGrid" Count="400" />
-            <Component Subtype="LargeTube" Count="200" />
-            <Component Subtype="Superconductor" Count="2000" />
-            <Component Subtype="Reactor" Count="5000" />
-            <Component Subtype="Motor" Count="200" />
-            <Component Subtype="SuperComputer" Count="15" />
-            <Component Subtype="Computer" Count="700" />
-            <Component Subtype="SteelPlate" Count="1500" />
-          </Components>
-          <CriticalComponent Subtype="Computer" Index="0" />
-          <MountPoints>
-            <MountPoint Side="Front" StartX="0.07" StartY="1.89" EndX="0.39" EndY="1.99" />
-            <MountPoint Side="Left" StartX="0.07" StartY="1.89" EndX="0.39" EndY="1.99" />
-            <MountPoint Side="Bottom" StartX="1.10" StartY="1.10" EndX="1.90" EndY="1.90" />
-            <MountPoint Side="Top" StartX="1.09" StartY="1.09" EndX="1.91" EndY="1.91" />
-            <MountPoint Side="Left" StartX="2.61" StartY="1.89" EndX="2.93" EndY="1.99" />
-            <MountPoint Side="Front" StartX="0.07" StartY="0.01" EndX="0.39" EndY="0.11" />
-            <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="0.55" EndY="0.55" />
-            <MountPoint Side="Top" StartX="0.00" StartY="2.45" EndX="0.55" EndY="3.00" />
-            <MountPoint Side="Top" StartX="2.45" StartY="2.44" EndX="3.00" EndY="3.00" />
-            <MountPoint Side="Top" StartX="2.46" StartY="0.00" EndX="3.00" EndY="0.55" />
-            <MountPoint Side="Bottom" StartX="0.00" StartY="2.45" EndX="0.55" EndY="3.00" />
-            <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="0.55" EndY="0.55" />
-            <MountPoint Side="Bottom" StartX="2.45" StartY="0.00" EndX="3.00" EndY="0.56" />
-            <MountPoint Side="Bottom" StartX="2.44" StartY="2.45" EndX="3.00" EndY="3.00" />
-            <MountPoint Side="Left" StartX="2.61" StartY="0.01" EndX="2.93" EndY="0.11" />
-            <MountPoint Side="Left" StartX="0.07" StartY="0.01" EndX="0.39" EndY="0.11" />
-            <MountPoint Side="Front" StartX="2.60" StartY="1.89" EndX="2.92" EndY="1.99" />
-            <MountPoint Side="Front" StartX="2.60" StartY="0.01" EndX="2.92" EndY="0.11" />
-            <MountPoint Side="Right" StartX="2.61" StartY="1.89" EndX="2.93" EndY="1.99" />
-            <MountPoint Side="Right" StartX="2.61" StartY="0.01" EndX="2.93" EndY="0.11" />
-            <MountPoint Side="Right" StartX="0.06" StartY="1.89" EndX="0.38" EndY="1.99" />
-            <MountPoint Side="Right" StartX="0.06" StartY="0.01" EndX="0.38" EndY="0.11" />
-            <MountPoint Side="Back" StartX="2.61" StartY="1.89" EndX="2.93" EndY="1.99" />
-            <MountPoint Side="Back" StartX="2.61" StartY="0.01" EndX="2.93" EndY="0.11" />
-            <MountPoint Side="Back" StartX="0.08" StartY="1.89" EndX="0.40" EndY="1.99" />
-            <MountPoint Side="Back" StartX="0.08" StartY="0.01" EndX="0.40" EndY="0.11" />
-          </MountPoints>
-          <BuildProgressModels>
-            <Model BuildPercentUpperBound="0.33" File="Models\Cubes\LBFusionReactor_Constr1.mwm" />
-            <Model BuildPercentUpperBound="0.66" File="Models\Cubes\LBFusionReactor_Constr2.mwm" />
-            <Model BuildPercentUpperBound="1.00" File="Models\Cubes\LBFusionReactor_Constr3.mwm" />
-          </BuildProgressModels>
-          <BlockPairName>ThFR</BlockPairName>
-          <MirroringY>Z</MirroringY>
-          <MirroringZ>Y</MirroringZ>
-          <EdgeType>Light</EdgeType>
-          <BuildTimeSeconds>80</BuildTimeSeconds>
-          <Description>Thorium Reactor that provides 3 Gigawatts of power, requires Thorium Uranium Fuel Cells.</Description>
-          <BlockVariants>
-            <BlockVariant>
-              <TypeId>Reactor</TypeId>
-              <SubtypeId>LBFusionReactoradv</SubtypeId>
-            </BlockVariant>
-          </BlockVariants>
-          <ResourceSourceGroup>Reactors</ResourceSourceGroup>
-          <MaxPowerOutput>3000</MaxPowerOutput>
-          <FuelProductionToCapacityMultiplier>10000</FuelProductionToCapacityMultiplier>
-          <StockpileAmount>10000</StockpileAmount>
+    <!--Begin Large Reactor-->
+    <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
+      <Id>
+        <TypeId>Reactor</TypeId>
+        <SubtypeId>LBFusionReactor</SubtypeId>
+      </Id>
+      <DisplayName>Thorium Fusion Reactor</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\FusionReactor.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="2" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\LBFusionReactor.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="5000" />
+        <Component Subtype="Construction" Count="700" />
+        <Component Subtype="MetalGrid" Count="400" />
+        <Component Subtype="LargeTube" Count="200" />
+        <Component Subtype="Superconductor" Count="2000" />
+        <Component Subtype="Reactor" Count="5000" />
+        <Component Subtype="Motor" Count="200" />
+        <Component Subtype="SuperComputer" Count="15" />
+        <Component Subtype="Computer" Count="700" />
+        <Component Subtype="SteelPlate" Count="1500" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0.07" StartY="1.89" EndX="0.39" EndY="1.99" />
+        <MountPoint Side="Left" StartX="0.07" StartY="1.89" EndX="0.39" EndY="1.99" />
+        <MountPoint Side="Bottom" StartX="1.10" StartY="1.10" EndX="1.90" EndY="1.90" />
+        <MountPoint Side="Top" StartX="1.09" StartY="1.09" EndX="1.91" EndY="1.91" />
+        <MountPoint Side="Left" StartX="2.61" StartY="1.89" EndX="2.93" EndY="1.99" />
+        <MountPoint Side="Front" StartX="0.07" StartY="0.01" EndX="0.39" EndY="0.11" />
+        <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="0.55" EndY="0.55" />
+        <MountPoint Side="Top" StartX="0.00" StartY="2.45" EndX="0.55" EndY="3.00" />
+        <MountPoint Side="Top" StartX="2.45" StartY="2.44" EndX="3.00" EndY="3.00" />
+        <MountPoint Side="Top" StartX="2.46" StartY="0.00" EndX="3.00" EndY="0.55" />
+        <MountPoint Side="Bottom" StartX="0.00" StartY="2.45" EndX="0.55" EndY="3.00" />
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="0.55" EndY="0.55" />
+        <MountPoint Side="Bottom" StartX="2.45" StartY="0.00" EndX="3.00" EndY="0.56" />
+        <MountPoint Side="Bottom" StartX="2.44" StartY="2.45" EndX="3.00" EndY="3.00" />
+        <MountPoint Side="Left" StartX="2.61" StartY="0.01" EndX="2.93" EndY="0.11" />
+        <MountPoint Side="Left" StartX="0.07" StartY="0.01" EndX="0.39" EndY="0.11" />
+        <MountPoint Side="Front" StartX="2.60" StartY="1.89" EndX="2.92" EndY="1.99" />
+        <MountPoint Side="Front" StartX="2.60" StartY="0.01" EndX="2.92" EndY="0.11" />
+        <MountPoint Side="Right" StartX="2.61" StartY="1.89" EndX="2.93" EndY="1.99" />
+        <MountPoint Side="Right" StartX="2.61" StartY="0.01" EndX="2.93" EndY="0.11" />
+        <MountPoint Side="Right" StartX="0.06" StartY="1.89" EndX="0.38" EndY="1.99" />
+        <MountPoint Side="Right" StartX="0.06" StartY="0.01" EndX="0.38" EndY="0.11" />
+        <MountPoint Side="Back" StartX="2.61" StartY="1.89" EndX="2.93" EndY="1.99" />
+        <MountPoint Side="Back" StartX="2.61" StartY="0.01" EndX="2.93" EndY="0.11" />
+        <MountPoint Side="Back" StartX="0.08" StartY="1.89" EndX="0.40" EndY="1.99" />
+        <MountPoint Side="Back" StartX="0.08" StartY="0.01" EndX="0.40" EndY="0.11" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\LBFusionReactor_Constr1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\LBFusionReactor_Constr2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\LBFusionReactor_Constr3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>ThFR</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>80</BuildTimeSeconds>
+      <Description>Thorium Reactor that provides 3 Gigawatts of power, requires Thorium Uranium Fuel Cells.</Description>
+      <BlockVariants>
+        <BlockVariant>
+          <TypeId>Reactor</TypeId>
+          <SubtypeId>LBFusionReactoradv</SubtypeId>
+        </BlockVariant>
+      </BlockVariants>
+      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+      <MaxPowerOutput>3000</MaxPowerOutput>
+      <FuelProductionToCapacityMultiplier>10000</FuelProductionToCapacityMultiplier>
+      <StockpileAmount>10000</StockpileAmount>
 
-          <EmissiveColorPreset>Default</EmissiveColorPreset>
-          <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
 
-          <InventorySize>
-            <X>1</X>
-            <Y>1</Y>
-            <Z>1</Z>
-          </InventorySize>
-          <FuelId>
-            <TypeId>Ingot</TypeId>
-            <SubtypeId>ThUFuelCell</SubtypeId>
-          </FuelId>
-          <PrimarySound>ShipLrgNuclearSm</PrimarySound>
-          <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
-          <DamagedSound>ParticleReactor</DamagedSound>
-          <DestroyEffect>Explosion_Warhead_02</DestroyEffect>
-          <DestroySound>WepSmallWarheadExpl</DestroySound>
-          <PCU>25</PCU>
-        </Definition>
-      <!--End Large Reactor-->
-      <!--Begin Small Reactor-->
-        <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
-          <Id>
-            <TypeId>Reactor</TypeId>
-            <SubtypeId>SBFusionReactor</SubtypeId>
-          </Id>
-          <DisplayName>Thorium Fusion Reactor</DisplayName>
-          <Icon>Textures\GUI\Icons\Cubes\FusionReactor.dds</Icon>
-          <CubeSize>Small</CubeSize>
-          <BlockTopology>TriangleMesh</BlockTopology>
-          <Size x="3" y="2" z="3" />
-          <ModelOffset x="0" y="0" z="0" />
-          <Model>Models\Cubes\SBFusionReactor.mwm</Model>
-          <Components>
-            <Component Subtype="SteelPlate" Count="420" />
-            <Component Subtype="Construction" Count="100" />
-            <Component Subtype="MetalGrid" Count="100" />
-            <Component Subtype="SmallTube" Count="30" />
-            <Component Subtype="Superconductor" Count="150" />
-            <Component Subtype="Reactor" Count="900" />
-            <Component Subtype="Motor" Count="50" />
-            <Component Subtype="SuperComputer" Count="10" />
-            <Component Subtype="Computer" Count="250" />
-            <Component Subtype="SteelPlate" Count="200" />
-          </Components>
-          <CriticalComponent Subtype="Computer" Index="0" />
-          <MountPoints>
-            <MountPoint EndY="2.00" EndX="3.00" StartY="0.00" StartX="0.00" Side="Front"/>
-            <MountPoint EndY="3.00" EndX="3.00" StartY="0.00" StartX="0.00" Side="Bottom" Default="true" />
-            <MountPoint EndY="3.00" EndX="3.00" StartY="0.00" StartX="0.00" Side="Top"/>
-            <MountPoint EndY="2.00" EndX="3.00" StartY="0.00" StartX="0.00" Side="Left"/>
-            <MountPoint EndY="2.00" EndX="3.00" StartY="0.00" StartX="0.00" Side="Right"/>
-            <MountPoint EndY="2.00" EndX="3.00" StartY="0.00" StartX="0.00" Side="Back"/>
-          </MountPoints>
+      <InventorySize>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </InventorySize>
+      <FuelId>
+        <TypeId>Ingot</TypeId>
+        <SubtypeId>ThUFuelCell</SubtypeId>
+      </FuelId>
+      <PrimarySound>ShipLrgNuclearSm</PrimarySound>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleReactor</DamagedSound>
+      <DestroyEffect>Explosion_Warhead_02</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>25</PCU>
+    </Definition>
+    <!--End Large Reactor-->
+    <!--Begin Small Reactor-->
+    <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
+      <Id>
+        <TypeId>Reactor</TypeId>
+        <SubtypeId>SBFusionReactor</SubtypeId>
+      </Id>
+      <DisplayName>Thorium Fusion Reactor</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\FusionReactor.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="2" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\SBFusionReactor.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="420" />
+        <Component Subtype="Construction" Count="100" />
+        <Component Subtype="MetalGrid" Count="100" />
+        <Component Subtype="SmallTube" Count="30" />
+        <Component Subtype="Superconductor" Count="150" />
+        <Component Subtype="Reactor" Count="900" />
+        <Component Subtype="Motor" Count="50" />
+        <Component Subtype="SuperComputer" Count="10" />
+        <Component Subtype="Computer" Count="250" />
+        <Component Subtype="SteelPlate" Count="200" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        <MountPoint EndY="2.00" EndX="3.00" StartY="0.00" StartX="0.00" Side="Front"/>
+        <MountPoint EndY="3.00" EndX="3.00" StartY="0.00" StartX="0.00" Side="Bottom" Default="true" />
+        <MountPoint EndY="3.00" EndX="3.00" StartY="0.00" StartX="0.00" Side="Top"/>
+        <MountPoint EndY="2.00" EndX="3.00" StartY="0.00" StartX="0.00" Side="Left"/>
+        <MountPoint EndY="2.00" EndX="3.00" StartY="0.00" StartX="0.00" Side="Right"/>
+        <MountPoint EndY="2.00" EndX="3.00" StartY="0.00" StartX="0.00" Side="Back"/>
+      </MountPoints>
 
-          <BuildProgressModels>
-            <Model BuildPercentUpperBound="0.5" File="Models\Cubes\SBFusionReactor_Constr1.mwm" />
-            <Model BuildPercentUpperBound="1.0" File="Models\Cubes\SBFusionReactor_Constr2.mwm" />
-          </BuildProgressModels>
-          <BlockPairName>ThFR</BlockPairName>
-          <MirroringY>Z</MirroringY>
-          <MirroringZ>Y</MirroringZ>
-          <EdgeType>Light</EdgeType>
-          <BuildTimeSeconds>40</BuildTimeSeconds>
-          <EmissiveColorPreset>Default</EmissiveColorPreset>
-          <Description>Thorium Reactor that provides 155 Megawatts of power, requires Thorium Uranium Fuel Cells.</Description>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\SBFusionReactor_Constr1.mwm" />
+        <Model BuildPercentUpperBound="1.0" File="Models\Cubes\SBFusionReactor_Constr2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>ThFR</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>40</BuildTimeSeconds>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <Description>Thorium Reactor that provides 155 Megawatts of power, requires Thorium Uranium Fuel Cells.</Description>
 
-          <ResourceSinkGroup>Factory</ResourceSinkGroup>
-          <ResourceSourceGroup>Reactors</ResourceSourceGroup>
-          <MaxPowerOutput>155</MaxPowerOutput>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+      <MaxPowerOutput>155</MaxPowerOutput>
 
-          <FuelProductionToCapacityMultiplier>10000</FuelProductionToCapacityMultiplier>
-          <StockpileAmount>10000</StockpileAmount>
-          <InventorySize>
-            <X>1</X>
-            <Y>1</Y>
-            <Z>1</Z>
-          </InventorySize>
-          <FuelId>
-            <TypeId>Ingot</TypeId>
-            <SubtypeId>ThUFuelCell</SubtypeId>
-          </FuelId>
-          <PrimarySound>ShipLrgNuclearSm</PrimarySound>
-          <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
-          <DamagedSound>ParticleReactor</DamagedSound>
-          <DestroyEffect>Explosion_Warhead_02</DestroyEffect>
-          <DestroySound>WepSmallWarheadExpl</DestroySound>
-          <PCU>25</PCU>
-        </Definition>
-      <!--End Small Reactor-->
+      <FuelProductionToCapacityMultiplier>10000</FuelProductionToCapacityMultiplier>
+      <StockpileAmount>10000</StockpileAmount>
+      <InventorySize>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </InventorySize>
+      <FuelId>
+        <TypeId>Ingot</TypeId>
+        <SubtypeId>ThUFuelCell</SubtypeId>
+      </FuelId>
+      <PrimarySound>ShipLrgNuclearSm</PrimarySound>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleReactor</DamagedSound>
+      <DestroyEffect>Explosion_Warhead_02</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>25</PCU>
+    </Definition>
+    <!--End Small Reactor-->
     <!-- End Reactors -->
     <!--Begin Reactors Adv-->
-      <!--Begin Large Reactor-->
-        <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
-          <Id>
-            <TypeId>Reactor</TypeId>
-            <SubtypeId>LBFusionReactoradv</SubtypeId>
-          </Id>
-          <DisplayName>Enhanced Thorium Fusion Reactor</DisplayName>
-          <Icon>Textures\GUI\Icons\Cubes\FusionReactor.dds</Icon>
-          <CubeSize>Large</CubeSize>
-          <BlockTopology>TriangleMesh</BlockTopology>
-          <Size x="3" y="2" z="3" />
-          <ModelOffset x="0" y="0" z="0" />
-          <Model>Models\Cubes\LBFusionReactor.mwm</Model>
-          <Components>
-            <Component Subtype="SteelPlate" Count="8000" />
-            <Component Subtype="Construction" Count="2000" />
-            <Component Subtype="MetalGrid" Count="1000" />
-            <Component Subtype="LargeTube" Count="400" />
-            <Component Subtype="Superconductor" Count="5000" />
-            <Component Subtype="Reactor" Count="12000" />
-            <Component Subtype="Motor" Count="450" />
-            <Component Subtype="SuperComputer" Count="50" />
-            <Component Subtype="Computer" Count="1500" />
-            <Component Subtype="SteelPlate" Count="2200" />
-          </Components>
-          <CriticalComponent Subtype="Computer" Index="0" />
-          <MountPoints>
-            <MountPoint Side="Front" StartX="0.07" StartY="1.89" EndX="0.39" EndY="1.99" />
-            <MountPoint Side="Left" StartX="0.07" StartY="1.89" EndX="0.39" EndY="1.99" />
-            <MountPoint Side="Bottom" StartX="1.10" StartY="1.10" EndX="1.90" EndY="1.90" />
-            <MountPoint Side="Top" StartX="1.09" StartY="1.09" EndX="1.91" EndY="1.91" />
-            <MountPoint Side="Left" StartX="2.61" StartY="1.89" EndX="2.93" EndY="1.99" />
-            <MountPoint Side="Front" StartX="0.07" StartY="0.01" EndX="0.39" EndY="0.11" />
-            <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="0.55" EndY="0.55" />
-            <MountPoint Side="Top" StartX="0.00" StartY="2.45" EndX="0.55" EndY="3.00" />
-            <MountPoint Side="Top" StartX="2.45" StartY="2.44" EndX="3.00" EndY="3.00" />
-            <MountPoint Side="Top" StartX="2.46" StartY="0.00" EndX="3.00" EndY="0.55" />
-            <MountPoint Side="Bottom" StartX="0.00" StartY="2.45" EndX="0.55" EndY="3.00" />
-            <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="0.55" EndY="0.55" />
-            <MountPoint Side="Bottom" StartX="2.45" StartY="0.00" EndX="3.00" EndY="0.56" />
-            <MountPoint Side="Bottom" StartX="2.44" StartY="2.45" EndX="3.00" EndY="3.00" />
-            <MountPoint Side="Left" StartX="2.61" StartY="0.01" EndX="2.93" EndY="0.11" />
-            <MountPoint Side="Left" StartX="0.07" StartY="0.01" EndX="0.39" EndY="0.11" />
-            <MountPoint Side="Front" StartX="2.60" StartY="1.89" EndX="2.92" EndY="1.99" />
-            <MountPoint Side="Front" StartX="2.60" StartY="0.01" EndX="2.92" EndY="0.11" />
-            <MountPoint Side="Right" StartX="2.61" StartY="1.89" EndX="2.93" EndY="1.99" />
-            <MountPoint Side="Right" StartX="2.61" StartY="0.01" EndX="2.93" EndY="0.11" />
-            <MountPoint Side="Right" StartX="0.06" StartY="1.89" EndX="0.38" EndY="1.99" />
-            <MountPoint Side="Right" StartX="0.06" StartY="0.01" EndX="0.38" EndY="0.11" />
-            <MountPoint Side="Back" StartX="2.61" StartY="1.89" EndX="2.93" EndY="1.99" />
-            <MountPoint Side="Back" StartX="2.61" StartY="0.01" EndX="2.93" EndY="0.11" />
-            <MountPoint Side="Back" StartX="0.08" StartY="1.89" EndX="0.40" EndY="1.99" />
-            <MountPoint Side="Back" StartX="0.08" StartY="0.01" EndX="0.40" EndY="0.11" />
-          </MountPoints>
-          <BuildProgressModels>
-            <Model BuildPercentUpperBound="0.33" File="Models\Cubes\LBFusionReactor_Constr1.mwm" />
-            <Model BuildPercentUpperBound="0.66" File="Models\Cubes\LBFusionReactor_Constr2.mwm" />
-            <Model BuildPercentUpperBound="1.00" File="Models\Cubes\LBFusionReactor_Constr3.mwm" />
-          </BuildProgressModels>
-          <BlockPairName>ThFRAdv</BlockPairName>
-          <MirroringY>Z</MirroringY>
-          <MirroringZ>Y</MirroringZ>
-          <EdgeType>Light</EdgeType>
-          <BuildTimeSeconds>80</BuildTimeSeconds>
-          <Description>Thorium Reactor that provides 10 Gigawatts of power, requires Thorium Uranium Fuel Cells.</Description>
+    <!--Begin Large Reactor-->
+    <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
+      <Id>
+        <TypeId>Reactor</TypeId>
+        <SubtypeId>LBFusionReactoradv</SubtypeId>
+      </Id>
+      <DisplayName>Enhanced Thorium Fusion Reactor</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\FusionReactor.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="2" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\LBFusionReactor.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="8000" />
+        <Component Subtype="Construction" Count="2000" />
+        <Component Subtype="MetalGrid" Count="1000" />
+        <Component Subtype="LargeTube" Count="400" />
+        <Component Subtype="Superconductor" Count="5000" />
+        <Component Subtype="Reactor" Count="12000" />
+        <Component Subtype="Motor" Count="450" />
+        <Component Subtype="SuperComputer" Count="50" />
+        <Component Subtype="Computer" Count="1500" />
+        <Component Subtype="SteelPlate" Count="2200" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0.07" StartY="1.89" EndX="0.39" EndY="1.99" />
+        <MountPoint Side="Left" StartX="0.07" StartY="1.89" EndX="0.39" EndY="1.99" />
+        <MountPoint Side="Bottom" StartX="1.10" StartY="1.10" EndX="1.90" EndY="1.90" />
+        <MountPoint Side="Top" StartX="1.09" StartY="1.09" EndX="1.91" EndY="1.91" />
+        <MountPoint Side="Left" StartX="2.61" StartY="1.89" EndX="2.93" EndY="1.99" />
+        <MountPoint Side="Front" StartX="0.07" StartY="0.01" EndX="0.39" EndY="0.11" />
+        <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="0.55" EndY="0.55" />
+        <MountPoint Side="Top" StartX="0.00" StartY="2.45" EndX="0.55" EndY="3.00" />
+        <MountPoint Side="Top" StartX="2.45" StartY="2.44" EndX="3.00" EndY="3.00" />
+        <MountPoint Side="Top" StartX="2.46" StartY="0.00" EndX="3.00" EndY="0.55" />
+        <MountPoint Side="Bottom" StartX="0.00" StartY="2.45" EndX="0.55" EndY="3.00" />
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="0.55" EndY="0.55" />
+        <MountPoint Side="Bottom" StartX="2.45" StartY="0.00" EndX="3.00" EndY="0.56" />
+        <MountPoint Side="Bottom" StartX="2.44" StartY="2.45" EndX="3.00" EndY="3.00" />
+        <MountPoint Side="Left" StartX="2.61" StartY="0.01" EndX="2.93" EndY="0.11" />
+        <MountPoint Side="Left" StartX="0.07" StartY="0.01" EndX="0.39" EndY="0.11" />
+        <MountPoint Side="Front" StartX="2.60" StartY="1.89" EndX="2.92" EndY="1.99" />
+        <MountPoint Side="Front" StartX="2.60" StartY="0.01" EndX="2.92" EndY="0.11" />
+        <MountPoint Side="Right" StartX="2.61" StartY="1.89" EndX="2.93" EndY="1.99" />
+        <MountPoint Side="Right" StartX="2.61" StartY="0.01" EndX="2.93" EndY="0.11" />
+        <MountPoint Side="Right" StartX="0.06" StartY="1.89" EndX="0.38" EndY="1.99" />
+        <MountPoint Side="Right" StartX="0.06" StartY="0.01" EndX="0.38" EndY="0.11" />
+        <MountPoint Side="Back" StartX="2.61" StartY="1.89" EndX="2.93" EndY="1.99" />
+        <MountPoint Side="Back" StartX="2.61" StartY="0.01" EndX="2.93" EndY="0.11" />
+        <MountPoint Side="Back" StartX="0.08" StartY="1.89" EndX="0.40" EndY="1.99" />
+        <MountPoint Side="Back" StartX="0.08" StartY="0.01" EndX="0.40" EndY="0.11" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\LBFusionReactor_Constr1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\LBFusionReactor_Constr2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\LBFusionReactor_Constr3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>ThFRAdv</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>80</BuildTimeSeconds>
+      <Description>Thorium Reactor that provides 10 Gigawatts of power, requires Thorium Uranium Fuel Cells.</Description>
 
-          <ResourceSourceGroup>Reactors</ResourceSourceGroup>
-          <MaxPowerOutput>10000</MaxPowerOutput>
-          <FuelProductionToCapacityMultiplier>10000</FuelProductionToCapacityMultiplier>
-          <StockpileAmount>10000</StockpileAmount>
+      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+      <MaxPowerOutput>10000</MaxPowerOutput>
+      <FuelProductionToCapacityMultiplier>10000</FuelProductionToCapacityMultiplier>
+      <StockpileAmount>10000</StockpileAmount>
 
-          <EmissiveColorPreset>Default</EmissiveColorPreset>
-          <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
 
-          <InventorySize>
-            <X>1</X>
-            <Y>1</Y>
-            <Z>1</Z>
-          </InventorySize>
-          <FuelId>
-            <TypeId>Ingot</TypeId>
-            <SubtypeId>ThUFuelCell</SubtypeId>
-          </FuelId>
-          <PrimarySound>ShipLrgNuclearSm</PrimarySound>
-          <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
-          <DamagedSound>ParticleReactor</DamagedSound>
-          <DestroyEffect>Explosion_Warhead_02</DestroyEffect>
-          <DestroySound>WepSmallWarheadExpl</DestroySound>
-          <PCU>25</PCU>
-        </Definition>
-      <!--End Large Reactor-->
-      <!--Begin Small Reactor-->
-        <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
-          <Id>
-            <TypeId>Reactor</TypeId>
-            <SubtypeId>SBFusionReactoradv</SubtypeId>
-          </Id>
-          <DisplayName>Enhanced Thorium Fusion Reactor</DisplayName>
-          <Icon>Textures\GUI\Icons\Cubes\FusionReactor.dds</Icon>
-          <CubeSize>Small</CubeSize>
-          <BlockTopology>TriangleMesh</BlockTopology>
-          <Size x="3" y="2" z="3" />
-          <ModelOffset x="0" y="0" z="0" />
-          <Model>Models\Cubes\SBFusionReactor.mwm</Model>
-          <Components>
-            <Component Subtype="SteelPlate" Count="1000" />
-            <Component Subtype="Construction" Count="240" />
-            <Component Subtype="MetalGrid" Count="240" />
-            <Component Subtype="SmallTube" Count="100" />
-            <Component Subtype="Superconductor" Count="400" />
-            <Component Subtype="Reactor" Count="1600" />
-            <Component Subtype="Motor" Count="135" />
-            <Component Subtype="SuperComputer" Count="22" />
-            <Component Subtype="Computer" Count="550" />
-            <Component Subtype="SteelPlate" Count="450" />
-          </Components>
-          <CriticalComponent Subtype="Computer" Index="0" />
-          <MountPoints>
-            <MountPoint EndY="2.00" EndX="3.00" StartY="0.00" StartX="0.00" Side="Front"/>
-            <MountPoint EndY="3.00" EndX="3.00" StartY="0.00" StartX="0.00" Side="Bottom" Default="true" />
-            <MountPoint EndY="3.00" EndX="3.00" StartY="0.00" StartX="0.00" Side="Top"/>
-            <MountPoint EndY="2.00" EndX="3.00" StartY="0.00" StartX="0.00" Side="Left"/>
-            <MountPoint EndY="2.00" EndX="3.00" StartY="0.00" StartX="0.00" Side="Right"/>
-            <MountPoint EndY="2.00" EndX="3.00" StartY="0.00" StartX="0.00" Side="Back"/>
-          </MountPoints>
+      <InventorySize>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </InventorySize>
+      <FuelId>
+        <TypeId>Ingot</TypeId>
+        <SubtypeId>ThUFuelCell</SubtypeId>
+      </FuelId>
+      <PrimarySound>ShipLrgNuclearSm</PrimarySound>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleReactor</DamagedSound>
+      <DestroyEffect>Explosion_Warhead_02</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>25</PCU>
+    </Definition>
+    <!--End Large Reactor-->
+    <!--Begin Small Reactor-->
+    <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
+      <Id>
+        <TypeId>Reactor</TypeId>
+        <SubtypeId>SBFusionReactoradv</SubtypeId>
+      </Id>
+      <DisplayName>Enhanced Thorium Fusion Reactor</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\FusionReactor.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="2" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\SBFusionReactor.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="1000" />
+        <Component Subtype="Construction" Count="240" />
+        <Component Subtype="MetalGrid" Count="240" />
+        <Component Subtype="SmallTube" Count="100" />
+        <Component Subtype="Superconductor" Count="400" />
+        <Component Subtype="Reactor" Count="1600" />
+        <Component Subtype="Motor" Count="135" />
+        <Component Subtype="SuperComputer" Count="22" />
+        <Component Subtype="Computer" Count="550" />
+        <Component Subtype="SteelPlate" Count="450" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        <MountPoint EndY="2.00" EndX="3.00" StartY="0.00" StartX="0.00" Side="Front"/>
+        <MountPoint EndY="3.00" EndX="3.00" StartY="0.00" StartX="0.00" Side="Bottom" Default="true" />
+        <MountPoint EndY="3.00" EndX="3.00" StartY="0.00" StartX="0.00" Side="Top"/>
+        <MountPoint EndY="2.00" EndX="3.00" StartY="0.00" StartX="0.00" Side="Left"/>
+        <MountPoint EndY="2.00" EndX="3.00" StartY="0.00" StartX="0.00" Side="Right"/>
+        <MountPoint EndY="2.00" EndX="3.00" StartY="0.00" StartX="0.00" Side="Back"/>
+      </MountPoints>
 
-          <BuildProgressModels>
-            <Model BuildPercentUpperBound="0.5" File="Models\Cubes\SBFusionReactor_Constr1.mwm" />
-            <Model BuildPercentUpperBound="1.0" File="Models\Cubes\SBFusionReactor_Constr2.mwm" />
-          </BuildProgressModels>
-          <BlockPairName>ThFRAdv</BlockPairName>
-          <MirroringY>Z</MirroringY>
-          <MirroringZ>Y</MirroringZ>
-          <EdgeType>Light</EdgeType>
-          <BuildTimeSeconds>40</BuildTimeSeconds>
-          <EmissiveColorPreset>Default</EmissiveColorPreset>
-          <Description>Thorium Reactor that provides 450 Megawatts of power, requires Thorium Uranium Fuel Cells.</Description>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\SBFusionReactor_Constr1.mwm" />
+        <Model BuildPercentUpperBound="1.0" File="Models\Cubes\SBFusionReactor_Constr2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>ThFRAdv</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>40</BuildTimeSeconds>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <Description>Thorium Reactor that provides 450 Megawatts of power, requires Thorium Uranium Fuel Cells.</Description>
 
-          <ResourceSinkGroup>Factory</ResourceSinkGroup>
-          <ResourceSourceGroup>Reactors</ResourceSourceGroup>
-          <MaxPowerOutput>450</MaxPowerOutput>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+      <MaxPowerOutput>450</MaxPowerOutput>
 
-          <FuelProductionToCapacityMultiplier>10000</FuelProductionToCapacityMultiplier>
-          <StockpileAmount>10000</StockpileAmount>
-          <InventorySize>
-            <X>1</X>
-            <Y>1</Y>
-            <Z>1</Z>
-          </InventorySize>
-          <FuelId>
-            <TypeId>Ingot</TypeId>
-            <SubtypeId>ThUFuelCell</SubtypeId>
-          </FuelId>
-          <PrimarySound>ShipLrgNuclearSm</PrimarySound>
-          <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
-          <DamagedSound>ParticleReactor</DamagedSound>
-          <DestroyEffect>Explosion_Warhead_02</DestroyEffect>
-          <DestroySound>WepSmallWarheadExpl</DestroySound>
-          <PCU>25</PCU>
-        </Definition>
-      <!--End Small Reactor-->
+      <FuelProductionToCapacityMultiplier>10000</FuelProductionToCapacityMultiplier>
+      <StockpileAmount>10000</StockpileAmount>
+      <InventorySize>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </InventorySize>
+      <FuelId>
+        <TypeId>Ingot</TypeId>
+        <SubtypeId>ThUFuelCell</SubtypeId>
+      </FuelId>
+      <PrimarySound>ShipLrgNuclearSm</PrimarySound>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleReactor</DamagedSound>
+      <DestroyEffect>Explosion_Warhead_02</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>25</PCU>
+    </Definition>
+    <!--End Small Reactor-->
     <!-- End Reactors 2-->
   </CubeBlocks>
 </Definitions>

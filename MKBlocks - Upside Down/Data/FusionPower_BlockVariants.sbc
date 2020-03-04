@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Definitions>
+  <BlockVariantGroups>
+    <BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="LBFusionReactorGroup" />
+      <Icon>Textures\GUI\Icons\Cubes\FusionReactor.dds</Icon>
+      <DisplayName>Thorium Fusion Reactor</DisplayName>
+      <Description></Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_Reactor" Subtype="LBFusionReactor" />
+        <Block Type="MyObjectBuilder_Reactor" Subtype="SBFusionReactor" />
+      </Blocks>
+    </BlockVariantGroup>
+    <BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="LBFusionReactoradvGroup" />
+      <Icon>Textures\GUI\Icons\Cubes\FusionReactor.dds</Icon>
+      <DisplayName>Enhanced Thorium Fusion Reactor</DisplayName>
+      <Description></Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_Reactor" Subtype="LBFusionReactoradv" />
+        <Block Type="MyObjectBuilder_Reactor" Subtype="SBFusionReactoradv" />
+      </Blocks>
+    </BlockVariantGroup>
+  </BlockVariantGroups>
+</Definitions>
