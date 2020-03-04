@@ -10,8 +10,8 @@
       <DisplayName>Thorium Enriched Fuel Cells</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\HH2o.dds</Icon>
       <Prerequisites>
-        <Item Amount="0.3" TypeId="Ingot" SubtypeId="Thorium" />
-        <Item Amount="0.03" TypeId="Ingot" SubtypeId="Uranium" />
+        <Item Amount="0.2" TypeId="Ingot" SubtypeId="Thorium" />
+        <Item Amount="0.02" TypeId="Ingot" SubtypeId="Uranium" />
       </Prerequisites>
       <Result Amount="1" TypeId="Ingot" SubtypeId="ThUFuelCell" />
       <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
