@@ -68,12 +68,6 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>80</BuildTimeSeconds>
       <Description>Thorium Reactor that provides 3 Gigawatts of power, requires Thorium Uranium Fuel Cells.</Description>
-      <BlockVariants>
-        <BlockVariant>
-          <TypeId>Reactor</TypeId>
-          <SubtypeId>LBFusionReactoradv</SubtypeId>
-        </BlockVariant>
-      </BlockVariants>
       <ResourceSourceGroup>Reactors</ResourceSourceGroup>
       <MaxPowerOutput>3000</MaxPowerOutput>
       <FuelProductionToCapacityMultiplier>10000</FuelProductionToCapacityMultiplier>
