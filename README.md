@@ -8,7 +8,7 @@
 Changes:
 <ul>
   <li>Integration of economy changes: no starting money etc</li>
-  <li>Introfuction of deconstructable packages</li>
+  <li>Introduction of deconstructable packages</li>
   <li>Storeblock listing changes and fee removal</li>
   <li>Thorium Material now integrated in UD Foundation Mod</li>
   </ul>
