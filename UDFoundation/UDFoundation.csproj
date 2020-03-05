@@ -33,7 +33,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="App.config" />
     <None Include="Data\BlockVariantGroupsVanillaModified.sbc" />
     <None Include="Data\BlueprintClasses_Thorium.sbc" />
     <None Include="Data\BlueprintClasses_ThoriumFusionReactor.sbc" />

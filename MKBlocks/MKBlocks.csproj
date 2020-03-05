@@ -33,7 +33,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="App.config" />
     <None Include="Data\FusionPower_BlockCategories.sbc" />
     <None Include="Data\FusionPower_BlockVariants.sbc" />
     <None Include="Data\FusionPower_BlueprintClasses.sbc" />
