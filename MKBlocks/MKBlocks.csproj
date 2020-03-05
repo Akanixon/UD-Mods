@@ -102,6 +102,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Data\Scripts\PlasmaSparks.sln" />
+    <Content Include="LICENSE Creative Commons.txt" />
     <Content Include="Textures\GUI\Icons\BlueprintClassMK.dds" />
     <Content Include="Textures\GUI\Icons\buttons\filter_ingot.dds" />
     <Content Include="Textures\GUI\Icons\buttons\filter_ore.dds" />
@@ -421,6 +422,7 @@
     <Content Include="Textures\Models\Cubes\terminal_add.dds" />
     <Content Include="Textures\Models\Cubes\terminal_cm.dds" />
     <Content Include="Textures\Models\Cubes\terminal_ng.dds" />
+    <Content Include="thumb.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Data\Scripts\PlasmaSparks\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />

@@ -64,6 +64,7 @@
     <None Include="VoxelMaps\Thorium_V3c.vx2" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="LICENSE Creative Commons.txt" />
     <Content Include="Textures\GUI\Icons\component\super_computer_component.dds" />
     <Content Include="Textures\GUI\Icons\ingot\HH2o.dds" />
     <Content Include="Textures\GUI\Icons\ingot\Thorium_ingot.dds" />
@@ -75,6 +76,7 @@
     <Content Include="Textures\Voxels\Thorium_01_ForAxisXZ_add.dds" />
     <Content Include="Textures\Voxels\Thorium_01_ForAxisXZ_cm.dds" />
     <Content Include="Textures\Voxels\Thorium_01_ForAxisXZ_ng.dds" />
+    <Content Include="thumb.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
