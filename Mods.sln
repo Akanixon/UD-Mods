@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "publishMods", "publishMods\
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mods", "Mods", "{2D24C81E-215F-4717-A47B-C0DFF99A4D93}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdditionalShipTools", "AdditionalShipTools\AdditionalShipTools.csproj", "{5843AA78-9B63-47E9-989F-DD73A2DCA00F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,14 @@ Global
 		{F7CC520B-DCEE-4CF3-A51B-798719460DA8}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F7CC520B-DCEE-4CF3-A51B-798719460DA8}.Release|x64.ActiveCfg = Release|Any CPU
 		{F7CC520B-DCEE-4CF3-A51B-798719460DA8}.Release|x64.Build.0 = Release|Any CPU
+		{5843AA78-9B63-47E9-989F-DD73A2DCA00F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5843AA78-9B63-47E9-989F-DD73A2DCA00F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5843AA78-9B63-47E9-989F-DD73A2DCA00F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{5843AA78-9B63-47E9-989F-DD73A2DCA00F}.Debug|x64.Build.0 = Debug|Any CPU
+		{5843AA78-9B63-47E9-989F-DD73A2DCA00F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5843AA78-9B63-47E9-989F-DD73A2DCA00F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5843AA78-9B63-47E9-989F-DD73A2DCA00F}.Release|x64.ActiveCfg = Release|Any CPU
+		{5843AA78-9B63-47E9-989F-DD73A2DCA00F}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -42,6 +52,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{17B7B4BF-F6F0-4131-8353-2B9078027EB0} = {2D24C81E-215F-4717-A47B-C0DFF99A4D93}
 		{AF85A38F-7B28-44D8-B788-91ACDDBAD82E} = {2D24C81E-215F-4717-A47B-C0DFF99A4D93}
+		{5843AA78-9B63-47E9-989F-DD73A2DCA00F} = {2D24C81E-215F-4717-A47B-C0DFF99A4D93}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EF7560A1-F0FB-4CA5-AE3B-72CFFC09DC21}
