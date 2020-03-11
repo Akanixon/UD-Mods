@@ -112,11 +112,13 @@
     <None Include="Models\Weapons\M12_MissileMk1.mwm" />
     <None Include="Models\Weapons\M12_MissileMk1_projectile.mwm" />
     <None Include="Models\Weapons\Projectile_Missile.mwm" />
+    <None Include="README.md" />
     <None Include="Textures\Particles\firealpha.tga" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Audio\WEP\rocket_projectileSound.wav" />
     <Content Include="Audio\WEP\rocket_shoot1.wav" />
+    <Content Include="LICENSE Creative Commons.txt" />
     <Content Include="metadata.mod" />
     <Content Include="Textures\GUI\Icons\ammo\M12SwarmerProjectile_icon.dds" />
     <Content Include="Textures\GUI\Icons\ammo\M1TorpedoProjectile_Icon.dds" />
