@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+    
+
+    <Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition"> <!--SmallMissileTurret  Done-->
+      <Id>
+        <TypeId>LargeMissileTurret</TypeId>
+        <SubtypeId>M8Launcher</SubtypeId>
+      </Id>
+      <DisplayName>M-8 Destroyer Launcher</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\M8Launcher_Icon.dds</Icon>
+      <Description>M-8 Destroyer Launcher. Fires high-precision missiles
+       Ammo: Destroyer Missile X</Description>
+      <CubeSize>Large</CubeSize>
+      <PlaceDecals>false</PlaceDecals>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\large\M8_Launcher\M8_Launcher.mwm</Model>
+      <UseModelIntersection>true</UseModelIntersection>
+      <Components>
+        <Component Subtype="SteelPlate" Count="150" />
+        <Component Subtype="Construction" Count="300" />
+        <Component Subtype="MetalGrid" Count="20" />
+        <Component Subtype="LargeTube" Count="30" />
+        <Component Subtype="Motor" Count="100" />
+        <Component Subtype="Computer" Count="120" />
+        <Component Subtype="Superconductor" Count="30" />
+        <Component Subtype="Construction" Count="100" />
+        <Component Subtype="SteelPlate" Count="50" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="2" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="2" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="2" EndY="1" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="2" EndY="1" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.43" File="Models\Cubes\large\M8_Launcher\M8_Launcher_construction_1.mwm" />
+        <Model BuildPercentUpperBound="1.0" File="Models\Cubes\large\M8_Launcher\M8_Launcher_construction_2.mwm" />
+      </BuildProgressModels>
+      <VoxelPlacement>
+        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <StaticMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0.01</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <BlockPairName>M8Launcher</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <OverlayTexture>Textures\GUI\Screens\turret_overlay.dds</OverlayTexture>
+      <WeaponDefinitionId Subtype="DestroyerMissileX" />
+      <InventoryMaxVolume>0.065</InventoryMaxVolume>
+      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <ResourceSinkGroup>Defense</ResourceSinkGroup>
+      <MinElevationDegrees>0</MinElevationDegrees>
+      <MaxElevationDegrees>0</MaxElevationDegrees>
+      <MinAzimuthDegrees>0</MinAzimuthDegrees>
+      <MaxAzimuthDegrees>0</MaxAzimuthDegrees>
+      <IdleRotation>false</IdleRotation>
+      <MaxRangeMeters>5000</MaxRangeMeters>
+      <RotationSpeed>0.0</RotationSpeed>
+      <ElevationSpeed>0.0</ElevationSpeed>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <MinFov>0.1</MinFov>
+      <MaxFov>1.04719755</MaxFov>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>100</PCU>
+      <AiEnabled>false</AiEnabled>       
+    </Definition>
+
+    
+
+    
+
+  </CubeBlocks>
+</Definitions>

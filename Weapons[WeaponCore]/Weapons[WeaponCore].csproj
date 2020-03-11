@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{27FE5045-429C-452C-B1E3-1DB57E08C7F9}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>HomingWeapons</RootNamespace>
+    <AssemblyName>HomingWeapons</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="Data\Ammo\AmmoMagazines_Custom.sbc" />
+    <None Include="Data\Ammo\BlueprintClasses_Ammos.sbc" />
+    <None Include="Data\Ammo\Blueprints_DestroyerMK1.sbc" />
+    <None Include="Data\Ammo\Blueprints_DestroyerX.sbc" />
+    <None Include="Data\Ammo\Blueprints_Missile50mm.sbc" />
+    <None Include="Data\Ammo\Blueprints_Torpedo.sbc" />
+    <None Include="Data\Ammo\Weapons.sbc" />
+    <None Include="Data\Audio_Launcher.sbc" />
+    <None Include="Data\CubeBlocks_M12.sbc" />
+    <None Include="Data\CubeBlocks_M1_Torpedo.sbc" />
+    <None Include="Data\CubeBlocks_M2_Destroyer.sbc" />
+    <None Include="Data\CubeBlocks_M8_Launcher.sbc" />
+    <None Include="Data\MultiTurret_Ammo.sbc" />
+    <None Include="Data\MultiTurret_AmmoMag.sbc" />
+    <None Include="Data\MultiTurret_EntityComponents.sbc" />
+    <None Include="Data\MultiTurret_Particles.sbc" />
+    <None Include="Data\Particles\MissileSmokeTrail.sbc" />
+    <None Include="Data\Particles\MissileSmokeTrail_bk.sbc" />
+    <None Include="Data\Particles\MyMissileExplosion.sbc" />
+    <None Include="Data\Particles\ThrusterEffect.sbc" />
+    <None Include="Data\Particles\ThrusterFlame.sbc" />
+    <None Include="Data\Particles\VanillaMIssileRevamp.sbc" />
+    <None Include="Data\TransparentMaterials.sbc" />
+    <None Include="Data\Weapon_BlockCategories.sbc" />
+    <None Include="Models\Cubes\large\M1_Torpedo\DebugBarrel.mwm" />
+    <None Include="Models\Cubes\large\M1_Torpedo\DebugTurret.mwm" />
+    <None Include="Models\Cubes\large\M1_Torpedo\HatchDoorPart.mwm" />
+    <None Include="Models\Cubes\large\M1_Torpedo\HatchPushPart.mwm" />
+    <None Include="Models\Cubes\large\M1_Torpedo\M1_Torpedo.mwm" />
+    <None Include="Models\Cubes\large\M1_Torpedo\M1_Torpedo_construction_1.mwm" />
+    <None Include="Models\Cubes\large\M1_Torpedo\M1_Torpedo_construction_2.mwm" />
+    <None Include="Models\Cubes\large\M1_Torpedo\M1_Torpedo_LOD0.mwm" />
+    <None Include="Models\Cubes\large\M1_Torpedo\M1_Torpedo_LOD1.mwm" />
+    <None Include="Models\Cubes\large\M1_Torpedo\M1_Torpedo_LOD2.mwm" />
+    <None Include="Models\Cubes\large\M1_Torpedo\M1_Torpedo_projectile.mwm" />
+    <None Include="Models\Cubes\large\M1_Torpedo\M1_Torpedo_projectile_LOD1.mwm" />
+    <None Include="Models\Cubes\large\M1_Torpedo\M1_Torpedo_projectile_LOD2.mwm" />
+    <None Include="Models\Cubes\large\M1_Torpedo\M_1_TorpedoWeapon.mwm" />
+    <None Include="Models\Cubes\large\M8_Launcher\DebugBarrel.mwm" />
+    <None Include="Models\Cubes\large\M8_Launcher\DebugTurret.mwm" />
+    <None Include="Models\Cubes\large\M8_Launcher\HatchDoorPart.mwm" />
+    <None Include="Models\Cubes\large\M8_Launcher\HatchPushPart.mwm" />
+    <None Include="Models\Cubes\large\M8_Launcher\M8_Launcher.mwm" />
+    <None Include="Models\Cubes\large\M8_Launcher\M8_Launcher_construction_1.mwm" />
+    <None Include="Models\Cubes\large\M8_Launcher\M8_Launcher_construction_2.mwm" />
+    <None Include="Models\Cubes\large\M8_Launcher\M8_Launcher_LOD1.mwm" />
+    <None Include="Models\Cubes\large\M8_Launcher\M8_Launcher_LOD2.mwm" />
+    <None Include="Models\Cubes\large\M8_Launcher\M8_Launcher_LOD3.mwm" />
+    <None Include="Models\Cubes\large\M8_Launcher\M8_Missile_projectile.mwm" />
+    <None Include="Models\Cubes\large\M8_Launcher\M8_Missile_projectile_LOD1.mwm" />
+    <None Include="Models\Cubes\small\M12_Swarm\DebugBarrel.mwm" />
+    <None Include="Models\Cubes\small\M12_Swarm\DebugTurret.mwm" />
+    <None Include="Models\Cubes\small\M12_Swarm\M12_MissileMk1.mwm" />
+    <None Include="Models\Cubes\small\M12_Swarm\M12_MissileMk1_cap.mwm" />
+    <None Include="Models\Cubes\small\M12_Swarm\M12_Swarmer.mwm" />
+    <None Include="Models\Cubes\small\M12_Swarm\M12_Swarmer_construction_1.mwm" />
+    <None Include="Models\Cubes\small\M12_Swarm\M12_Swarmer_construction_2.mwm" />
+    <None Include="Models\Cubes\small\M12_Swarm\MissileDoor.mwm" />
+    <None Include="Models\Cubes\small\M2_Destroyer\DebugBarrel.mwm" />
+    <None Include="Models\Cubes\small\M2_Destroyer\DebugTurret.mwm" />
+    <None Include="Models\Cubes\small\M2_Destroyer\DestroyerMissile_Mk1.mwm" />
+    <None Include="Models\Cubes\small\M2_Destroyer\DestroyerMissile_Mk1_projectile.mwm" />
+    <None Include="Models\Cubes\small\M2_Destroyer\M2_Destroyer.mwm" />
+    <None Include="Models\Cubes\small\M2_Destroyer\M2_Destroyer_construction_1.mwm" />
+    <None Include="Models\Cubes\small\M2_Destroyer\M2_Destroyer_construction_2.mwm" />
+    <None Include="Models\Cubes\small\M2_Destroyer\M2_Destroyer_LOD1.mwm" />
+    <None Include="Models\Cubes\small\M2_Destroyer\MissileDoor.mwm" />
+    <None Include="Models\Cubes\small\M2_Destroyer\rackPiston1.mwm" />
+    <None Include="Models\Cubes\small\M2_Destroyer\rackPiston2.mwm" />
+    <None Include="Models\Cubes\small\M2_Destroyer\rackPiston3.mwm" />
+    <None Include="Models\Cubes\small\X10Flare\DebugBarrel.mwm" />
+    <None Include="Models\Cubes\small\X10Flare\DebugTurret.mwm" />
+    <None Include="Models\Cubes\small\X10Flare\X10Flare.mwm" />
+    <None Include="Models\Weapons\DestroyerMissile_Mk1.mwm" />
+    <None Include="Models\Weapons\DestroyerMissile_Mk1_projectile.mwm" />
+    <None Include="Models\Weapons\M12_MissileMk1.mwm" />
+    <None Include="Models\Weapons\M12_MissileMk1_projectile.mwm" />
+    <None Include="Models\Weapons\Projectile_Missile.mwm" />
+    <None Include="Textures\Particles\firealpha.tga" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Audio\WEP\rocket_projectileSound.wav" />
+    <Content Include="Audio\WEP\rocket_shoot1.wav" />
+    <Content Include="metadata.mod" />
+    <Content Include="Textures\GUI\Icons\ammo\M12SwarmerProjectile_icon.dds" />
+    <Content Include="Textures\GUI\Icons\ammo\M1TorpedoProjectile_Icon.dds" />
+    <Content Include="Textures\GUI\Icons\ammo\m2DestroyerProjectile_icon.dds" />
+    <Content Include="Textures\GUI\Icons\ammo\M8LauncherProjectile_Icon.dds" />
+    <Content Include="Textures\GUI\Icons\Cubes\M12Swarmer_icon.dds" />
+    <Content Include="Textures\GUI\Icons\Cubes\M1Torp_Icon.dds" />
+    <Content Include="Textures\GUI\Icons\Cubes\m2Destroyer_icon.dds" />
+    <Content Include="Textures\GUI\Icons\Cubes\M8Launcher_Icon.dds" />
+    <Content Include="Textures\Particles\beam1_ca.dds" />
+    <Content Include="Textures\Particles\firealpha_ca.dds" />
+    <Content Include="Textures\Particles\projectile1_ca.dds" />
+    <Content Include="thumb.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Data\Scripts\WeaponThread\M-8_Launcher_Animations.cs" />
+    <Compile Include="Data\Scripts\WeaponThread\M12Swarmer.cs" />
+    <Compile Include="Data\Scripts\WeaponThread\M12SwarmerAmmo.cs" />
+    <Compile Include="Data\Scripts\WeaponThread\M12Swarmer_Animations.cs" />
+    <Compile Include="Data\Scripts\WeaponThread\M1Torpedo.cs" />
+    <Compile Include="Data\Scripts\WeaponThread\M1TorpedoAmmo.cs" />
+    <Compile Include="Data\Scripts\WeaponThread\M1Torpedo_Animations.cs" />
+    <Compile Include="Data\Scripts\WeaponThread\M2Destroyer.cs" />
+    <Compile Include="Data\Scripts\WeaponThread\M2DestroyerAmmo.cs" />
+    <Compile Include="Data\Scripts\WeaponThread\M2Destroyer_Animations.cs" />
+    <Compile Include="Data\Scripts\WeaponThread\M8Launcher.cs" />
+    <Compile Include="Data\Scripts\WeaponThread\M8LauncherAmmo.cs" />
+    <Compile Include="Data\Scripts\WeaponThread\MasterConfig.cs" />
+    <Compile Include="Data\Scripts\WeaponThread\script\Slave.cs" />
+    <Compile Include="Data\Scripts\WeaponThread\script\WeaponCompile.cs" />
+    <Compile Include="Data\Scripts\WeaponThread\script\WeaponStructrure.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Models\Ammo\" />
+    <Folder Include="Textures\Models\Cubes\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Blueprints> 
+  
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>TorpedoMk1_Blueprint</SubtypeId>
+      </Id>
+      <DisplayName>Boomer Torpedo Mk1</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\M1TorpedoProjectile_Icon.dds</Icon>
+	  
+      <Prerequisites>
+        <Item Amount="500" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="50" TypeId="Ingot" SubtypeId="Nickel" />
+        <Item Amount="20" TypeId="Ingot" SubtypeId="Silicon" />
+        <Item Amount="0.5" TypeId="Ingot" SubtypeId="Uranium" />
+        <Item Amount="0.5" TypeId="Ingot" SubtypeId="Platinum" />
+        <Item Amount="150" TypeId="Ingot" SubtypeId="Magnesium" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="TorpedoMk1" />
+      <BaseProductionTimeInSeconds>89.28</BaseProductionTimeInSeconds>
+	  
+    </Blueprint>
+	
+  </Blueprints>
+</Definitions>

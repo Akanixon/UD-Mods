@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Weapons>
+    
+	
+	<Weapon>
+      <Id>
+        <TypeId>WeaponDefinition</TypeId>
+        <SubtypeId>SwarmMissile50mm_Weapon</SubtypeId>
+      </Id>
+      <ProjectileAmmoData RateOfFire="1" ShootSoundName="Launcher1" ShotsInBurst="1" />
+      <ReleaseTimeAfterFire>100</ReleaseTimeAfterFire>
+      <DeviateShotAngle>0</DeviateShotAngle>
+      <MuzzleFlashLifeSpan>0</MuzzleFlashLifeSpan>
+      <NoAmmoSoundName>WepShipGatlingNoAmmo</NoAmmoSoundName>
+      <SecondarySoundName>WepShipGatlingRotation</SecondarySoundName>
+      <AmmoMagazines>
+        <AmmoMagazine Subtype="SwarmMissile50mm" />
+      </AmmoMagazines>
+      <ReloadTime>0</ReloadTime>
+    </Weapon>
+	
+  
+
+	<Weapon>
+      <Id>
+        <TypeId>WeaponDefinition</TypeId>
+        <SubtypeId>DestroyerMissileMk1</SubtypeId>
+      </Id>
+      <ProjectileAmmoData RateOfFire="1" ShootSoundName="Launcher1" ShotsInBurst="1" />
+      <ReleaseTimeAfterFire>100</ReleaseTimeAfterFire>
+      <DeviateShotAngle>0</DeviateShotAngle>
+      <MuzzleFlashLifeSpan>0</MuzzleFlashLifeSpan>
+      <NoAmmoSoundName>WepShipGatlingNoAmmo</NoAmmoSoundName>
+      <SecondarySoundName>WepShipGatlingRotation</SecondarySoundName>
+      <AmmoMagazines>
+        <AmmoMagazine Subtype="DestroyerMissileMk1" />
+      </AmmoMagazines>
+      <ReloadTime>0</ReloadTime>
+    </Weapon>
+
+
+    <Weapon>
+      <Id>
+        <TypeId>WeaponDefinition</TypeId>
+        <SubtypeId>TorpedoMk1</SubtypeId>
+      </Id>
+      <ProjectileAmmoData RateOfFire="1" ShootSoundName="Launcher1" ShotsInBurst="1" />
+      <ReleaseTimeAfterFire>100</ReleaseTimeAfterFire>
+      <DeviateShotAngle>0</DeviateShotAngle>
+      <MuzzleFlashLifeSpan>0</MuzzleFlashLifeSpan>
+      <NoAmmoSoundName>WepShipGatlingNoAmmo</NoAmmoSoundName>
+      <SecondarySoundName>WepShipGatlingRotation</SecondarySoundName>
+      <AmmoMagazines>
+        <AmmoMagazine Subtype="TorpedoMk1" />
+      </AmmoMagazines>
+      <ReloadTime>0</ReloadTime>
+    </Weapon>
+
+
+    <Weapon>
+      <Id>
+        <TypeId>WeaponDefinition</TypeId>
+        <SubtypeId>DestroyerMissileX</SubtypeId>
+      </Id>
+      <ProjectileAmmoData RateOfFire="1" ShootSoundName="Launcher1" ShotsInBurst="1" />
+      <ReleaseTimeAfterFire>100</ReleaseTimeAfterFire>
+      <DeviateShotAngle>0</DeviateShotAngle>
+      <MuzzleFlashLifeSpan>0</MuzzleFlashLifeSpan>
+      <NoAmmoSoundName>WepShipGatlingNoAmmo</NoAmmoSoundName>
+      <SecondarySoundName>WepShipGatlingRotation</SecondarySoundName>
+      <AmmoMagazines>
+        <AmmoMagazine Subtype="DestroyerMissileX" />
+      </AmmoMagazines>
+      <ReloadTime>0</ReloadTime>
+    </Weapon>
+	
+  </Weapons>
+  
+</Definitions>

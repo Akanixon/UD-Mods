@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AmmoMagazines>
+  
+	
+	
+	
+	
+	<AmmoMagazine>
+      <Id>
+        <TypeId>AmmoMagazine</TypeId>
+        <SubtypeId>SwarmMissile50mm</SubtypeId>
+      </Id>
+      <DisplayName>Swarm Missile Mk1</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\M12SwarmerProjectile_icon.dds</Icon>
+      <Size>
+                <X>0.2</X>
+                <Y>0.2</Y>
+                <Z>0.2</Z>
+            </Size>
+            <Mass>35</Mass>
+            <Volume>16</Volume>
+      <Model>Models\Weapons\M12_MissileMk1.mwm</Model>
+      <PhysicalMaterial>Ammo</PhysicalMaterial>
+      <Capacity>12</Capacity>
+      <AmmoDefinitionId Subtype="Blank" />
+    </AmmoMagazine>
+
+    	<AmmoMagazine>
+      <Id>
+        <TypeId>AmmoMagazine</TypeId>
+        <SubtypeId>DestroyerMissileMk1</SubtypeId>
+      </Id>
+      <DisplayName>Destroyer Missile Mk1</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\m2DestroyerProjectile_icon.dds</Icon>
+      <Size>
+                <X>0.2</X>
+                <Y>0.2</Y>
+                <Z>0.2</Z>
+            </Size>
+            <Mass>35</Mass>
+            <Volume>16</Volume>
+      <Model>Models\Weapons\DestroyerMissile_Mk1.mwm</Model>
+      <PhysicalMaterial>Ammo</PhysicalMaterial>
+      <Capacity>2</Capacity>
+      <AmmoDefinitionId Subtype="Blank" />
+    </AmmoMagazine>
+
+    <AmmoMagazine>
+      <Id>
+        <TypeId>AmmoMagazine</TypeId>
+        <SubtypeId>TorpedoMk1</SubtypeId>
+      </Id>
+      <DisplayName>Boomer Torpedo Mk1</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\M1TorpedoProjectile_Icon.dds</Icon>
+      <Size>
+                <X>0.5</X>
+                <Y>0.5</Y>
+                <Z>2.5</Z>
+            </Size>
+            <Mass>1000</Mass>
+            <Volume>1000</Volume>
+      <Model>Models\Cubes\large\M1_Torpedo\M1_Torpedo_projectile.mwm</Model>
+      <PhysicalMaterial>Ammo</PhysicalMaterial>
+      <Capacity>1</Capacity>
+      <AmmoDefinitionId Subtype="Blank" />
+    </AmmoMagazine>
+
+    <AmmoMagazine>
+      <Id>
+        <TypeId>AmmoMagazine</TypeId>
+        <SubtypeId>DestroyerMissileX</SubtypeId>
+      </Id>
+      <DisplayName>Destroyer Missile X</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\M8LauncherProjectile_Icon.dds</Icon>
+      <Size>
+                <X>0.6</X>
+                <Y>0.6</Y>
+                <Z>1.5</Z>
+            </Size>
+            <Mass>600</Mass>
+            <Volume>600</Volume>
+      <Model>Models\Cubes\large\M8_Launcher\M8_Missile_projectile.mwm</Model>
+      <PhysicalMaterial>Ammo</PhysicalMaterial>
+      <Capacity>8</Capacity>
+      <AmmoDefinitionId Subtype="Blank" />
+    </AmmoMagazine>
+	
+	
+	
+	
+
+	
+  </AmmoMagazines>
+</Definitions>

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Blueprints> 
+  
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>DestroyerMissileX_Blueprint</SubtypeId>
+      </Id>
+      <DisplayName>Destroyer Missile X</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\M8LauncherProjectile_Icon.dds</Icon>
+	  
+      <Prerequisites>
+        <Item Amount="300" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="30" TypeId="Ingot" SubtypeId="Nickel" />
+        <Item Amount="15" TypeId="Ingot" SubtypeId="Silicon" />
+        <Item Amount="0.5" TypeId="Ingot" SubtypeId="Uranium" />
+        <Item Amount="0.15" TypeId="Ingot" SubtypeId="Platinum" />
+        <Item Amount="50" TypeId="Ingot" SubtypeId="Magnesium" />
+        
+      </Prerequisites>
+      <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="DestroyerMissileX" />
+      <BaseProductionTimeInSeconds>89.28</BaseProductionTimeInSeconds>
+	  
+    </Blueprint>
+	
+  </Blueprints>
+</Definitions>

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+ <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"> 
+   <BlueprintClassEntries>
+   
+	<!-- Components -->
+		<Entry Class="Components" BlueprintSubtypeId="SwarmMissileMk1_Blueprint" />	
+		<Entry Class="Components" BlueprintSubtypeId="DestroyerMissileMk1_Blueprint" />	
+		<Entry Class="Components" BlueprintSubtypeId="TorpedoMk1_Blueprint" />	
+		<Entry Class="Components" BlueprintSubtypeId="DestroyerMissileX_Blueprint" />	
+		
+		
+		
+	<!-- Ammunition -->
+		<Entry Class="Ammo" BlueprintSubtypeId="SwarmMissileMk1_Blueprint" />
+		<Entry Class="Ammo" BlueprintSubtypeId="DestroyerMissileMk1_Blueprint" />
+		<Entry Class="Ammo" BlueprintSubtypeId="TorpedoMk1_Blueprint" />
+		<Entry Class="Ammo" BlueprintSubtypeId="DestroyerMissileX_Blueprint" />
+		
+	
+  </BlueprintClassEntries>
+</Definitions>

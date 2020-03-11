@@ -1,0 +1,61 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CategoryClasses>
+  
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+	  <Id>
+		<TypeId>GuiBlockCategoryDefinition</TypeId>
+		<SubtypeId/>
+	  </Id>
+			  <DisplayName>+ MWI Weapons</DisplayName>
+			  <Name>MexpexWarfareIndustries</Name>
+	  <ItemIds>
+		<!-- Turret Cannons -->
+		<string>LargeMissileTurret/M12Swarm</string>		
+		<string>LargeMissileTurret/M2Destroyer</string>	
+		<string>LargeMissileTurret/M1Torpedo</string>		
+		<string>LargeMissileTurret/M8Launcher</string>	
+		
+	  </ItemIds>
+	</Category>
+	
+
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+			  <DisplayName>DisplayName_Category_ShipWeaponsTools</DisplayName>
+			  <Name>ShipWeaponsTools</Name>
+      <SearchBlocks>false</SearchBlocks>
+      <IsShipCategory>true</IsShipCategory>
+      <IsBlockCategory>false</IsBlockCategory>
+      <ItemIds>
+		<!-- Turret Cannons -->
+		<string>LargeMissileTurret/M12Swarm</string>		
+		<string>LargeMissileTurret/M2Destroyer</string>
+		<string>LargeMissileTurret/M1Torpedo</string>		
+		<string>LargeMissileTurret/M8Launcher</string>		
+      </ItemIds>
+    </Category>
+	
+	
+	<Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+	  <Id>
+		<TypeId>GuiBlockCategoryDefinition</TypeId>
+		<SubtypeId/>
+	  </Id>
+			  <DisplayName>DisplayName_Category_ShipWeapons</DisplayName>
+			  <Name>Weapons</Name>
+	  <ItemIds>
+		<!-- Turret Cannons -->
+		<string>LargeMissileTurret/M12Swarm</string>		
+		<string>LargeMissileTurret/M2Destroyer</string>
+		<string>LargeMissileTurret/M1Torpedo</string>		
+		<string>LargeMissileTurret/M8Launcher</string>		
+	  </ItemIds>  
+	</Category>
+	  
+	
+  </CategoryClasses>
+</Definitions>
