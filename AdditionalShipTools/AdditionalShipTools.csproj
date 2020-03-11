@@ -35,6 +35,11 @@
   <ItemGroup>
     <None Include="Data\CubeBlocks_Grider.sbc" />
     <None Include="Data\CubeBlocks_Welder.sbc" />
+    <None Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="LICENSE Creative Commons.txt" />
+    <Content Include="thumb.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

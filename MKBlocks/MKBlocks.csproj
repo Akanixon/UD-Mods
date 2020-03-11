@@ -99,6 +99,7 @@
     <None Include="Models\Cubes\SBSourceSwitch.mwm" />
     <None Include="Models\Cubes\SourceSwitch.mwm" />
     <None Include="Models\Ingots\ThoriumContainer.mwm" />
+    <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Data\Scripts\PlasmaSparks.sln" />

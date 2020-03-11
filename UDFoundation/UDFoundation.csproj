@@ -58,6 +58,7 @@
     <None Include="Data\QC_Component.sbc" />
     <None Include="Data\VoxelMapStorages_Thorium.sbc" />
     <None Include="Data\VoxelMaterials_Thorium.sbc" />
+    <None Include="README.md" />
     <None Include="VoxelMaps\MediumStoneIronCoreStoneCoverage.vx2" />
     <None Include="VoxelMaps\Thorium.vx2" />
     <None Include="VoxelMaps\ThoriumV2.vx2" />
