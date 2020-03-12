@@ -16,6 +16,7 @@
         <string>LargeJumpDriveMK2</string>
         <string>OxygenTankLargeMK2</string>
         <string>LargeHydrogenTankMK2</string>
+        <string>LargeHydrogenTankSmallMK2</string>
         <string>LargeProductivityModuleMK2</string>
         <string>LargeBlockSmallContainerMK2</string>
         <string>LargeCargoContainerMK2</string>
@@ -38,6 +39,7 @@
         <string>LargeJumpDriveMK3</string>
         <string>OxygenTankLargeMK3</string>
         <string>LargeHydrogenTankMK3</string>
+        <string>LargeHydrogenTankSmallMK3</string>
         <string>LargeProductivityModuleMK3</string>
         <string>LargeBlockSmallContainerMK3</string>
         <string>LargeCargoContainerMK3</string>
@@ -71,6 +73,7 @@
         <string>LargeJumpDriveMK4</string>
         <string>OxygenTankLargeMK4</string>
         <string>LargeHydrogenTankMK4</string>
+        <string>LargeHydrogenTankSmallM42</string>
         <string>LargeProductivityModuleMK4</string>
         <string>LargeBlockSmallContainerMK4</string>
         <string>LargeCargoContainerMK4</string>
@@ -91,6 +94,7 @@
         <string>LargeJumpDriveMK5</string>
         <string>OxygenTankLargeMK5</string>
         <string>LargeHydrogenTankMK5</string>
+        <string>LargeHydrogenTankSmallMK5</string>
         <string>LargeProductivityModuleMK5</string>
         <string>LargeBlockSmallContainerMK5</string>
         <string>LargeCargoContainerMK5</string>
@@ -111,6 +115,7 @@
         <string>LargeJumpDriveMK6</string>
         <string>OxygenTankLargeMK6</string>
         <string>LargeHydrogenTankMK6</string>
+        <string>LargeHydrogenTankSmallMK6</string>
         <string>LargeProductivityModuleMK6</string>
         <string>LargeBlockSmallContainerMK6</string>
         <string>LargeCargoContainerMK6</string>
@@ -131,6 +136,7 @@
         <string>LargeJumpDriveMK7</string>
         <string>OxygenTankLargeMK7</string>
         <string>LargeHydrogenTankMK7</string>
+        <string>LargeHydrogenTankSmallMK6</string>
         <string>LargeProductivityModuleMK7</string>
         <string>LargeBlockSmallContainerMK7</string>
         <string>LargeCargoContainerMK7</string>
@@ -151,6 +157,7 @@
         <string>LargeJumpDriveMK8</string>
         <string>OxygenTankLargeMK8</string>
         <string>LargeHydrogenTankMK8</string>
+        <string>LargeHydrogenTankSmallMK8</string>
         <string>LargeProductivityModuleMK8</string>
         <string>LargeBlockSmallContainerMK8</string>
         <string>LargeCargoContainerMK8</string>
@@ -171,6 +178,7 @@
         <string>LargeJumpDriveMK9</string>
         <string>OxygenTankLargeMK9</string>
         <string>LargeHydrogenTankMK9</string>
+        <string>LargeHydrogenTankSmallMK9</string>
         <string>LargeProductivityModuleMK9</string>
         <string>LargeBlockSmallContainerMK9</string>
         <string>LargeCargoContainerMK9</string>

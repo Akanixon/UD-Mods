@@ -171,6 +171,8 @@
         <Block Type="MyObjectBuilder_OxygenTank" Subtype="OxygenTankSmallMK2" />
         <Block Type="MyObjectBuilder_OxygenTank" Subtype="LargeHydrogenTankMK2" />
         <Block Type="MyObjectBuilder_OxygenTank" Subtype="SmallHydrogenTankMK2" />
+        <Block Type="MyObjectBuilder_OxygenTank" Subtype="LargeHydrogenTankSmallMK2" />
+        <Block Type="MyObjectBuilder_OxygenTank" Subtype="SmallHydrogenTankSmallMK2" />
       </Blocks>
     </BlockVariantGroup>
     <BlockVariantGroup>
@@ -183,6 +185,8 @@
         <Block Type="MyObjectBuilder_OxygenTank" Subtype="OxygenTankSmallMK3" />
         <Block Type="MyObjectBuilder_OxygenTank" Subtype="LargeHydrogenTankMK3" />
         <Block Type="MyObjectBuilder_OxygenTank" Subtype="SmallHydrogenTankMK3" />
+        <Block Type="MyObjectBuilder_OxygenTank" Subtype="LargeHydrogenTankSmallMK3" />
+        <Block Type="MyObjectBuilder_OxygenTank" Subtype="SmallHydrogenTankSmallMK3" />
       </Blocks>
     </BlockVariantGroup>
     <BlockVariantGroup>
@@ -195,6 +199,8 @@
         <Block Type="MyObjectBuilder_OxygenTank" Subtype="OxygenTankSmallMK4" />
         <Block Type="MyObjectBuilder_OxygenTank" Subtype="LargeHydrogenTankMK4" />
         <Block Type="MyObjectBuilder_OxygenTank" Subtype="SmallHydrogenTankMK4" />
+        <Block Type="MyObjectBuilder_OxygenTank" Subtype="LargeHydrogenTankSmallMK4" />
+        <Block Type="MyObjectBuilder_OxygenTank" Subtype="SmallHydrogenTankSmallMK4" />
       </Blocks>
     </BlockVariantGroup>
     <BlockVariantGroup>
@@ -207,6 +213,8 @@
         <Block Type="MyObjectBuilder_OxygenTank" Subtype="OxygenTankSmallMK5" />
         <Block Type="MyObjectBuilder_OxygenTank" Subtype="LargeHydrogenTankMK5" />
         <Block Type="MyObjectBuilder_OxygenTank" Subtype="SmallHydrogenTankMK5" />
+        <Block Type="MyObjectBuilder_OxygenTank" Subtype="LargeHydrogenTankSmallMK5" />
+        <Block Type="MyObjectBuilder_OxygenTank" Subtype="SmallHydrogenTankSmallMK5" />
       </Blocks>
     </BlockVariantGroup>
     <BlockVariantGroup>
@@ -219,6 +227,8 @@
         <Block Type="MyObjectBuilder_OxygenTank" Subtype="OxygenTankSmallMK6" />
         <Block Type="MyObjectBuilder_OxygenTank" Subtype="LargeHydrogenTankMK6" />
         <Block Type="MyObjectBuilder_OxygenTank" Subtype="SmallHydrogenTankMK6" />
+        <Block Type="MyObjectBuilder_OxygenTank" Subtype="LargeHydrogenTankSmallMK6" />
+        <Block Type="MyObjectBuilder_OxygenTank" Subtype="SmallHydrogenTankSmallMK6" />
       </Blocks>
     </BlockVariantGroup>
     <BlockVariantGroup>
@@ -231,6 +241,8 @@
         <Block Type="MyObjectBuilder_OxygenTank" Subtype="OxygenTankSmallMK7" />
         <Block Type="MyObjectBuilder_OxygenTank" Subtype="LargeHydrogenTankMK7" />
         <Block Type="MyObjectBuilder_OxygenTank" Subtype="SmallHydrogenTankMK7" />
+        <Block Type="MyObjectBuilder_OxygenTank" Subtype="LargeHydrogenTankSmallMK7" />
+        <Block Type="MyObjectBuilder_OxygenTank" Subtype="SmallHydrogenTankSmallMK7" />
       </Blocks>
     </BlockVariantGroup>
     <BlockVariantGroup>
@@ -243,6 +255,8 @@
         <Block Type="MyObjectBuilder_OxygenTank" Subtype="OxygenTankSmallMK8" />
         <Block Type="MyObjectBuilder_OxygenTank" Subtype="LargeHydrogenTankMK8" />
         <Block Type="MyObjectBuilder_OxygenTank" Subtype="SmallHydrogenTankMK8" />
+        <Block Type="MyObjectBuilder_OxygenTank" Subtype="LargeHydrogenTankSmallMK8" />
+        <Block Type="MyObjectBuilder_OxygenTank" Subtype="SmallHydrogenTankSmallMK8" />
       </Blocks>
     </BlockVariantGroup>
     <BlockVariantGroup>
@@ -255,6 +269,8 @@
         <Block Type="MyObjectBuilder_OxygenTank" Subtype="OxygenTankSmallMK9" />
         <Block Type="MyObjectBuilder_OxygenTank" Subtype="LargeHydrogenTankMK9" />
         <Block Type="MyObjectBuilder_OxygenTank" Subtype="SmallHydrogenTankMK9" />
+        <Block Type="MyObjectBuilder_OxygenTank" Subtype="LargeHydrogenTankSmallMK9" />
+        <Block Type="MyObjectBuilder_OxygenTank" Subtype="SmallHydrogenTankSmallMK9" />
       </Blocks>
     </BlockVariantGroup>
     <BlockVariantGroup>
