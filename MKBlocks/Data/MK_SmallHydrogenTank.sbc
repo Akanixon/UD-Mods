@@ -7,7 +7,7 @@
         <SubtypeId>LargeHydrogenTankSmallMK2</SubtypeId>
       </Id>
       <DisplayName>Small Hydrogen Tank MK2</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\largeHydrogenTankSmall.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\MK2\largeHydrogenTankSmall_MK2.dds</Icon>
       <Description>Description_HydrogenTank</Description>
       <Public>true</Public>
       <CubeSize>Large</CubeSize>
@@ -73,7 +73,7 @@
         <SubtypeId>LargeHydrogenTankSmallMK3</SubtypeId>
       </Id>
       <DisplayName>Small Hydrogen Tank MK3</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\largeHydrogenTankSmall.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\MK3\largeHydrogenTankSmall_MK3.dds</Icon>
       <Description>Description_HydrogenTank</Description>
       <Public>true</Public>
       <CubeSize>Large</CubeSize>
@@ -139,7 +139,7 @@
         <SubtypeId>LargeHydrogenTankSmallMK4</SubtypeId>
       </Id>
       <DisplayName>Small Hydrogen Tank MK4</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\largeHydrogenTankSmall.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\MK4\largeHydrogenTankSmall_MK4.dds</Icon>
       <Description>Description_HydrogenTank</Description>
       <Public>true</Public>
       <CubeSize>Large</CubeSize>
@@ -205,7 +205,7 @@
         <SubtypeId>LargeHydrogenTankSmallMK5</SubtypeId>
       </Id>
       <DisplayName>Small Hydrogen Tank MK5</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\largeHydrogenTankSmall.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\MK5\largeHydrogenTankSmall_MK5.dds</Icon>
       <Description>Description_HydrogenTank</Description>
       <Public>true</Public>
       <CubeSize>Large</CubeSize>
@@ -271,7 +271,7 @@
         <SubtypeId>LargeHydrogenTankSmallMK6</SubtypeId>
       </Id>
       <DisplayName>Small Hydrogen Tank MK6</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\largeHydrogenTankSmall.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\MK6\largeHydrogenTankSmall_MK6.dds</Icon>
       <Description>Description_HydrogenTank</Description>
       <Public>true</Public>
       <CubeSize>Large</CubeSize>
@@ -337,7 +337,7 @@
         <SubtypeId>LargeHydrogenTankSmallMK7</SubtypeId>
       </Id>
       <DisplayName>Small Hydrogen Tank MK7</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\largeHydrogenTankSmall.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\MK7\largeHydrogenTankSmall_MK7.dds</Icon>
       <Description>Description_HydrogenTank</Description>
       <Public>true</Public>
       <CubeSize>Large</CubeSize>
@@ -403,7 +403,7 @@
         <SubtypeId>LargeHydrogenTankSmallMK8</SubtypeId>
       </Id>
       <DisplayName>Small Hydrogen Tank MK8</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\largeHydrogenTankSmall.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\MK8\largeHydrogenTankSmall_MK8.dds</Icon>
       <Description>Description_HydrogenTank</Description>
       <Public>true</Public>
       <CubeSize>Large</CubeSize>
@@ -469,7 +469,7 @@
         <SubtypeId>LargeHydrogenTankSmallMK9</SubtypeId>
       </Id>
       <DisplayName>Small Hydrogen Tank MK9</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\largeHydrogenTankSmall.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\MK9\largeHydrogenTankSmall_MK9.dds</Icon>
       <Description>Description_HydrogenTank</Description>
       <Public>true</Public>
       <CubeSize>Large</CubeSize>
@@ -535,7 +535,7 @@
         <SubtypeId>SmallHydrogenTankSmallMK2</SubtypeId>
       </Id>
       <DisplayName>Small Hydrogen Tank MK2</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\SmallHydrogenTankSmall.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\MK2\SmallHydrogenTankSmall_MK2.dds</Icon>
       <Description>Description_HydrogenTank</Description>
       <Public>true</Public>
       <CubeSize>Small</CubeSize>
@@ -601,7 +601,7 @@
         <SubtypeId>SmallHydrogenTankSmallMK3</SubtypeId>
       </Id>
       <DisplayName>Small Hydrogen Tank MK3</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\SmallHydrogenTankSmall.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\MK3\SmallHydrogenTankSmall_MK3.dds</Icon>
       <Description>Description_HydrogenTank</Description>
       <Public>true</Public>
       <CubeSize>Small</CubeSize>
@@ -667,7 +667,7 @@
         <SubtypeId>SmallHydrogenTankSmallMK4</SubtypeId>
       </Id>
       <DisplayName>Small Hydrogen Tank MK4</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\SmallHydrogenTankSmall.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\MK4\SmallHydrogenTankSmall_MK4.dds</Icon>
       <Description>Description_HydrogenTank</Description>
       <Public>true</Public>
       <CubeSize>Small</CubeSize>
@@ -733,7 +733,7 @@
         <SubtypeId>SmallHydrogenTankSmallMK5</SubtypeId>
       </Id>
       <DisplayName>Small Hydrogen Tank MK5</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\SmallHydrogenTankSmall.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\MK5\SmallHydrogenTankSmall_MK5.dds</Icon>
       <Description>Description_HydrogenTank</Description>
       <Public>true</Public>
       <CubeSize>Small</CubeSize>
@@ -799,7 +799,7 @@
         <SubtypeId>SmallHydrogenTankSmallMK6</SubtypeId>
       </Id>
       <DisplayName>Small Hydrogen Tank MK6</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\SmallHydrogenTankSmall.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\MK6\SmallHydrogenTankSmall_MK6.dds</Icon>
       <Description>Description_HydrogenTank</Description>
       <Public>true</Public>
       <CubeSize>Small</CubeSize>
@@ -865,7 +865,7 @@
         <SubtypeId>SmallHydrogenTankSmallMK7</SubtypeId>
       </Id>
       <DisplayName>Small Hydrogen Tank MK7</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\SmallHydrogenTankSmall.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\MK7\SmallHydrogenTankSmall_MK7.dds</Icon>
       <Description>Description_HydrogenTank</Description>
       <Public>true</Public>
       <CubeSize>Small</CubeSize>
@@ -931,7 +931,7 @@
         <SubtypeId>SmallHydrogenTankSmallMK8</SubtypeId>
       </Id>
       <DisplayName>Small Hydrogen Tank MK8</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\SmallHydrogenTankSmall.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\MK8\SmallHydrogenTankSmall_MK8.dds</Icon>
       <Description>Description_HydrogenTank</Description>
       <Public>true</Public>
       <CubeSize>Small</CubeSize>
@@ -997,7 +997,7 @@
         <SubtypeId>SmallHydrogenTankSmallMK9</SubtypeId>
       </Id>
       <DisplayName>Small Hydrogen Tank MK9</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\SmallHydrogenTankSmall.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\MK9\SmallHydrogenTankSmall_MK9.dds</Icon>
       <Description>Description_HydrogenTank</Description>
       <Public>true</Public>
       <CubeSize>Small</CubeSize>
