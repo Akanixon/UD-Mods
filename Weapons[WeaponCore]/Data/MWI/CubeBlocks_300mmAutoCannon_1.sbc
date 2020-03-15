@@ -63,21 +63,11 @@
 			</DynamicMode>
 		  </VoxelPlacement>
 		  <BlockPairName>300mmAutoCannon</BlockPairName>
-		  <BlockVariants>
-			<BlockVariant>
-			  <TypeId>LargeMissileTurret</TypeId>
-			  <SubtypeId>300mmAutoCannon_2</SubtypeId>
-			</BlockVariant>
-			<BlockVariant>
-			  <TypeId>LargeMissileTurret</TypeId>
-			  <SubtypeId>300mmAutoCannon_3</SubtypeId>
-			</BlockVariant> 
-		  </BlockVariants>
 		  <MirroringY>Z</MirroringY>
 		  <MirroringZ>Y</MirroringZ>
 		  <EdgeType>Light</EdgeType>
 		  <OverlayTexture>Textures\GUI\Screens\turret_overlay.dds</OverlayTexture>
-		  <WeaponDefinitionId Subtype="AutoCannon_1_300" />
+		  <WeaponDefinitionId Subtype="300mmAutoCannon" />
 		  <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
 		  <DamagedSound>ParticleWeapExpl</DamagedSound>
 		  <DestroyEffect>Explosion_Missile</DestroyEffect>

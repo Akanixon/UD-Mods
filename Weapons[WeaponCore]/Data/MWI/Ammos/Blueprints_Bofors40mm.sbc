@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Blueprints>   
+	  <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Bofors40mm</SubtypeId>
+      </Id>
+      <DisplayName>"40mm" Bofors</DisplayName>
+      <Icon>Textures\GUI\40mmShell.dds</Icon>
+      <Prerequisites>
+        <Item Amount="50" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="6" TypeId="Ingot" SubtypeId="Nickel" />
+        <Item Amount="8" TypeId="Ingot" SubtypeId="Magnesium" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="Bofors40mm" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+    </Blueprint>
+  </Blueprints>
+</Definitions>

@@ -4,7 +4,7 @@
     <Weapon>
       <Id>
         <TypeId>WeaponDefinition</TypeId>
-        <SubtypeId>BFGCannon_M</SubtypeId>
+        <SubtypeId>300mmAutoCannon</SubtypeId>
       </Id>
       <ProjectileAmmoData RateOfFire="1" ShootSoundName="WepShipGatlingShot" ShotsInBurst="1" />
       <ReleaseTimeAfterFire>100</ReleaseTimeAfterFire>
@@ -12,12 +12,10 @@
       <MuzzleFlashLifeSpan>0</MuzzleFlashLifeSpan>
       <NoAmmoSoundName>WepShipGatlingNoAmmo</NoAmmoSoundName>
       <SecondarySoundName>WepShipGatlingRotation</SecondarySoundName>
-      <ReloadTime>40000</ReloadTime>
+	  <ReloadTime>0</ReloadTime>
       <AmmoMagazines>
-	  
-        <AmmoMagazine Subtype="EMSlug460mm" />
-		
+        <AmmoMagazine Subtype="300mmShell" />	
       </AmmoMagazines>
-    </Weapon>
+    </Weapon> 
   </Weapons>
 </Definitions>

@@ -1,30 +1,26 @@
 <?xml version="1.0"?>
  <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"> 
    <BlueprintClassEntries>
-   
 	<!-- Fixed Cannons -->
 	
 		<Entry Class="LargeBlocks" BlueprintSubtypeId="LargeMissileTurret/StaticBattery1" />
-		<Entry Class="LargeBlocks" BlueprintSubtypeId="LargeMissileTurret/StaticBattery1Stack" />
-		<Entry Class="LargeBlocks" BlueprintSubtypeId="LargeMissileTurret/StaticBattery2" />
-		<Entry Class="LargeBlocks" BlueprintSubtypeId="LargeMissileTurret/Static150mm" />
-		<Entry Class="SmallBlocks" BlueprintSubtypeId="LargeMissileTurret/Static30mm" />
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="LargeMissileTurret/Side300mmCannon" />
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="LargeMissileTurret/Side900mmCannon" />
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="LargeMissileTurret/LittleDavid" />
+		<Entry Class="SmallBlocks" BlueprintSubtypeId="LargeMissileTurret/LittleDavid" />
 	
 	<!-- Turret Cannons -->
-		<Entry Class="LargeBlocks" BlueprintSubtypeId="LargeMissileTurret/HeavyDefenseTurret" />
-		<Entry Class="LargeBlocks" BlueprintSubtypeId="LargeMissileTurret/BattleshipCannon" />		
-		<Entry Class="LargeBlocks" BlueprintSubtypeId="LargeMissileTurret/BattleshipCannonMK2" />	
-		<Entry Class="LargeBlocks" BlueprintSubtypeId="LargeMissileTurret/BattleshipCannonMK22" />		
-		<Entry Class="LargeBlocks" BlueprintSubtypeId="LargeMissileTurret/BattleshipCannonMK3" />	
-		<Entry Class="LargeBlocks" BlueprintSubtypeId="LargeMissileTurret/BattleshipCannonMK3AP" />	
-		<Entry Class="LargeBlocks" BlueprintSubtypeId="LargeMissileTurret/BFTriCannon" />	
-		<Entry Class="LargeBlocks" BlueprintSubtypeId="LargeMissileTurret/BFG_M" />	
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="LargeMissileTurret/300mmAutoCannon_1" />
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="LargeMissileTurret/300mmAutoCannon_2" />
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="LargeMissileTurret/300mmAutoCannon_3" />
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="LargeMissileTurret/900mmAutoCannon_3" />
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="LargeMissileTurret/Railgun" />
 	
 	<!-- Defense Turrets -->
-		<Entry Class="LargeBlocks" BlueprintSubtypeId="LargeMissileTurret/TelionAMACM" />
-		<Entry Class="LargeBlocks" BlueprintSubtypeId="LargeMissileTurret/TelionAFGen2" />
-		<Entry Class="LargeBlocks" BlueprintSubtypeId="LargeMissileTurret/TelionAF" />
-		<Entry Class="SmallBlocks" BlueprintSubtypeId="LargeMissileTurret/TelionAF" />
-		
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="LargeGatlingTurret/LargeAden" />
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="LargeGatlingTurret/LargeVulcan" />
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="LargeGatlingTurret/PDC" />
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="LargeMissileTurret/Bofors" />
+		<Entry Class="SmallBlocks" BlueprintSubtypeId="LargeGatlingTurret/SmallAF" />		
   </BlueprintClassEntries>
 </Definitions>

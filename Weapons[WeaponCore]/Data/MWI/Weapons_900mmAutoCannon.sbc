@@ -4,7 +4,7 @@
     <Weapon>
       <Id>
         <TypeId>WeaponDefinition</TypeId>
-        <SubtypeId>Heavy_Defense</SubtypeId>
+        <SubtypeId>900mmAutoCannon</SubtypeId>
       </Id>
       <ProjectileAmmoData RateOfFire="1" ShootSoundName="WepShipGatlingShot" ShotsInBurst="1" />
       <ReleaseTimeAfterFire>100</ReleaseTimeAfterFire>
@@ -14,10 +14,8 @@
       <SecondarySoundName>WepShipGatlingRotation</SecondarySoundName>
 	  <ReloadTime>0</ReloadTime>
       <AmmoMagazines>
-	  
-        <AmmoMagazine Subtype="HEShell240mm" />
-		
+        <AmmoMagazine Subtype="900mmShell" />	
       </AmmoMagazines>
-    </Weapon>
+    </Weapon> 
   </Weapons>
 </Definitions>

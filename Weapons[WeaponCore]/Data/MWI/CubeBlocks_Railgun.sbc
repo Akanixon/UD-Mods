@@ -66,7 +66,7 @@
 		  <MirroringZ>Y</MirroringZ>
 		  <EdgeType>Light</EdgeType>
 		  <OverlayTexture>Textures\GUI\Screens\turret_overlay.dds</OverlayTexture>
-		  <WeaponDefinitionId Subtype="BFGCannon_M" />
+		  <WeaponDefinitionId Subtype="Railgun" />
 		  <DamageEffectName>Damage_GravGen_Damaged</DamageEffectName>
 		  <DamagedSound>ParticleElectrical</DamagedSound>
 		  <DestroyEffect>Explosion_Warhead_15</DestroyEffect>

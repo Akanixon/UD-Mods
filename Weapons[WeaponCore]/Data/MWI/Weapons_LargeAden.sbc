@@ -4,7 +4,7 @@
     <Weapon>
       <Id>
         <TypeId>WeaponDefinition</TypeId>
-        <SubtypeId>7x7_TriBarrel_460</SubtypeId>
+        <SubtypeId>LargeAden</SubtypeId>
       </Id>
       <ProjectileAmmoData RateOfFire="1" ShootSoundName="WepShipGatlingShot" ShotsInBurst="1" />
       <ReleaseTimeAfterFire>100</ReleaseTimeAfterFire>
@@ -12,13 +12,10 @@
       <MuzzleFlashLifeSpan>0</MuzzleFlashLifeSpan>
       <NoAmmoSoundName>WepShipGatlingNoAmmo</NoAmmoSoundName>
       <SecondarySoundName>WepShipGatlingRotation</SecondarySoundName>
-      <ReloadTime>16000</ReloadTime>
+	  <ReloadTime>0</ReloadTime>
       <AmmoMagazines>
-	  
-        <AmmoMagazine Subtype="HEShell460mm" />
-		
+        <AmmoMagazine Subtype="Aden30x113" />
       </AmmoMagazines>
     </Weapon>
   </Weapons>
 </Definitions>
-

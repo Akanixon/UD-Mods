@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Blueprints>   
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>900mmShell</SubtypeId>
+      </Id>
+      <DisplayName>"900mm" Shell</DisplayName>
+      <Icon>Textures\GUI\900mmShell_HE.dds</Icon>
+      <Prerequisites>
+        <Item Amount="400" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="100" TypeId="Ingot" SubtypeId="Magnesium" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="900mmShell" />
+      <BaseProductionTimeInSeconds>20</BaseProductionTimeInSeconds>
+    </Blueprint>
+  </Blueprints>
+</Definitions>

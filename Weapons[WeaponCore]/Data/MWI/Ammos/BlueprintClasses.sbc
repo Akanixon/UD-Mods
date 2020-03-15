@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+ <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"> 
+   <BlueprintClassEntries>
+
+	<Entry Class="Components" BlueprintSubtypeId="300mmShell_HE" />	
+	<Entry Class="Ammo" BlueprintSubtypeId="300mmShell_HE" />
+
+	<Entry Class="Components" BlueprintSubtypeId="900mmShell_HE" />	
+	<Entry Class="Ammo" BlueprintSubtypeId="900mmShell_HE" />
+
+	<Entry Class="Components" BlueprintSubtypeId="Vulcan20x102" />	
+	<Entry Class="Ammo" BlueprintSubtypeId="Vulcan20x102" />
+
+	<Entry Class="Components" BlueprintSubtypeId="Bofors40mm" />	
+	<Entry Class="Ammo" BlueprintSubtypeId="Bofors40mm" />
+
+	<Entry Class="Components" BlueprintSubtypeId="Aden30x113" />	
+	<Entry Class="Ammo" BlueprintSubtypeId="Aden30x113" />
+
+	<Entry Class="Components" BlueprintSubtypeId="LittleDavid" />	
+	<Entry Class="Ammo" BlueprintSubtypeId="LittleDavid" />
+
+	<Entry Class="Components" BlueprintSubtypeId="BigBertha" />	
+	<Entry Class="Ammo" BlueprintSubtypeId="BigBertha" />
+
+  </BlueprintClassEntries>
+</Definitions>

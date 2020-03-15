@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AmmoMagazines>
+    <AmmoMagazine>
+          <Id>
+            <TypeId>AmmoMagazine</TypeId>
+            <SubtypeId>300mmShell_HE</SubtypeId>
+          </Id>
+          <DisplayName>"300mm" Shell HE</DisplayName>
+          <Icon>Textures\GUI\300mmShell_HE.dds</Icon>
+          <IsExplosive>true</IsExplosive>
+          <Size>
+            <X>0.25</X>
+            <Y>0.2</Y>
+            <Z>0.2</Z>
+          </Size>
+          <Mass>35</Mass>
+          <Volume>25</Volume>
+          <Model>Models\Weapons\300mmShell.mwm</Model>
+          <PhysicalMaterial>Ammo</PhysicalMaterial>
+          <Capacity>3</Capacity>
+          <AmmoDefinitionId Subtype="Blank" />
+    </AmmoMagazine>
+  </AmmoMagazines>
+</Definitions>

@@ -4,8 +4,8 @@
     <Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
 		
 		  <Id>
-			<TypeId>LargeMissileTurret</TypeId>
-			<SubtypeId>TelionAFGen2</SubtypeId>
+			<TypeId>LargeGatlingTurret</TypeId>
+			<SubtypeId>PDC</SubtypeId>
 		  </Id>
 		  <DisplayName>Telion Anti-Fighter Turret</DisplayName>
 		  <Icon>textures\GUI\Icons\TelionSphereAF_Icon.dds</Icon>
@@ -55,7 +55,7 @@
 		  <MirroringZ>Y</MirroringZ>
 		  <EdgeType>Light</EdgeType>
 		  <OverlayTexture>Textures\GUI\Screens\turret_overlay.dds</OverlayTexture>
-		  <WeaponDefinitionId Subtype="TelionAF_P_Gen2" />
+		  <WeaponDefinitionId Subtype="PDC" />
 		  <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
 		  <DamagedSound>ParticleWeapExpl</DamagedSound>
 		  <DestroyEffect>Explosion_Missile</DestroyEffect>

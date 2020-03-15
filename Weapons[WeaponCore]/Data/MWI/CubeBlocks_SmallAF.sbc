@@ -5,9 +5,9 @@
 		
 		  <Id>
 			<TypeId>LargeMissileTurret</TypeId>
-			<SubtypeId>TelionAF_small</SubtypeId>
+			<SubtypeId>SmallAF</SubtypeId>
 		  </Id>
-		  <DisplayName>Telion Flak Turret</DisplayName>
+		  <DisplayName>SmallAF</DisplayName>
 		  <Icon>textures\GUI\Icons\TelionAF_Icon.dds</Icon>
 		  <Description>Telion Flak Turrets are configurable automated turrets that target anything hostile within its range.
 			
@@ -54,7 +54,7 @@
 		  <MirroringZ>Y</MirroringZ>
 		  <EdgeType>Light</EdgeType>
 		  <OverlayTexture>Textures\GUI\Screens\turret_overlay.dds</OverlayTexture>
-		  <WeaponDefinitionId Subtype="Telion_Flak_Small" />
+		  <WeaponDefinitionId Subtype="SmallAF" />
 		  <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
 		  <DamagedSound>ParticleWeapExpl</DamagedSound>
 		  <DestroyEffect>Explosion_Missile</DestroyEffect>

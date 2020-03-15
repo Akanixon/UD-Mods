@@ -5,7 +5,7 @@
     <Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
 		
 		  <Id>
-			<TypeId>LargeMissileTurret</TypeId>
+			<TypeId>LargeGatlingTurret</TypeId>
 			<SubtypeId>LargeAden</SubtypeId>
 		  </Id>
 		  <DisplayName>"30mm" Aden</DisplayName>

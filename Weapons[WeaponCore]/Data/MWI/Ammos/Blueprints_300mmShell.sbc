@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Blueprints>   
+
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>300mmShell</SubtypeId>
+      </Id>
+      <DisplayName>"300mm" Shell</DisplayName>
+      <Icon>Textures\GUI\300mmShell_HE.dds</Icon>
+      <Prerequisites>
+        <Item Amount="200" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="50" TypeId="Ingot" SubtypeId="Magnesium" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="300mmShell" />
+      <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+    </Blueprint>
+  </Blueprints>
+</Definitions>

@@ -69,7 +69,7 @@
 		  <MirroringZ>Y</MirroringZ>
 		  <Center x="0" y="0" z="3" />
 		  <EdgeType>Light</EdgeType>
-		  <WeaponDefinitionId Subtype="MK1_Battery" />
+		  <WeaponDefinitionId Subtype="LittleDavid" />
 		  <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
 		  <DamagedSound>ParticleWeapExpl</DamagedSound>
 		  <DestroyEffect>Explosion_Warhead_02</DestroyEffect>

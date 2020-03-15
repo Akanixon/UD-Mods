@@ -1,23 +1,22 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <AmmoMagazines>
-	<AmmoMagazine>
+    <AmmoMagazine>
       <Id>
         <TypeId>AmmoMagazine</TypeId>
-        <SubtypeId>HEShell355mm</SubtypeId>
+        <SubtypeId>Aden30x113</SubtypeId>
       </Id>
-      <DisplayName>355mm HE Shell Stack</DisplayName>
-      <Icon>Textures\icon\150mmAmmo_icon.dds</Icon>
+      <DisplayName>"30x113" Aden</DisplayName>
+      <Icon>Textures\GUI\AdenAmmo30x113.dds</Icon>
       <Size>
         <X>0.25</X>
         <Y>0.2</Y>
         <Z>0.2</Z>
       </Size>
-	  <!--  <Mass>45</Mass>
-      <Volume>60</Volume> Baseline 200mm Missile-->
-      <Mass>79.875</Mass> <!-- 79.875 per shell -->
-      <Volume>106.5</Volume> <!-- 106.5 per shell -->
-      <Model>Models\Ammo\150mmAmmo.mwm</Model>
+      <Mass>125</Mass>
+      <Volume>50</Volume>
+      <Model>Models\Weapons\Ammo_Box_30x113.mwm</Model>
+      <PhysicalMaterial>Ammo</PhysicalMaterial>
       <Capacity>1</Capacity>
       <AmmoDefinitionId Subtype="Blank" />
     </AmmoMagazine>

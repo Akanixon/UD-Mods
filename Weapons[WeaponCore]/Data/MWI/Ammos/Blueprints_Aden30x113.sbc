@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Blueprints>   
+	  <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Aden30x113</SubtypeId>
+      </Id>
+      <DisplayName>"30x113" Aden</DisplayName>
+      <Icon>Textures\GUI\AdenAmmo30x113.dds</Icon>
+      <Prerequisites>
+        <Item Amount="40" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="4" TypeId="Ingot" SubtypeId="Nickel" />
+        <Item Amount="5" TypeId="Ingot" SubtypeId="Magnesium" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="Aden30x113" />
+      <BaseProductionTimeInSeconds>8</BaseProductionTimeInSeconds>
+    </Blueprint>
+  </Blueprints>
+</Definitions>

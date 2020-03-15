@@ -5,7 +5,7 @@
 	<Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
 		
 		  <Id>
-			<TypeId>LargeMissileTurret</TypeId>
+			<TypeId>LargeGatlingTurret</TypeId>
 			<SubtypeId>LargeVulcan</SubtypeId>
 		  </Id>
 		  <DisplayName>"M61" Vulcan</DisplayName>

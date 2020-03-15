@@ -57,7 +57,7 @@ The main target for these are large grids. Large grid only.</Description>
 		  <MirroringZ>YThenOffsetX</MirroringZ>
 		  <Center x="0" y="0" z="5" />
 		  <EdgeType>Light</EdgeType>
-		  <WeaponDefinitionId Subtype="Side300Cannon" />
+		  <WeaponDefinitionId Subtype="300mmAutoCannon" />
 		  <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
 		  <DamagedSound>ParticleWeapExpl</DamagedSound>
 		  <DestroyEffect>Explosion_Warhead_15</DestroyEffect>

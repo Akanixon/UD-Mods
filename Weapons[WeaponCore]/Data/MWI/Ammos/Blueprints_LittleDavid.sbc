@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Blueprints>   
+	  <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>LittleDavid</SubtypeId>
+      </Id>
+      <DisplayName>Little David Shell</DisplayName>
+      <Icon>Textures\GUI\Little_DavidShell.dds</Icon>
+      <Prerequisites>
+        <Item Amount="700" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="255" TypeId="Ingot" SubtypeId="Magnesium" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="LittleDavid" />
+      <BaseProductionTimeInSeconds>20</BaseProductionTimeInSeconds>
+    </Blueprint>
+  </Blueprints>
+</Definitions>

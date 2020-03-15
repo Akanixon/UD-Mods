@@ -73,7 +73,7 @@
 		  <MirroringZ>YThenOffsetX</MirroringZ>
 		  <Center x="0" y="0" z="5" />
 		  <EdgeType>Light</EdgeType>
-		  <WeaponDefinitionId Subtype="Side900Cannon" />
+		  <WeaponDefinitionId Subtype="900mmAutoCannon" />
 		  <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
 		  <DamagedSound>ParticleWeapExpl</DamagedSound>
 		  <DestroyEffect>Explosion_Warhead_02</DestroyEffect>
