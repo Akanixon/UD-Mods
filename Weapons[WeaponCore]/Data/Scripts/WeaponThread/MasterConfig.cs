@@ -9,12 +9,22 @@
             // Enable your config files using the follow syntax, don't include the ".cs" extension:
             // ConfigFiles(Your1stConfigFile, Your2ndConfigFile, Your3rdConfigFile);
 
-            ConfigFiles(
-                        M12Swarm,
-                        M2Destroyer,
-                        M1Torpedo,
-                        M8Launcher
-                        ); //SmallGatlingGun LargeGatlingTurret
+            ConfigFiles (
+                            HeavyDefenseTurret,
+                            CoilCannon,
+                            BattleshipCannon,
+                            BattleshipCannonMK2,
+                            BattleshipCannonMK3,
+                            Static88mm,
+                            Static150mm,
+                            TelionAFGen1,
+                            TelionAFGen2,
+                            TelionAMACM,
+                            BFTriCannon,
+                            TelionOctaBattery,
+                            TelionDualBattery
+
+                            );//XB1BeamBattery, XB3BeamBattery, BattleshipCannon
         }
     }
 }

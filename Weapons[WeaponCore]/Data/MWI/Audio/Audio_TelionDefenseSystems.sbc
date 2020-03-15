@@ -1,0 +1,218 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Sounds>
+  
+	<!-- If two sounds with the same ID have PreventSynchronization >= 0 and the time between the two sounds starting (in frames) is less than PreventSynchronization it won't play one of them -->
+
+	<!-- Telion Anti-Missile REGION START -->
+  
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>ArcTelionAntiMissile</SubtypeId>
+      </Id>
+      <Category>SHOT</Category>
+      <MaxDistance>150</MaxDistance>
+      <!-- <VolumeVariation>0.1</VolumeVariation> -->
+	  <Pitch>1</Pitch>
+      <PitchVariation>2</PitchVariation>
+      <PreventSynchronization>1</PreventSynchronization>
+      <DynamicMusicCategory>HeavyFight</DynamicMusicCategory>
+      <DynamicMusicAmount>3</DynamicMusicAmount>
+      <DistantSounds>
+        <DistantSound DistanceCrossfade="20" Distance="100" Sound="TelionAntiMissileDistant" />
+      </DistantSounds>
+      <Volume>0.075</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\MWI\ARC\TelionAntiMissile.xwm</Start>
+        </Wave> 
+      </Waves>
+    </Sound>
+	
+	
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>ArcTelionAntiMissileDistant</SubtypeId>
+      </Id>
+      <Category>SHOT</Category>
+      <MaxDistance>800</MaxDistance>
+	  <!-- <VolumeVariation>0.1</VolumeVariation> -->
+	  <Pitch>2</Pitch>
+      <PitchVariation>3</PitchVariation>
+      <Volume>0.025</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\MWI\ARC\TelionAntiMissile.xwm</Start>
+        </Wave>
+       
+      </Waves>
+    </Sound>
+	
+	<Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>RealTelionAntiMissile</SubtypeId>
+      </Id>
+      <Category>SHOT_R</Category>
+      <MaxDistance>25</MaxDistance>
+	  <VolumeVariation>3</VolumeVariation>
+	  <Pitch>1</Pitch>
+      <PitchVariation>40</PitchVariation>
+      <PreventSynchronization>1</PreventSynchronization>
+      <DynamicMusicCategory>HeavyFight</DynamicMusicCategory>
+      <DynamicMusicAmount>3</DynamicMusicAmount>
+      <RealisticFilter>realShipFilter</RealisticFilter>
+      <RealisticVolumeChange>0.1</RealisticVolumeChange>
+      <Volume>0.3</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\MWI\REAL\TelionAntiMissile.xwm</Start>
+        </Wave> 
+      </Waves>
+    </Sound>
+
+	<!-- Telion Anti-Missile REGION END -->
+	
+	<!-- Telion Flak REGION START -->
+	
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>ArcTelionAntiFighter</SubtypeId>
+      </Id>
+      <Category>SHOT</Category>
+      <MaxDistance>250</MaxDistance>
+	  <!-- <VolumeVariation>0.1</VolumeVariation> -->
+	  <!-- <Pitch>0</Pitch> -->
+      <!-- <PitchVariation>40</PitchVariation> -->
+      <PreventSynchronization>0</PreventSynchronization>
+      <DynamicMusicCategory>HeavyFight</DynamicMusicCategory>
+      <DynamicMusicAmount>3</DynamicMusicAmount>
+      <DistantSounds>
+        <DistantSound DistanceCrossfade="20" Distance="240" Sound="TelionAntiFighterDistant1" />
+      </DistantSounds>
+      <Volume>0.45</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\MWI\ARC\TelionAF.xwm</Start>
+        </Wave> 
+      </Waves>
+    </Sound>
+	
+	
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>ArcTelionAntiFighterDistant1</SubtypeId>
+      </Id>
+      <Category>SHOT</Category>
+      <MaxDistance>800</MaxDistance>
+	  <!-- <VolumeVariation>0.1</VolumeVariation> -->
+	  <!-- <Pitch>0</Pitch> -->
+      <Volume>0.15</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\MWI\ARC\TelionAF.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+	
+	<Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>RealTelionAntiFighter</SubtypeId>
+      </Id>
+      <Category>SHOT_R</Category>
+      <MaxDistance>75</MaxDistance>
+	  <VolumeVariation>3</VolumeVariation>
+	  <!-- <Pitch>0</Pitch> -->
+      <PitchVariation>40</PitchVariation>
+      <PreventSynchronization>3</PreventSynchronization>
+      <DynamicMusicCategory>HeavyFight</DynamicMusicCategory>
+      <DynamicMusicAmount>3</DynamicMusicAmount>
+      <RealisticFilter>realShipFilter</RealisticFilter>
+      <RealisticVolumeChange>0.25</RealisticVolumeChange>
+      <Volume>0.45</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\MWI\REAL\TelionAF.xwm</Start>
+        </Wave> 
+      </Waves>
+    </Sound>
+	
+	<!-- Telion Flak REGION END -->
+	
+	<!-- Telion Anti-Fighter REGION START -->
+	
+	<Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>ArcTelionAntiFighter2</SubtypeId>
+      </Id>
+      <Category>SHOT</Category>
+      <MaxDistance>250</MaxDistance>
+	  <VolumeVariation>0.15</VolumeVariation>
+	  <Pitch>6</Pitch>
+      <PitchVariation>6</PitchVariation>
+      <PreventSynchronization>0</PreventSynchronization>
+      <DynamicMusicCategory>HeavyFight</DynamicMusicCategory>
+      <DynamicMusicAmount>3</DynamicMusicAmount>
+      <DistantSounds>
+        <DistantSound DistanceCrossfade="20" Distance="240" Sound="TelionAntiFighter2Distant1" />
+      </DistantSounds>
+      <Volume>0.5</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\MWI\ARC\TelionAF.xwm</Start>
+        </Wave> 
+      </Waves>
+    </Sound>
+	
+	
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>ArcTelionAntiFighter2Distant1</SubtypeId>
+      </Id>
+      <Category>SHOT</Category>
+      <MaxDistance>800</MaxDistance>
+	  <VolumeVariation>0.20</VolumeVariation>
+	  <Pitch>6</Pitch>
+      <PitchVariation>4</PitchVariation>
+      <Volume>0.2</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\MWI\ARC\TelionAF.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+	<Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>RealTelionAntiFighter2</SubtypeId>
+      </Id>
+      <Category>SHOT_R</Category>
+      <MaxDistance>75</MaxDistance>
+	  <VolumeVariation>3</VolumeVariation>
+	  <Pitch>6</Pitch>
+      <PitchVariation>40</PitchVariation>
+      <PreventSynchronization>3</PreventSynchronization>
+      <DynamicMusicCategory>HeavyFight</DynamicMusicCategory>
+      <DynamicMusicAmount>3</DynamicMusicAmount>
+      <RealisticFilter>realShipFilter</RealisticFilter>
+      <RealisticVolumeChange>0.3</RealisticVolumeChange>
+      <Volume>0.5</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\MWI\REAL\TelionAF.xwm</Start>
+        </Wave> 
+      </Waves>
+    </Sound>
+	
+	<!-- Telion Anti-Fighter REGION END -->
+	
+  </Sounds>
+</Definitions>

@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+    <Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+		
+		  <Id>
+			<TypeId>LargeMissileTurret</TypeId>
+			<SubtypeId>TelionAF_small</SubtypeId>
+		  </Id>
+		  <DisplayName>Telion Flak Turret</DisplayName>
+		  <Icon>textures\GUI\Icons\TelionAF_Icon.dds</Icon>
+		  <Description>Telion Flak Turrets are configurable automated turrets that target anything hostile within its range.
+			
+			Requires 40mm Flak Shell Stacks. Can be controlled manually from a cockpit. Use conveyors to allow automatic reloading.
+			</Description>
+		  <CubeSize>Small</CubeSize>
+		  <Public>false</Public>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="5" y="5" z="5" />
+		  <Center x="2" y="0" z="2" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Cubes\large\AFBase_small.mwm</Model>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  
+		  
+			<!-- SURVIVAL BALANCE-->
+		  <BuildTimeSeconds>90</BuildTimeSeconds>
+		  <InventoryMaxVolume>0.768</InventoryMaxVolume> <!-- Holds 4 Mags on 1x -->
+		  <Components>
+			<Component Subtype="SteelPlate" Count="40" />
+			<Component Subtype="Construction" Count="35" />
+			<Component Subtype="LargeTube" Count="12" />
+			<Component Subtype="Motor" Count="15" />
+			<Component Subtype="Computer" Count="8" />
+			<Component Subtype="Construction" Count="12" />
+			<Component Subtype="SteelPlate" Count="30" />
+		  </Components>
+		  <CriticalComponent Subtype="Computer" Index="0" />
+			<!-- SURVIVAL BALANCE-->
+		  
+		  
+		  <MountPoints>
+			<MountPoint Side="Bottom" StartX="0" StartY="0" EndX="5" EndY="5" />
+		  </MountPoints>
+		  <BuildProgressModels>
+			<Model BuildPercentUpperBound="0.2" File="Models\Cubes\Large\TeliosCon1.mwm" />
+			<Model BuildPercentUpperBound="0.4" File="Models\Cubes\Large\TeliosCon2.mwm" />
+			<Model BuildPercentUpperBound="0.6" File="Models\Cubes\Large\TeliosCon3.mwm" />
+			<Model BuildPercentUpperBound="0.8" File="Models\Cubes\Large\TeliosCon4.mwm" />
+			<Model BuildPercentUpperBound="1.0" File="Models\Cubes\Large\TeliosCon6.mwm" />
+		  </BuildProgressModels>
+		  <BlockPairName>TelionAF</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <OverlayTexture>Textures\GUI\Screens\turret_overlay.dds</OverlayTexture>
+		  <WeaponDefinitionId Subtype="Telion_Flak_Small" />
+		  <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleWeapExpl</DamagedSound>
+		  <DestroyEffect>Explosion_Missile</DestroyEffect>
+		  <DestroySound>WepSmallMissileExpl</DestroySound>
+		  <ResourceSinkGroup>Defense</ResourceSinkGroup>
+		  <MinElevationDegrees>-20</MinElevationDegrees>
+		  <MaxElevationDegrees>70</MaxElevationDegrees>
+		  <MinAzimuthDegrees>-180</MinAzimuthDegrees>
+		  <MaxAzimuthDegrees>180</MaxAzimuthDegrees>
+		  <RotationSpeed>0.00035</RotationSpeed>
+		  <ElevationSpeed>0.00008</ElevationSpeed>
+		  <MaxRangeMeters>850</MaxRangeMeters>
+		  <AiEnabled>false</AiEnabled>
+		  <EmissiveColorPreset>Default</EmissiveColorPreset>
+		  <MinFov>0.1</MinFov>
+		  <MaxFov>1.04719755</MaxFov>
+		  
+    </Definition>
+  </CubeBlocks>
+</Definitions>

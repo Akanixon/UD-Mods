@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+
+    <Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+		
+		  <Id>
+			<TypeId>LargeMissileTurret</TypeId>
+			<SubtypeId>900mmAutoCannon_3</SubtypeId>
+		  </Id>
+		  <DisplayName>"3x900mm" Auto Cannon</DisplayName>
+		  <Icon>textures\GUI\Icons\X-3HeavyBattery_icon.dds</Icon>
+		  <Description>Very similar to the 300mm, but with higher range (1600m AI, 17km travel) and higher damage. 
+		  Takes up a lot of space on ships, but really packs a punch.</Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="7" y="5" z="7" />
+		  <Center x="3" y="0" z="3" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Cubes\Gen2_7x7_TriBase.mwm</Model>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  
+		  
+			<!-- SURVIVAL BALANCE-->
+		  <BuildTimeSeconds>180</BuildTimeSeconds>
+		  <InventoryMaxVolume>1.000</InventoryMaxVolume>
+      <Components>
+        <Component Subtype="SteelPlate" Count="1800" />
+        <Component Subtype="Construction" Count="150" />
+        <Component Subtype="LargeTube" Count="72" />
+        <Component Subtype="SuperComputer" Count="75" />
+        <Component Subtype="Motor" Count="130" />
+        <Component Subtype="Computer" Count="144" />
+        <Component Subtype="Construction" Count="75" />
+        <Component Subtype="SteelPlate" Count="1800" />
+      </Components>
+      <CriticalComponent Subtype="SuperComputer" Index="0" />
+	  <PCU>140</PCU>
+			<!-- SURVIVAL BALANCE-->
+		  
+		  
+		  <MountPoints>
+			<MountPoint Side="Bottom" StartX="0" StartY="0" EndX="7" EndY="7" />
+		  </MountPoints>
+		  <BuildProgressModels>
+			<Model BuildPercentUpperBound="0.5" File="Models\Cubes\ConstructionModels\Gen2_7x7_TriBase_con1.mwm" />
+			<Model BuildPercentUpperBound="1.0" File="Models\Cubes\ConstructionModels\Gen2_7x7_TriBase_con2.mwm" />
+		  </BuildProgressModels>
+		  <VoxelPlacement>
+			<!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+			<StaticMode>
+			  <PlacementMode>OutsideVoxel</PlacementMode>
+			  <MaxAllowed>0.2</MaxAllowed>
+			  <MinAllowed>0</MinAllowed>
+			</StaticMode>
+			<DynamicMode>
+			  <PlacementMode>OutsideVoxel</PlacementMode>
+			  <MaxAllowed>0.2</MaxAllowed>
+			  <MinAllowed>0.01</MinAllowed>
+			</DynamicMode>
+		  </VoxelPlacement>
+		  <BlockPairName>X3HB</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <OverlayTexture>Textures\GUI\Screens\turret_overlay.dds</OverlayTexture>
+      <WeaponDefinitionId Subtype="AutoCannon_3_900" />
+		  <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleWeapExpl</DamagedSound>
+		  <DestroyEffect>Explosion_Warhead_15</DestroyEffect>
+		  <DestroySound>WepLrgWarheadExpl</DestroySound>
+		  <ResourceSinkGroup>Defense</ResourceSinkGroup>
+      <MinElevationDegrees>-10</MinElevationDegrees>
+      <MaxElevationDegrees>50</MaxElevationDegrees>
+      <MinAzimuthDegrees>-135</MinAzimuthDegrees>
+      <MaxAzimuthDegrees>135</MaxAzimuthDegrees>
+      <RotationSpeed>0.0004</RotationSpeed>
+      <ElevationSpeed>0.0004</ElevationSpeed>
+		  <MaxRangeMeters>1200</MaxRangeMeters>
+		  <AiEnabled>false</AiEnabled>
+		  <IdleRotation>false</IdleRotation>
+		  <DeformationRatio>0.3</DeformationRatio>
+		  <EmissiveColorPreset>Default</EmissiveColorPreset>
+		  <MinFov>0.1</MinFov>
+		  <MaxFov>1.04719755</MaxFov>
+		  
+    </Definition>
+
+  </CubeBlocks>
+</Definitions>

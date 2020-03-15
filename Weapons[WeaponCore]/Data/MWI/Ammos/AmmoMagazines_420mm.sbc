@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AmmoMagazines>
+  
+	<!-- https://en.wikipedia.org/wiki/42_cm_Gamma_M%C3%B6rser -->  
+	<AmmoMagazine>
+      <Id>
+        <TypeId>AmmoMagazine</TypeId>
+        <SubtypeId>HEShell420mm</SubtypeId>
+      </Id>
+      <DisplayName>420mm HE Shell Stack</DisplayName>
+      <Icon>Textures\icon\150mmAmmo_icon.dds</Icon>
+      <Size>
+        <X>0.25</X>
+        <Y>0.2</Y>
+        <Z>0.2</Z>
+      </Size>
+	  <!--  <Mass>45</Mass>
+      <Volume>60</Volume> Baseline 200mm Missile-->
+      <Mass>189</Mass> <!-- 94.5 per shell -->
+      <Volume>252</Volume> <!-- 126 per shell -->
+      <Model>Models\Ammo\150mmAmmo.mwm</Model>
+      <Capacity>2</Capacity>
+      <AmmoDefinitionId Subtype="Blank" />
+    </AmmoMagazine>
+	
+  </AmmoMagazines>
+</Definitions>

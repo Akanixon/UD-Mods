@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Blueprints> 
+  
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>WolfSlug40mm_Blueprint</SubtypeId>
+      </Id>
+      <DisplayName>40mm Wolfram Slug Belt</DisplayName>
+      <Icon>Textures\GUI\Icons\Telion_30mmAmmo_icon.dds</Icon>
+	  
+      <Prerequisites>
+        <Item Amount="15" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="8" TypeId="Ingot" SubtypeId="Magnesium" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="WolfSlug40mm" />
+      <BaseProductionTimeInSeconds>16</BaseProductionTimeInSeconds>
+	  
+    </Blueprint>
+	
+	
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ABShell40mm_Blueprint</SubtypeId>
+      </Id>
+      <DisplayName>40mm Flak Shell Stack</DisplayName>
+      <Icon>Textures\icon\150mmAmmo_icon.dds</Icon>
+	  
+      <Prerequisites>
+        <Item Amount="40" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="20" TypeId="Ingot" SubtypeId="Magnesium" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="ABShell40mm" />
+      <BaseProductionTimeInSeconds>32</BaseProductionTimeInSeconds>
+	  
+    </Blueprint>
+	
+  </Blueprints>
+</Definitions>

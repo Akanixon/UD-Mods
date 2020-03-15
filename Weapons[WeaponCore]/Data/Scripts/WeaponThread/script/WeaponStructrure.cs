@@ -293,6 +293,14 @@ namespace WeaponThread
                     [ProtoMember(6)] internal ArmorDef Armor;
                     [ProtoMember(7)] internal CustomScalesDef Custom;
                     [ProtoMember(8)] internal ShieldDef Shields;
+                    [ProtoMember(9)] internal FallOffDef FallOff;
+
+                    [ProtoContract]
+                    public struct FallOffDef
+                    {
+                        [ProtoMember(1)] internal float Distance;
+                        [ProtoMember(2)] internal float MinMultipler;
+                    }
 
                     [ProtoContract]
                     public struct GridSizeDef
@@ -438,6 +446,9 @@ namespace WeaponThread
                     [ProtoMember(2)] internal int Fragments;
                     [ProtoMember(3)] internal float ForwardDegrees;
                     [ProtoMember(4)] internal float BackwardDegrees;
+                    [ProtoMember(5)] internal float Degrees;
+                    [ProtoMember(6)] internal bool Reverse;
+                    [ProtoMember(7)] internal bool RandomizeDir;
                 }
 
 
@@ -457,6 +468,8 @@ namespace WeaponThread
                         OffenseField,
                         NavField,
                         DotField,
+                        PushField,
+                        PullField,
                     }
 
                     [ProtoMember(1)] internal double AreaEffectRadius;
@@ -543,7 +556,7 @@ namespace WeaponThread
                     [ProtoMember(10)] internal GuidanceType Guidance;
                     [ProtoMember(11)] internal SmartsDef Smarts;
                     [ProtoMember(12)] internal MinesDef Mines;
-
+                    [ProtoMember(13)] internal float GravityMultiplier;
 
                     [ProtoContract]
                     public struct SmartsDef

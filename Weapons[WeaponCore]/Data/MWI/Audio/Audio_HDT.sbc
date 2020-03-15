@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Sounds>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>ArcHDTCannonShot</SubtypeId>
+      </Id>
+      <Category>SHOT</Category>
+      <MaxDistance>300</MaxDistance>
+	  <VolumeVariation>0.03</VolumeVariation>
+	  <!-- <Pitch>0</Pitch> -->
+      <PitchVariation>5</PitchVariation>
+      <PreventSynchronization>0</PreventSynchronization>
+      <DynamicMusicCategory>HeavyFight</DynamicMusicCategory>
+      <DynamicMusicAmount>3</DynamicMusicAmount>
+      <DistantSounds>
+        <DistantSound DistanceCrossfade="20" Distance="290" Sound="HDTCannonShotDistant1" />
+      </DistantSounds>
+      <Volume>0.8</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\MWI\ARC\HDTCannon_near.xwm</Start>
+        </Wave> 
+      </Waves>
+    </Sound>
+	
+	
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>ArcHDTCannonShotDistant1</SubtypeId>
+      </Id>
+      <Category>SHOT</Category>
+      <MaxDistance>900</MaxDistance>
+	  <VolumeVariation>0.03</VolumeVariation>
+	  <!-- <Pitch>0</Pitch> -->
+      <PitchVariation>5</PitchVariation>
+      <Volume>0.3</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\MWI\ARC\HDTCannon_far.xwm</Start>
+        </Wave>       
+      </Waves>
+    </Sound>
+
+	<Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>RealHDTCannonShot</SubtypeId>
+      </Id>
+      <Category>SHOT_R</Category>
+      <MaxDistance>200</MaxDistance>
+	  <VolumeVariation>3</VolumeVariation>
+	  <!-- <Pitch>0</Pitch> -->
+      <PitchVariation>50</PitchVariation>
+      <PreventSynchronization>2</PreventSynchronization>
+      <DynamicMusicCategory>HeavyFight</DynamicMusicCategory>
+      <DynamicMusicAmount>3</DynamicMusicAmount>
+      <RealisticFilter>realShipFilter</RealisticFilter>
+      <RealisticVolumeChange>0.55</RealisticVolumeChange>
+      <Volume>0.8</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\MWI\REAL\HDTCannon_near.xwm</Start>
+        </Wave> 
+      </Waves>
+    </Sound>
+
+  </Sounds>
+</Definitions>

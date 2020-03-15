@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Sounds>
+
+      <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>ArcStaticCannon</SubtypeId>
+      </Id>
+      <Category>SHOT</Category>
+      <MaxDistance>625</MaxDistance>
+	  <!-- <VolumeVariation>0.1</VolumeVariation> -->
+	  <Pitch>3</Pitch>
+      <PreventSynchronization>0</PreventSynchronization>
+      <DynamicMusicCategory>HeavyFight</DynamicMusicCategory>
+      <DynamicMusicAmount>3</DynamicMusicAmount>
+      <DistantSounds>
+        <DistantSound DistanceCrossfade="50" Distance="600" Sound="StaticCannonDistant1" />
+      </DistantSounds>
+      <Volume>0.7</Volume>
+      <SoundLimit>4</SoundLimit>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\MWI\ARC\X3Cannon_near.xwm</Start>
+        </Wave> 
+      </Waves>
+    </Sound>
+	
+	
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>ArcStaticCannonDistant1</SubtypeId>
+      </Id>
+      <Category>SHOT</Category>
+      <MaxDistance>1600</MaxDistance>
+	  <!-- <VolumeVariation>0.1</VolumeVariation> -->
+	  <Pitch>3</Pitch>
+      <Volume>0.2</Volume>
+      <SoundLimit>4</SoundLimit>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\MWI\ARC\X3Cannon_far.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+	<Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>RealStaticCannon</SubtypeId>
+      </Id>
+      <Category>SHOT_R</Category>
+      <MaxDistance>400</MaxDistance>
+	  <VolumeVariation>3</VolumeVariation>
+	  <Pitch>3</Pitch>
+      <PitchVariation>50</PitchVariation>
+      <PreventSynchronization>2</PreventSynchronization>
+      <DynamicMusicCategory>HeavyFight</DynamicMusicCategory>
+      <DynamicMusicAmount>3</DynamicMusicAmount>
+      <RealisticFilter>realShipFilter</RealisticFilter>
+      <RealisticVolumeChange>0.5</RealisticVolumeChange>
+      <Volume>0.7</Volume>
+      <SoundLimit>4</SoundLimit>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\MWI\REAL\X3Cannon_near.xwm</Start>
+        </Wave> 
+      </Waves>
+    </Sound>
+	
+  </Sounds>
+</Definitions>

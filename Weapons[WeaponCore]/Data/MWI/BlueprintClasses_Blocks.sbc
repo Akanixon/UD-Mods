@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+ <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"> 
+   <BlueprintClassEntries>
+   
+	<!-- Fixed Cannons -->
+	
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="LargeMissileTurret/StaticBattery1" />
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="LargeMissileTurret/StaticBattery1Stack" />
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="LargeMissileTurret/StaticBattery2" />
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="LargeMissileTurret/Static150mm" />
+		<Entry Class="SmallBlocks" BlueprintSubtypeId="LargeMissileTurret/Static30mm" />
+	
+	<!-- Turret Cannons -->
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="LargeMissileTurret/HeavyDefenseTurret" />
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="LargeMissileTurret/BattleshipCannon" />		
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="LargeMissileTurret/BattleshipCannonMK2" />	
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="LargeMissileTurret/BattleshipCannonMK22" />		
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="LargeMissileTurret/BattleshipCannonMK3" />	
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="LargeMissileTurret/BattleshipCannonMK3AP" />	
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="LargeMissileTurret/BFTriCannon" />	
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="LargeMissileTurret/BFG_M" />	
+	
+	<!-- Defense Turrets -->
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="LargeMissileTurret/TelionAMACM" />
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="LargeMissileTurret/TelionAFGen2" />
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="LargeMissileTurret/TelionAF" />
+		<Entry Class="SmallBlocks" BlueprintSubtypeId="LargeMissileTurret/TelionAF" />
+		
+  </BlueprintClassEntries>
+</Definitions>

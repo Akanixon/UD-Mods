@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Sounds>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>SmallExplosion</SubtypeId>
+      </Id>
+      <Category>SHOT</Category>
+      <MaxDistance>625</MaxDistance>
+	  <VolumeVariation>0.02</VolumeVariation>
+	  <!-- <Pitch>0</Pitch> -->
+    <PitchVariation>50</PitchVariation>
+      <PreventSynchronization>0</PreventSynchronization>
+      <DynamicMusicCategory>HeavyFight</DynamicMusicCategory>
+      <DynamicMusicAmount>3</DynamicMusicAmount>
+      <DistantSounds>
+        <DistantSound DistanceCrossfade="50" Distance="200" Sound="SmallExplosionDistant1" />
+      </DistantSounds>
+      <Volume>0.3</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\MWI\hitSounds\hitExplo1.wav</Start>
+        </Wave> 
+      </Waves>
+    </Sound>
+	
+	
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>SmallExplosionDistant1</SubtypeId>
+      </Id>
+      <Category>SHOT</Category>
+      <MaxDistance>2000</MaxDistance>
+	  <VolumeVariation>0.02</VolumeVariation>
+    <PitchVariation>50</PitchVariation>
+	  <!-- <Pitch>0</Pitch> -->
+      <Volume>0.7</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\MWI\hitSounds\hitExplo1_dist.wav</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+	
+
+  </Sounds>
+</Definitions>

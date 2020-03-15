@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Sounds>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>ArcMK2CannonShot</SubtypeId>
+      </Id>
+      <Category>SHOT</Category>
+      <MaxDistance>625</MaxDistance>
+	  <VolumeVariation>0.04</VolumeVariation>
+	  <Pitch>-2</Pitch>
+      <PreventSynchronization>0</PreventSynchronization>
+      <DynamicMusicCategory>HeavyFight</DynamicMusicCategory>
+      <DynamicMusicAmount>3</DynamicMusicAmount>
+      <DistantSounds>
+        <DistantSound DistanceCrossfade="50" Distance="600" Sound="MK2CannonShotDistant1" />
+      </DistantSounds>
+      <Volume>0.75</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\MWI\ARC\MK2Cannon_near.xwm</Start>
+        </Wave> 
+      </Waves>
+    </Sound>
+	
+	
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>ArcMK2CannonShotDistant1</SubtypeId>
+      </Id>
+      <Category>SHOT</Category>
+      <MaxDistance>1600</MaxDistance>
+	  <VolumeVariation>0.04</VolumeVariation>
+	  <Pitch>-2</Pitch>
+      <Volume>0.25</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\MWI\ARC\MK2Cannon_far.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+	<Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>RealMK2CannonShot</SubtypeId>
+      </Id>
+      <Category>SHOT_R</Category>
+      <MaxDistance>400</MaxDistance>
+	  <VolumeVariation>3</VolumeVariation>
+	  <Pitch>-2</Pitch>
+      <PitchVariation>50</PitchVariation>
+      <PreventSynchronization>2</PreventSynchronization>
+      <DynamicMusicCategory>HeavyFight</DynamicMusicCategory>
+      <DynamicMusicAmount>3</DynamicMusicAmount>
+      <RealisticFilter>realShipFilter</RealisticFilter>
+      <RealisticVolumeChange>0.55</RealisticVolumeChange>
+      <Volume>0.75</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\MWI\REAL\MK2Cannon_near.xwm</Start>
+        </Wave> 
+      </Waves>
+    </Sound>
+
+  </Sounds>
+</Definitions>

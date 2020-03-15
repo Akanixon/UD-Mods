@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AmmoMagazines>
+  
+	<!-- https://en.wikipedia.org/wiki/BL_9.2_inch_gun_Mk_IX%E2%80%93X -->
+	<AmmoMagazine>
+      <Id>
+        <TypeId>AmmoMagazine</TypeId>
+        <SubtypeId>HEShell240mm</SubtypeId>
+      </Id>
+      <DisplayName>240mm HE Shell Stack</DisplayName>
+      <Icon>Textures\icon\150mmAmmo_icon.dds</Icon>
+      <Size>
+        <X>0.25</X>
+        <Y>0.2</Y>
+        <Z>0.2</Z>
+      </Size>
+	  <!--  <Mass>45</Mass>
+      <Volume>60</Volume> Baseline 200mm Missile-->
+      <Mass>270</Mass> <!-- 54 per shell -->
+      <Volume>360</Volume> <!-- 72 per shell -->
+      <Model>Models\Ammo\30mmAmmo.mwm</Model>
+      <Capacity>5</Capacity>
+      <AmmoDefinitionId Subtype="Blank" />
+    </AmmoMagazine>
+	
+  </AmmoMagazines>
+</Definitions>

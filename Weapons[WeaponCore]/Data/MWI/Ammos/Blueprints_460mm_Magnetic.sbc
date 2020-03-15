@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Blueprints>   
+
+
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>EMSlug460mm_Blueprint</SubtypeId>
+      </Id>
+      <DisplayName>460mm Magnetic Slug</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\RailShell.dds</Icon>
+	  
+      <Prerequisites>
+        <Item Amount="1500" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="250" TypeId="Ingot" SubtypeId="Magnesium" />
+        <Item Amount="60" TypeId="Ingot" SubtypeId="Uranium" />
+        <Item Amount="20" TypeId="Ingot" SubtypeId="Platinum" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="EMSlug460mm" />
+      <BaseProductionTimeInSeconds>115</BaseProductionTimeInSeconds>
+	  
+    </Blueprint>
+	
+	
+  </Blueprints>
+</Definitions>

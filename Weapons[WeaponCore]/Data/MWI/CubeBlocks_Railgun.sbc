@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+
+    <Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+		
+		  <Id>
+			<TypeId>LargeMissileTurret</TypeId>
+			<SubtypeId>BFG_M</SubtypeId>
+		  </Id>
+		  <DisplayName>Magnetic Coil Cannon</DisplayName>
+		  <Icon>textures\GUI\Icons\BFG_Icon.dds</Icon>
+		  <Description>Magnetic Coil Cannons are configurable automated turrets that target anything hostile within its range.
+			
+			Requires 460mm Magnetic Slugs. Can be controlled manually from a cockpit. Use conveyors to allow automatic reloading.
+			</Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="5" y="3" z="5" />
+		  <Center x="2" y="0" z="2" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Cubes\large\BFGBase_M.mwm</Model>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  
+		  
+			<!-- SURVIVAL BALANCE-->
+		  <BuildTimeSeconds>180</BuildTimeSeconds>
+		  <InventoryMaxVolume>0.600</InventoryMaxVolume>  <!-- In Liters, add 3 zero's -->
+		  <Components>
+			<Component Subtype="SteelPlate" Count="4000" />
+			<Component Subtype="Construction" Count="150" />
+			<Component Subtype="LargeTube" Count="150" />
+			<Component Subtype="Motor" Count="100" />
+			<Component Subtype="Superconductor" Count="2000" />
+			<Component Subtype="Computer" Count="70" />
+			<Component Subtype="Construction" Count="75" />f
+			<Component Subtype="SteelPlate" Count="1500" />
+		  </Components>
+		  <CriticalComponent Subtype="Computer" Index="0" />
+		  	<!-- SURVIVAL BALANCE-->		  
+		  
+		  <MountPoints>
+			<MountPoint Side="Bottom" StartX="0" StartY="0" EndX="5" EndY="5" />
+		  </MountPoints>
+		  <BuildProgressModels>
+			<Model BuildPercentUpperBound="0.25" File="Models\Cubes\Large\BFG_Con1.mwm" />
+			<Model BuildPercentUpperBound="0.5" File="Models\CUbes\Large\BFG_Con2.mwm" />
+			<Model BuildPercentUpperBound="0.75" File="Models\Cubes\Large\BFG_Con3.mwm" />
+			<Model BuildPercentUpperBound="1.00" File="Models\CUbes\Large\BFG_Con4.mwm" />
+		  </BuildProgressModels>
+		  <VoxelPlacement>
+			<!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+			<StaticMode>
+			  <PlacementMode>OutsideVoxel</PlacementMode>
+			  <MaxAllowed>0.2</MaxAllowed>
+			  <MinAllowed>0</MinAllowed>
+			</StaticMode>
+			<DynamicMode>
+			  <PlacementMode>OutsideVoxel</PlacementMode>
+			  <MaxAllowed>0.2</MaxAllowed>
+			  <MinAllowed>0.01</MinAllowed>
+			</DynamicMode>
+		  </VoxelPlacement>
+		  <BlockPairName>BFG_M</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <OverlayTexture>Textures\GUI\Screens\turret_overlay.dds</OverlayTexture>
+		  <WeaponDefinitionId Subtype="BFGCannon_M" />
+		  <DamageEffectName>Damage_GravGen_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleElectrical</DamagedSound>
+		  <DestroyEffect>Explosion_Warhead_15</DestroyEffect>
+		  <DestroySound>WepLrgWarheadExpl</DestroySound>
+		  <ResourceSinkGroup>Defense</ResourceSinkGroup>
+		  <MinElevationDegrees>-10</MinElevationDegrees>
+		  <MaxElevationDegrees>40</MaxElevationDegrees>
+		  <MinAzimuthDegrees>-180</MinAzimuthDegrees>
+		  <MaxAzimuthDegrees>180</MaxAzimuthDegrees>
+		  <RotationSpeed>0.00015</RotationSpeed>
+		  <ElevationSpeed>0.00010 </ElevationSpeed>
+		  <MaxRangeMeters>3500</MaxRangeMeters>
+		  <AiEnabled>false</AiEnabled>
+		  <DeformationRatio>0.1</DeformationRatio>
+		  <IdleRotation>false</IdleRotation>
+		  <EmissiveColorPreset>Default</EmissiveColorPreset>
+		  <MinFov>0.1</MinFov>
+		  <MaxFov>1.04719755</MaxFov>
+		  
+    </Definition>
+
+  </CubeBlocks>
+</Definitions>

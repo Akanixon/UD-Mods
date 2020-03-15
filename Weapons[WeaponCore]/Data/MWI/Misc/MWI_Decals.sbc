@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <!-- Documentation: https://sites.google.com/a/keenswh.com/art/home/decals -->
+  <Decals>
+  
+	<Decal>
+      <Id>
+        <TypeId>DecalDefinition</TypeId>
+        <SubtypeId>MissileDirt1</SubtypeId>
+      </Id>
+      <Source>Missilemk3</Source>
+      <Material>
+        <DecalType>NormalColorExtMap</DecalType>
+        <NormalmapTexture>Textures/Decals/MissileDirt_01_ng.dds</NormalmapTexture>
+        <ColorMetalTexture>Textures/Decals/MissileDirt_01_cm.dds</ColorMetalTexture>
+        <AlphamaskTexture>Textures/Decals/MissileDirt_01_alphamask.dds</AlphamaskTexture>
+		<ExtensionsTexture>Textures/Decals/MissileDirt_01_add.dds</ExtensionsTexture>
+      </Material>
+      <MinSize>20</MinSize>
+      <MaxSize>40</MaxSize>
+      <Depth>0.2</Depth>
+    </Decal>
+
+	<Decal>
+      <Id>
+        <TypeId>DecalDefinition</TypeId>
+        <SubtypeId>MissileDirt1</SubtypeId>
+      </Id>
+      <Source>Missilemk1</Source>
+      <Material>
+        <DecalType>NormalColorExtMap</DecalType>
+        <NormalmapTexture>Textures/Decals/MissileDirt_01_ng.dds</NormalmapTexture>
+        <ColorMetalTexture>Textures/Decals/MissileDirt_01_cm.dds</ColorMetalTexture>
+        <AlphamaskTexture>Textures/Decals/MissileDirt_01_alphamask.dds</AlphamaskTexture>
+		<ExtensionsTexture>Textures/Decals/MissileDirt_01_add.dds</ExtensionsTexture>
+      </Material>
+      <MinSize>10</MinSize>
+      <MaxSize>20</MaxSize>
+      <Depth>0.2</Depth>
+    </Decal>
+
+	<Decal>
+      <Id>
+        <TypeId>DecalDefinition</TypeId>
+        <SubtypeId>MissileDirt1</SubtypeId>
+      </Id>
+      <Source>Missile_Battery</Source>
+      <Material>
+        <DecalType>NormalColorExtMap</DecalType>
+        <NormalmapTexture>Textures/Decals/MissileDirt_01_ng.dds</NormalmapTexture>
+        <ColorMetalTexture>Textures/Decals/MissileDirt_01_cm.dds</ColorMetalTexture>
+        <AlphamaskTexture>Textures/Decals/MissileDirt_01_alphamask.dds</AlphamaskTexture>
+		<ExtensionsTexture>Textures/Decals/MissileDirt_01_add.dds</ExtensionsTexture>
+      </Material>
+      <MinSize>5</MinSize>
+      <MaxSize>10</MaxSize>
+      <Depth>0.2</Depth>
+    </Decal>
+
+	<Decal>
+      <Id>
+        <TypeId>DecalDefinition</TypeId>
+        <SubtypeId>MissileDirt1</SubtypeId>
+      </Id>
+      <Source>Missile_Telion1</Source>
+      <Material>
+        <DecalType>NormalColorExtMap</DecalType>
+        <NormalmapTexture>Textures/Decals/MissileDirt_01_ng.dds</NormalmapTexture>
+        <ColorMetalTexture>Textures/Decals/MissileDirt_01_cm.dds</ColorMetalTexture>
+        <AlphamaskTexture>Textures/Decals/MissileDirt_01_alphamask.dds</AlphamaskTexture>
+		<ExtensionsTexture>Textures/Decals/MissileDirt_01_add.dds</ExtensionsTexture>
+      </Material>
+      <MinSize>2</MinSize>
+      <MaxSize>4</MaxSize>
+      <Depth>0.2</Depth>
+    </Decal>
+
+	<Decal>
+      <Id>
+        <TypeId>DecalDefinition</TypeId>
+        <SubtypeId>MissileDirt1</SubtypeId>
+      </Id>
+      <Source>Missile_Telion2</Source>
+      <Material>
+        <DecalType>NormalColorExtMap</DecalType>
+        <NormalmapTexture>Textures/Decals/MissileDirt_01_ng.dds</NormalmapTexture>
+        <ColorMetalTexture>Textures/Decals/MissileDirt_01_cm.dds</ColorMetalTexture>
+        <AlphamaskTexture>Textures/Decals/MissileDirt_01_alphamask.dds</AlphamaskTexture>
+		<ExtensionsTexture>Textures/Decals/MissileDirt_01_add.dds</ExtensionsTexture>
+      </Material>
+      <MinSize>.2</MinSize>
+      <MaxSize>.6</MaxSize>
+      <Depth>0.2</Depth>
+    </Decal>
+	
+	<Decal>
+      <Id>
+        <TypeId>DecalDefinition</TypeId>
+        <SubtypeId>MissileDirt2</SubtypeId>
+      </Id>
+	  <Target>Character</Target>
+      <Source>Missilemk3</Source>
+      <Material>
+        <DecalType>NormalColorExtMap</DecalType>
+        <NormalmapTexture>Textures/Decals/MissileDirt_02_ng.dds</NormalmapTexture>
+        <ColorMetalTexture>Textures/Decals/MissileDirt_02_cm.dds</ColorMetalTexture>
+        <AlphamaskTexture>Textures/Decals/MissileDirt_02_alphamask.dds</AlphamaskTexture>
+		<ExtensionsTexture>Textures/Decals/MissileDirt_02_add.dds</ExtensionsTexture>
+      </Material>
+      <MinSize>1</MinSize>
+      <MaxSize>2</MaxSize>
+      <Depth>0.05</Depth>
+    </Decal>
+
+  </Decals>
+</Definitions>
