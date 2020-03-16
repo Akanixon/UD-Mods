@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+		<Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+			
+			<Id>
+				<TypeId>LargeMissileTurret</TypeId>
+				<SubtypeId>900mmBattery</SubtypeId>
+			</Id>
+			<DisplayName>"900mm" Battery</DisplayName>
+			<Icon>Textures\GUI\Icons\TelionDual_icon.dds</Icon>
+			<Description>Very similar to the 300mm, but with higher range (1600m AI, 17km travel) and higher damage. 
+			Takes up a lot of space on ships, but really packs a punch.</Description>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="2" y="2" z="6" />
+			<ModelOffset x="0" y="0" z="2.5" />
+			<Model>Models\Cubes\Large\TelionDualBattery.mwm</Model>
+			
+
+				<!-- SURVIVAL BALANCE-->
+			<BuildTimeSeconds>140</BuildTimeSeconds>
+			<InventoryMaxVolume>1</InventoryMaxVolume> <!-- Holds 8 Mags on 1x -->
+		<Components>
+			<Component Subtype="SteelPlate" Count="1200" />
+			<Component Subtype="Construction" Count="35" />
+			<Component Subtype="LargeTube" Count="22" />
+			<Component Subtype="Motor" Count="28" />
+			<Component Subtype="SuperComputer" Count="50" />
+			<Component Subtype="Computer" Count="26" />
+			<Component Subtype="Construction" Count="25" />
+			<Component Subtype="SteelPlate" Count="1200" />
+		</Components>
+		<CriticalComponent Subtype="SuperComputer" Index="0" />
+		<PCU>150</PCU>
+				<!-- SURVIVAL BALANCE-->
+				
+			
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0" StartY="2" EndX="2" EndY="6" Default="true" />
+				<MountPoint Side="Back" StartX="0" StartY="0" EndX="2" EndY="1" />
+				<MountPoint Side="Left" StartX="2" StartY="0" EndX="6" EndY="1" />
+				<MountPoint Side="Right" StartX="0" StartY="0" EndX="4" EndY="1" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.2" File="Models\Cubes\Large\TelionDualBattery_con1.mwm" />
+				<Model BuildPercentUpperBound="0.5" File="Models\Cubes\Large\TelionDualBattery_con2.mwm" />
+				<Model BuildPercentUpperBound="0.8" File="Models\Cubes\Large\TelionDualBattery_con3.mwm" />
+				<Model BuildPercentUpperBound="1.0" File="Models\Cubes\Large\TelionDualBattery_con4.mwm" />
+			</BuildProgressModels>
+			<VoxelPlacement>
+				<!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+				<StaticMode>
+				<PlacementMode>OutsideVoxel</PlacementMode>
+				<MaxAllowed>0.2</MaxAllowed>
+				<MinAllowed>0</MinAllowed>
+				</StaticMode>
+				<DynamicMode>
+				<PlacementMode>OutsideVoxel</PlacementMode>
+				<MaxAllowed>0.2</MaxAllowed>
+				<MinAllowed>0.01</MinAllowed>
+				</DynamicMode>
+			</VoxelPlacement>
+			<BlockPairName>900mmBattery</BlockPairName>
+			<MirroringY>ZThenOffsetX</MirroringY>
+			<MirroringZ>YThenOffsetX</MirroringZ>
+			<Center x="0" y="0" z="5" />
+			<EdgeType>Light</EdgeType>
+			<WeaponDefinitionId Subtype="900mmAutoCannon" />
+			<DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+			<DamagedSound>ParticleWeapExpl</DamagedSound>
+			<DestroyEffect>Explosion_Warhead_02</DestroyEffect>
+			<DestroySound>WepSmallWarheadExpl</DestroySound>
+			<ResourceSinkGroup>Defense</ResourceSinkGroup>
+		</Definition>
+	</CubeBlocks>
+</Definitions>

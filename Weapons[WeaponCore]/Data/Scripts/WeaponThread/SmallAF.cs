@@ -11,7 +11,7 @@ namespace WeaponThread
 {   // Don't edit above this line
     partial class Weapons
     {
-        WeaponDefinition BattleshipCannonMK3 => new WeaponDefinition
+        WeaponDefinition SmallAF => new WeaponDefinition
         {
             Assignments = new ModelAssignmentsDef
             {
@@ -19,7 +19,7 @@ namespace WeaponThread
                 {
                     new MountPointDef
                     {
-                        SubtypeId = "BattleshipCannonMK3",
+                        SubtypeId = "SmallAF",
                         AimPartId = "MissileTurretBarrels",
                         MuzzlePartId = "MissileTurretBarrels",
                     },
@@ -31,31 +31,32 @@ namespace WeaponThread
                     "muzzle_missile_001",
                     "muzzle_missile_002",
                     "muzzle_missile_003",
+                    "muzzle_missile_004",
                 },
             },
             Targeting = new TargetingDef
             {
                 Threats = new[]
                 {
-                    Characters, Grids, Other,
+                    Meteors,Projectiles,Grids,Characters, Other,
                 },
                 SubSystems = new[]
                 {
                     Thrust, Utility, Offense, Power, Production, Any,
                 },
                 ClosestFirst = false, // tries to pick closest targets first (blocks on grids, projectiles, etc...).
-                MinimumDiameter = 10, // 0 = unlimited, Minimum radius of threat to engage.
-                MaximumDiameter = 0, // 0 = unlimited, Maximum radius of threat to engage.
+                MinimumDiameter = 1, // 0 = unlimited, Minimum radius of threat to engage.
+                MaximumDiameter = 40, // 0 = unlimited, Maximum radius of threat to engage.
                 TopTargets = 4, // 0 = unlimited, max number of top targets to randomize between.
                 TopBlocks = 4, // 0 = unlimited, max number of blocks to randomize between
                 StopTrackingSpeed = 1000, // do not track target threats traveling faster than this speed
             },
             HardPoint = new HardPointDef
             {
-                WeaponName = "Mark_3", // name of weapon in terminal
-                DeviateShotAngle = 0.8f,
+                WeaponName = "SmallAF", // name of weapon in terminal
+                DeviateShotAngle = 4.5f,
                 AimingTolerance = 4f, // 0 - 180 firing angle
-                AimLeadingPrediction = Advanced, // Off, Basic, Accurate, Advanced
+                AimLeadingPrediction = Accurate, // Off, Basic, Accurate, Advanced
                 DelayCeaseFire = 0, // Measured in game ticks (6 = 100ms, 60 = 1 seconds, etc..).
 
                 Ui = new UiDef
@@ -75,15 +76,15 @@ namespace WeaponThread
                 },
                 HardWare = new HardwareDef
                 {
-                    RotateRate = 0.0012f,
-                    ElevateRate = 0.0014f,
+                    RotateRate = 0.02f,
+                    ElevateRate = 0.0050f,
                     MinAzimuth = -180,
                     MaxAzimuth = 180,
-                    MinElevation = -5,
-                    MaxElevation = 25,
+                    MinElevation = -20,
+                    MaxElevation = 70,
                     FixedOffset = false,
-                    InventorySize = 0.7308f,
-                    Offset = Vector(x: 0, y: 0.35, z: 0),
+                    InventorySize = 2.304f,
+                    Offset = Vector(x: 0, y: 0, z:0),
                 },
                 Other = new OtherDef
                 {
@@ -95,26 +96,26 @@ namespace WeaponThread
                 },
                 Loading = new LoadingDef
                 {
-                    RateOfFire = 60,
+                    RateOfFire = 300,
                     BarrelSpinRate = 0, // visual only, 0 disables and uses RateOfFire
-                    BarrelsPerShot = 3,
+                    BarrelsPerShot = 1,
                     TrajectilesPerBarrel = 1, // Number of Trajectiles per barrel per fire event.
                     SkipBarrels = 0,
-                    ReloadTime = 1200, // Measured in game ticks (6 = 100ms, 60 = 1 seconds, etc..).
+                    ReloadTime = 180, // Measured in game ticks (6 = 100ms, 60 = 1 seconds, etc..).
                     DelayUntilFire = 0, // Measured in game ticks (6 = 100ms, 60 = 1 seconds, etc..).
                     HeatPerShot = 0, //heat generated per shot
                     MaxHeat = 20000, //max heat before weapon enters cooldown (70% of max heat)
                     Cooldown = .999f, //percent of max heat to be under to start firing again after overheat accepts .2-.95
                     HeatSinkRate = 200000, //amount of heat lost per second
                     DegradeRof = false, // progressively lower rate of fire after 80% heat threshold (80% of max heat)
-                    ShotsInBurst = 1,
-                    DelayAfterBurst = 0, // Measured in game ticks (6 = 100ms, 60 = 1 seconds, etc..).
+                    ShotsInBurst = 16,
+                    DelayAfterBurst = 180, // Measured in game ticks (6 = 100ms, 60 = 1 seconds, etc..).
                     FireFullBurst = false,
                 },
                 Audio = new HardPointAudioDef
                 {
                     PreFiringSound = "",
-                    FiringSound = "ArcMK3CannonShot", // WepShipGatlingShot
+                    FiringSound = "ArcTelionAntiFighter", // WepShipGatlingShot
                     FiringSoundPerShot = true,
                     ReloadSound = "",
                     NoAmmoSound = "",
@@ -126,15 +127,15 @@ namespace WeaponThread
                     Barrel1 = new ParticleDef //FIXTHIS
                     {
                         Name = "Muzzle_Flash_Large", // Smoke_LargeGunShot
-                        Color = Color(red: 3, green: 3, blue: 3, alpha: 1),
+                        Color = Color(red: 1, green: 1, blue: 1, alpha: 1),
                         Offset = Vector(x: 0, y: 0, z: 0),
                         Extras = new ParticleOptionDef
                         {
                             Loop = false,
                             Restart = false,
-                            MaxDistance = 500,
-                            MaxDuration = 1,
-                            Scale = 4f,
+                            MaxDistance = 300,
+                            MaxDuration = 6,
+                            Scale = 1f,
                         },
                     },
                     Barrel2 = new ParticleDef //FIXTHIS
@@ -155,7 +156,7 @@ namespace WeaponThread
             },
 
             Ammos = new[] {
-                HEShell406mmAmmo
+                AmmoNATO_102mm
             },
         };
     }

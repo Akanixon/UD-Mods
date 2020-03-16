@@ -6,9 +6,9 @@
 		
 		  <Id>
 			<TypeId>LargeMissileTurret</TypeId>
-			<SubtypeId>BFG_M</SubtypeId>
+			<SubtypeId>Railgun</SubtypeId>
 		  </Id>
-		  <DisplayName>Magnetic Coil Cannon</DisplayName>
+		  <DisplayName>Railgun</DisplayName>
 		  <Icon>textures\GUI\Icons\BFG_Icon.dds</Icon>
 		  <Description>Magnetic Coil Cannons are configurable automated turrets that target anything hostile within its range.
 			

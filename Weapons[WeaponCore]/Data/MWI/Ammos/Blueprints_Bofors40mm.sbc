@@ -7,7 +7,7 @@
         <SubtypeId>Bofors40mm</SubtypeId>
       </Id>
       <DisplayName>"40mm" Bofors</DisplayName>
-      <Icon>Textures\GUI\40mmShell.dds</Icon>
+      <Icon>Textures\GUI\Icons\Telion_30mmAmmo_icon.dds</Icon>
       <Prerequisites>
         <Item Amount="50" TypeId="Ingot" SubtypeId="Iron" />
         <Item Amount="6" TypeId="Ingot" SubtypeId="Nickel" />

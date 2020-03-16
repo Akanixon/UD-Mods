@@ -14,7 +14,7 @@
       <SecondarySoundName>WepShipGatlingRotation</SecondarySoundName>
 	  <ReloadTime>0</ReloadTime>
       <AmmoMagazines>
-        <AmmoMagazine Subtype="FESlug[PLACEHOLDER]" />
+        <AmmoMagazine Subtype="EMSlug460mm" />
       </AmmoMagazines>
     </Weapon>
   </Weapons>

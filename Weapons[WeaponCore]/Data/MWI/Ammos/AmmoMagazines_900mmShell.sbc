@@ -4,9 +4,9 @@
     <AmmoMagazine>
           <Id>
             <TypeId>AmmoMagazine</TypeId>
-            <SubtypeId>900mmShell_HE</SubtypeId>
+            <SubtypeId>900mmShell</SubtypeId>
           </Id>
-          <DisplayName>"900mm" Shell HE</DisplayName>
+          <DisplayName>"900mm" Shell</DisplayName>
           <Icon>Textures\GUI\900mmShell_HE.dds</Icon>
           <IsExplosive>true</IsExplosive>
           <Size>

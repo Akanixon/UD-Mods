@@ -14,7 +14,7 @@
       <SecondarySoundName>WepShipGatlingRotation</SecondarySoundName>
       <ReloadTime>3500</ReloadTime>
       <AmmoMagazines>
-        <AmmoMagazine Subtype="PDC[PLACEHOLDER]" />
+        <AmmoMagazine Subtype="NATO_20x102mm" />
       </AmmoMagazines>
     </Weapon>
   </Weapons>

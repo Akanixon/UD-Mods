@@ -13,10 +13,10 @@ namespace WeaponThread
 { // Don't edit above this line
     partial class Weapons
     {
-        private AmmoDef TelionGatlingAmmo => new AmmoDef
+        private AmmoDef NATO_102mmAmmo => new AmmoDef
         {
             AmmoMagazine = "NATO_20x102mm",
-            AmmoRound = "TelionGatlingAmmo",
+            AmmoRound = "NATO_102mmAmmo",
             HybridRound = false, //AmmoMagazine based weapon with energy cost
             EnergyCost = 0.0000001f, //(((EnergyCost * DefaultDamage) * ShotsPerSecond) * BarrelsPerShot) * ShotsPerBarrel
             BaseDamage = 10f,

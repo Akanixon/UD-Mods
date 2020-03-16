@@ -13,10 +13,10 @@ namespace WeaponThread
 { // Don't edit above this line
     partial class Weapons
     {
-        private AmmoDef ABShell40mmAmmo => new AmmoDef
+        private AmmoDef AmmoBofors40mm => new AmmoDef
         {
-            AmmoMagazine = "ABShell40mm",
-            AmmoRound = "ABShell40mmAmmo",
+            AmmoMagazine = "Bofors40mm",
+            AmmoRound = "AmmoBofors40mm",
             HybridRound = false, //AmmoMagazine based weapon with energy cost
             EnergyCost = 0.00000001f, //(((EnergyCost * DefaultDamage) * ShotsPerSecond) * BarrelsPerShot) * ShotsPerBarrel
             BaseDamage = 400f,

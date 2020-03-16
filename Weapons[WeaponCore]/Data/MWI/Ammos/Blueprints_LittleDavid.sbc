@@ -7,7 +7,7 @@
         <SubtypeId>LittleDavid</SubtypeId>
       </Id>
       <DisplayName>Little David Shell</DisplayName>
-      <Icon>Textures\GUI\Little_DavidShell.dds</Icon>
+      <Icon>Textures\icon\150mmAmmo_icon.dds</Icon>
       <Prerequisites>
         <Item Amount="700" TypeId="Ingot" SubtypeId="Iron" />
         <Item Amount="255" TypeId="Ingot" SubtypeId="Magnesium" />

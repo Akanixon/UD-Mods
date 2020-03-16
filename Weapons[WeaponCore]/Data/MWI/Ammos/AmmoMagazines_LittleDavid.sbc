@@ -7,7 +7,7 @@
         <SubtypeId>LittleDavid</SubtypeId>
       </Id>
       <DisplayName>Little David</DisplayName>
-      <Icon>Textures\GUI\Little_DavidShell.dds</Icon>
+      <Icon>Textures\icon\150mmAmmo_icon.dds</Icon>
       <Size>
         <X>0.25</X>
         <Y>0.2</Y>
@@ -15,7 +15,7 @@
       </Size>
       <Mass>360</Mass>
       <Volume>280</Volume>
-      <Model>Models\Weapons\Little_DavidShell.mwm</Model>
+      <Model>Models\Ammo\150mmAmmo.mwm</Model>
       <PhysicalMaterial>Ammo</PhysicalMaterial>
       <Capacity>1</Capacity>
       <AmmoDefinitionId Subtype="Blank" />

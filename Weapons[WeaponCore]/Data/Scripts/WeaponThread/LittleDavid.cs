@@ -11,7 +11,7 @@ namespace WeaponThread
 {   // Don't edit above this line
     partial class Weapons
     {
-        WeaponDefinition Static150mm => new WeaponDefinition
+        WeaponDefinition LittleDavid => new WeaponDefinition
         {
             Assignments = new ModelAssignmentsDef
             {
@@ -19,7 +19,7 @@ namespace WeaponThread
                 {
                     new MountPointDef
                     {
-                        SubtypeId = "Static150mm",
+                        SubtypeId = "LittleDavid",
                         AimPartId = "MissileTurretBarrels",
                         MuzzlePartId = "None",
                     },
@@ -50,7 +50,7 @@ namespace WeaponThread
             },
             HardPoint = new HardPointDef
             {
-                WeaponName = "Cannon150mm", // name of weapon in terminal
+                WeaponName = "LittleDavid", // name of weapon in terminal
                 DeviateShotAngle = 0.3f,
                 AimingTolerance = 15f, // 0 - 180 firing angle
                 AimLeadingPrediction = Advanced, // Off, Basic, Accurate, Advanced
@@ -153,7 +153,7 @@ namespace WeaponThread
             },
 
             Ammos = new[] {
-                HEShell330mmAmmo
+                LittleDavidAmmo
             },
         };
     }

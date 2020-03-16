@@ -49,7 +49,7 @@
 			<Model BuildPercentUpperBound="0.8" File="Models\Cubes\Large\TeliosCon4.mwm" />
 			<Model BuildPercentUpperBound="1.0" File="Models\Cubes\Large\TeliosCon6.mwm" />
 		  </BuildProgressModels>
-		  <BlockPairName>TelionAF</BlockPairName>
+		  <BlockPairName>SmallAF</BlockPairName>
 		  <MirroringY>Z</MirroringY>
 		  <MirroringZ>Y</MirroringZ>
 		  <EdgeType>Light</EdgeType>

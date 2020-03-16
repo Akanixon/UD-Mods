@@ -1,91 +1,88 @@
 <?xml version="1.0"?>
-<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <CubeBlocks>
-  
-    <Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
-		
-		  <Id>
-			<TypeId>LargeGatlingTurret</TypeId>
-			<SubtypeId>LargeAden</SubtypeId>
-		  </Id>
-		  <DisplayName>"30mm" Aden</DisplayName>
-		  <Icon>textures\GUI\Icons\HDT_Icon.dds</Icon>
-		  <Description>A few Aden turrets make for a good defence against fast fighters due to the good projectile velocity and accuracy.
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+		<Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+			<Id>
+				<TypeId>LargeMissileTurret</TypeId>
+				<SubtypeId>LargeAden</SubtypeId>
+			</Id>
+			<DisplayName>"30mm" Aden</DisplayName>
+			<Icon>textures\GUI\Icons\HDT_Icon.dds</Icon>
+			<Description>A few Aden turrets make for a good defence against fast fighters due to the good projectile velocity and accuracy.
 		  It deals avarage damage and shoots in bursts of 10 shots with a reload of 1.5 seconds.</Description>
-		  <CubeSize>Large</CubeSize>
-		  <BlockTopology>TriangleMesh</BlockTopology>
-		  <Size x="3" y="2" z="3" />
-		  <Center x="1" y="0" z="1" />
-		  <ModelOffset x="0" y="0" z="0" />
-		  <Model>Models\Cubes\large\HDT_Base.mwm</Model>
-		  <UseModelIntersection>true</UseModelIntersection>
-		  
-		  
-			<!-- SURVIVAL BALANCE-->
-      <BuildTimeSeconds>80</BuildTimeSeconds>
-	  <InventoryMaxVolume>0.384</InventoryMaxVolume>
-      <Components>
-        <Component Subtype="SteelPlate" Count="50" />
-        <Component Subtype="Construction" Count="25" />
-        <Component Subtype="MetalGrid" Count="15" />
-        <Component Subtype="SmallTube" Count="2" />
-        <Component Subtype="SuperComputer" Count="8" />
-        <Component Subtype="Motor" Count="8" />
-        <Component Subtype="Computer" Count="10" />
-        <Component Subtype="Construction" Count="5" />
-        <Component Subtype="SteelPlate" Count="50" />
-      </Components>
-      <CriticalComponent Subtype="SuperComputer" Index="0" />
-	  <PCU>100</PCU>
-			<!-- SURVIVAL BALANCE-->
-		  
-		  
-		  <MountPoints>
-			<MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="3" />
-		  </MountPoints>
-		  <BuildProgressModels>
-			<Model BuildPercentUpperBound="0.4" File="Models\Cubes\Large\HDT_CON1.mwm" />
-			<Model BuildPercentUpperBound="0.7" File="Models\Cubes\Large\HDT_CON2.mwm" />
-			<Model BuildPercentUpperBound="1.0" File="Models\Cubes\Large\HDT_CON3.mwm" />
-		  </BuildProgressModels>
-		  <VoxelPlacement>
-			<!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
-			<StaticMode>
-			  <PlacementMode>OutsideVoxel</PlacementMode>
-			  <MaxAllowed>0.2</MaxAllowed>
-			  <MinAllowed>0</MinAllowed>
-			</StaticMode>
-			<DynamicMode>
-			  <PlacementMode>OutsideVoxel</PlacementMode>
-			  <MaxAllowed>0.2</MaxAllowed>
-			  <MinAllowed>0.01</MinAllowed>
-			</DynamicMode>
-		  </VoxelPlacement>
-		  <BlockPairName>HeavyDefenseTurret</BlockPairName>
-		  <MirroringY>Z</MirroringY>
-		  <MirroringZ>Y</MirroringZ>
-		  <EdgeType>Light</EdgeType>
-		  <OverlayTexture>Textures\GUI\Screens\turret_overlay.dds</OverlayTexture>
-		  <WeaponDefinitionId Subtype="LargeAden" />
-		  <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
-		  <DamagedSound>ParticleWeapExpl</DamagedSound>
-		  <DestroyEffect>Explosion_Missile</DestroyEffect>
-		  <DestroySound>WepSmallWarheadExpl</DestroySound>
-		  <ResourceSinkGroup>Defense</ResourceSinkGroup>
-      <MinElevationDegrees>-40</MinElevationDegrees> 
-      <MaxElevationDegrees>60</MaxElevationDegrees>
-      <MinAzimuthDegrees>-180</MinAzimuthDegrees>
-      <MaxAzimuthDegrees>180</MaxAzimuthDegrees>
-      <RotationSpeed>0.003</RotationSpeed>
-      <ElevationSpeed>0.003</ElevationSpeed>
-		  <MaxRangeMeters>800</MaxRangeMeters>
-		  <AiEnabled>false</AiEnabled>
-		  <IdleRotation>false</IdleRotation>
-		  <EmissiveColorPreset>Default</EmissiveColorPreset>
-		  <MinFov>0.1</MinFov>
-		  <MaxFov>1.04719755</MaxFov>
-		  
-    </Definition>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="3" y="2" z="3" />
+			<Center x="1" y="0" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\large\HDT_Base.mwm</Model>
+			<UseModelIntersection>true</UseModelIntersection>
 
-  </CubeBlocks>
+
+			<!-- SURVIVAL BALANCE-->
+			<BuildTimeSeconds>80</BuildTimeSeconds>
+			<InventoryMaxVolume>0.384</InventoryMaxVolume>
+			<Components>
+				<Component Subtype="SteelPlate" Count="50" />
+				<Component Subtype="Construction" Count="25" />
+				<Component Subtype="MetalGrid" Count="15" />
+				<Component Subtype="SmallTube" Count="2" />
+				<Component Subtype="SuperComputer" Count="8" />
+				<Component Subtype="Motor" Count="8" />
+				<Component Subtype="Computer" Count="10" />
+				<Component Subtype="Construction" Count="5" />
+				<Component Subtype="SteelPlate" Count="50" />
+			</Components>
+			<CriticalComponent Subtype="SuperComputer" Index="0" />
+			<PCU>100</PCU>
+			<!-- SURVIVAL BALANCE-->
+
+
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="3" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.4" File="Models\Cubes\Large\HDT_CON1.mwm" />
+				<Model BuildPercentUpperBound="0.7" File="Models\Cubes\Large\HDT_CON2.mwm" />
+				<Model BuildPercentUpperBound="1.0" File="Models\Cubes\Large\HDT_CON3.mwm" />
+			</BuildProgressModels>
+			<VoxelPlacement>
+				<!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+				<StaticMode>
+					<PlacementMode>OutsideVoxel</PlacementMode>
+					<MaxAllowed>0.2</MaxAllowed>
+					<MinAllowed>0</MinAllowed>
+				</StaticMode>
+				<DynamicMode>
+					<PlacementMode>OutsideVoxel</PlacementMode>
+					<MaxAllowed>0.2</MaxAllowed>
+					<MinAllowed>0.01</MinAllowed>
+				</DynamicMode>
+			</VoxelPlacement>
+			<BlockPairName>LargeAden</BlockPairName>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<EdgeType>Light</EdgeType>
+			<OverlayTexture>Textures\GUI\Screens\turret_overlay.dds</OverlayTexture>
+			<WeaponDefinitionId Subtype="LargeAden" />
+			<DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+			<DamagedSound>ParticleWeapExpl</DamagedSound>
+			<DestroyEffect>Explosion_Missile</DestroyEffect>
+			<DestroySound>WepSmallWarheadExpl</DestroySound>
+			<ResourceSinkGroup>Defense</ResourceSinkGroup>
+			<MinElevationDegrees>-40</MinElevationDegrees>
+			<MaxElevationDegrees>60</MaxElevationDegrees>
+			<MinAzimuthDegrees>-180</MinAzimuthDegrees>
+			<MaxAzimuthDegrees>180</MaxAzimuthDegrees>
+			<RotationSpeed>0.003</RotationSpeed>
+			<ElevationSpeed>0.003</ElevationSpeed>
+			<MaxRangeMeters>800</MaxRangeMeters>
+			<AiEnabled>false</AiEnabled>
+			<IdleRotation>false</IdleRotation>
+			<EmissiveColorPreset>Default</EmissiveColorPreset>
+			<MinFov>0.1</MinFov>
+			<MaxFov>1.04719755</MaxFov>
+		</Definition>
+	</CubeBlocks>
 </Definitions>

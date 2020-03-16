@@ -1,76 +1,77 @@
 <?xml version="1.0"?>
-<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <CubeBlocks>
-    <Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
-	
-		  <Id>
-			<TypeId>LargeMissileTurret</TypeId>
-			<SubtypeId>40mmBofors</SubtypeId>
-		  </Id>
-		  <DisplayName>"40mm" Bofors</DisplayName>
-		  <Icon>textures\GUI\Icons\TelionAF_Icon.dds</Icon>
-		  <Description>A compact turret, good for dealing large amounts of damage to slower fighters and lightly armored large ships. 900m range.</Description>
-		  <CubeSize>Large</CubeSize>
-		  <BlockTopology>TriangleMesh</BlockTopology>
-		  <Size x="3" y="2" z="3" />
-		  <Center x="1" y="0" z="1" />
-		  <ModelOffset x="0" y="0" z="0" />
-		  <Model>Models\Cubes\large\AFBase.mwm</Model>
-		  <UseModelIntersection>true</UseModelIntersection>
-		  
-		  
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+		<Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+
+			<Id>
+				<TypeId>LargeMissileTurret</TypeId>
+				<SubtypeId>40mmBofors</SubtypeId>
+			</Id>
+			<DisplayName>"40mm" Bofors</DisplayName>
+			<Icon>textures\GUI\Icons\TelionAF_Icon.dds</Icon>
+			<Description>A compact turret, good for dealing large amounts of damage to slower fighters and lightly armored large ships. 900m range.</Description>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="3" y="2" z="3" />
+			<Center x="1" y="0" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\large\AFBase.mwm</Model>
+			<UseModelIntersection>true</UseModelIntersection>
+
+
 			<!-- SURVIVAL BALANCE-->
-		  <BuildTimeSeconds>180</BuildTimeSeconds>
-		  <InventoryMaxVolume>1</InventoryMaxVolume> <!-- Holds 12 Mags on 1x -->
-      <Components>
-        <Component Subtype="SteelPlate" Count="35" />
-        <Component Subtype="Construction" Count="30" />
-        <Component Subtype="SmallTube" Count="8" />
-        <Component Subtype="SuperComputer" Count="15" />
-        <Component Subtype="Motor" Count="16" />
-        <Component Subtype="Computer" Count="12" />
-        <Component Subtype="Construction" Count="10" />
-        <Component Subtype="SteelPlate" Count="35" />
-      </Components>
-      <CriticalComponent Subtype="SuperComputer" Index="0" />
-      <PCU>100</PCU>
+			<BuildTimeSeconds>180</BuildTimeSeconds>
+			<InventoryMaxVolume>1</InventoryMaxVolume>			<!-- Holds 12 Mags on 1x -->
+			<Components>
+				<Component Subtype="SteelPlate" Count="35" />
+				<Component Subtype="Construction" Count="30" />
+				<Component Subtype="SmallTube" Count="8" />
+				<Component Subtype="SuperComputer" Count="15" />
+				<Component Subtype="Motor" Count="16" />
+				<Component Subtype="Computer" Count="12" />
+				<Component Subtype="Construction" Count="10" />
+				<Component Subtype="SteelPlate" Count="35" />
+			</Components>
+			<CriticalComponent Subtype="SuperComputer" Index="0" />
+			<PCU>100</PCU>
 			<!-- SURVIVAL BALANCE-->
-		  
-		  
-		  <MountPoints>
-			<MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="3" />
-		  </MountPoints>
-		  <BuildProgressModels>
-			<Model BuildPercentUpperBound="0.2" File="Models\Cubes\Large\TeliosCon1.mwm" />
-			<Model BuildPercentUpperBound="0.4" File="Models\Cubes\Large\TeliosCon2.mwm" />
-			<Model BuildPercentUpperBound="0.6" File="Models\Cubes\Large\TeliosCon3.mwm" />
-			<Model BuildPercentUpperBound="0.8" File="Models\Cubes\Large\TeliosCon4.mwm" />
-			<Model BuildPercentUpperBound="1.0" File="Models\Cubes\Large\TeliosCon6.mwm" />
-		  </BuildProgressModels>
-		  <BlockPairName>40mmBofors</BlockPairName>
-		  <MirroringY>Z</MirroringY>
-		  <MirroringZ>Y</MirroringZ>
-		  <EdgeType>Light</EdgeType>
-		  <OverlayTexture>Textures\GUI\Screens\turret_overlay.dds</OverlayTexture>
-		  <WeaponDefinitionId Subtype="40mmBofors" />
-		  <!-- <WeaponDefinitionId Subtype="TelionAF_P" /> -->
-		  <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
-		  <DamagedSound>ParticleWeapExpl</DamagedSound>
-		  <DestroyEffect>Explosion_Missile</DestroyEffect>
-		  <DestroySound>WepSmallWarheadExpl</DestroySound>
-		  <ResourceSinkGroup>Defense</ResourceSinkGroup>
-      <MinElevationDegrees>-15</MinElevationDegrees> 
-      <MaxElevationDegrees>55</MaxElevationDegrees>
-      <MinAzimuthDegrees>-180</MinAzimuthDegrees>
-      <MaxAzimuthDegrees>180</MaxAzimuthDegrees>
-      <RotationSpeed>0.002</RotationSpeed>
-      <ElevationSpeed>0.002</ElevationSpeed>
-      <MaxRangeMeters>800</MaxRangeMeters>
-		  <AiEnabled>false</AiEnabled>
-		  <EmissiveColorPreset>Default</EmissiveColorPreset>
-		  <MinFov>0.1</MinFov>
-		  <MaxFov>1.04719755</MaxFov>
-	  
-    </Definition>
-  </CubeBlocks>
+
+
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="3" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.2" File="Models\Cubes\Large\TeliosCon1.mwm" />
+				<Model BuildPercentUpperBound="0.4" File="Models\Cubes\Large\TeliosCon2.mwm" />
+				<Model BuildPercentUpperBound="0.6" File="Models\Cubes\Large\TeliosCon3.mwm" />
+				<Model BuildPercentUpperBound="0.8" File="Models\Cubes\Large\TeliosCon4.mwm" />
+				<Model BuildPercentUpperBound="1.0" File="Models\Cubes\Large\TeliosCon6.mwm" />
+			</BuildProgressModels>
+			<BlockPairName>40mmBofors</BlockPairName>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<EdgeType>Light</EdgeType>
+			<OverlayTexture>Textures\GUI\Screens\turret_overlay.dds</OverlayTexture>
+			<WeaponDefinitionId Subtype="40mmBofors" />
+			<!-- <WeaponDefinitionId Subtype="TelionAF_P" /> -->
+			<DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+			<DamagedSound>ParticleWeapExpl</DamagedSound>
+			<DestroyEffect>Explosion_Missile</DestroyEffect>
+			<DestroySound>WepSmallWarheadExpl</DestroySound>
+			<ResourceSinkGroup>Defense</ResourceSinkGroup>
+			<MinElevationDegrees>-15</MinElevationDegrees>
+			<MaxElevationDegrees>55</MaxElevationDegrees>
+			<MinAzimuthDegrees>-180</MinAzimuthDegrees>
+			<MaxAzimuthDegrees>180</MaxAzimuthDegrees>
+			<RotationSpeed>0.002</RotationSpeed>
+			<ElevationSpeed>0.002</ElevationSpeed>
+			<MaxRangeMeters>800</MaxRangeMeters>
+			<AiEnabled>false</AiEnabled>
+			<EmissiveColorPreset>Default</EmissiveColorPreset>
+			<MinFov>0.1</MinFov>
+			<MaxFov>1.04719755</MaxFov>
+
+		</Definition>
+	</CubeBlocks>
 </Definitions>

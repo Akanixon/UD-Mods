@@ -7,7 +7,7 @@
         <SubtypeId>Aden30x113</SubtypeId>
       </Id>
       <DisplayName>"30x113" Aden</DisplayName>
-      <Icon>Textures\GUI\AdenAmmo30x113.dds</Icon>
+      <Icon>Textures\icon\150mmAmmo_icon.dds</Icon>
       <Prerequisites>
         <Item Amount="40" TypeId="Ingot" SubtypeId="Iron" />
         <Item Amount="4" TypeId="Ingot" SubtypeId="Nickel" />

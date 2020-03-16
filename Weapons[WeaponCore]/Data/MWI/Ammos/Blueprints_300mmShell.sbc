@@ -8,7 +8,7 @@
         <SubtypeId>300mmShell</SubtypeId>
       </Id>
       <DisplayName>"300mm" Shell</DisplayName>
-      <Icon>Textures\GUI\300mmShell_HE.dds</Icon>
+      <Icon>Textures\icon\150mmAmmo_icon.dds</Icon>>
       <Prerequisites>
         <Item Amount="200" TypeId="Ingot" SubtypeId="Iron" />
         <Item Amount="50" TypeId="Ingot" SubtypeId="Magnesium" />

@@ -4,10 +4,10 @@
     <AmmoMagazine>
           <Id>
             <TypeId>AmmoMagazine</TypeId>
-            <SubtypeId>300mmShell_HE</SubtypeId>
+            <SubtypeId>300mmShell</SubtypeId>
           </Id>
-          <DisplayName>"300mm" Shell HE</DisplayName>
-          <Icon>Textures\GUI\300mmShell_HE.dds</Icon>
+          <DisplayName>"300mm" Shell</DisplayName>
+      <Icon>Textures\icon\150mmAmmo_icon.dds</Icon>
           <IsExplosive>true</IsExplosive>
           <Size>
             <X>0.25</X>
@@ -16,7 +16,7 @@
           </Size>
           <Mass>35</Mass>
           <Volume>25</Volume>
-          <Model>Models\Weapons\300mmShell.mwm</Model>
+      <Model>Models\Ammo\150mmAmmo.mwm</Model>
           <PhysicalMaterial>Ammo</PhysicalMaterial>
           <Capacity>3</Capacity>
           <AmmoDefinitionId Subtype="Blank" />

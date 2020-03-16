@@ -1,90 +1,90 @@
 <?xml version="1.0"?>
-<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <CubeBlocks>
-    
-	<Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
-		
-		  <Id>
-			<TypeId>LargeGatlingTurret</TypeId>
-			<SubtypeId>LargeVulcan</SubtypeId>
-		  </Id>
-		  <DisplayName>"M61" Vulcan</DisplayName>
-		  <Icon>textures\GUI\Icons\TelionAM_Icon.dds</Icon>
-		  <Description>A great turret for taking out suit warriors as well as lightly armored fighters, but deals low amounts of damage. 800m range, poor accuracy. 
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+		<Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+			<Id>
+				<TypeId>LargeMissileTurret</TypeId>
+				<SubtypeId>LargeVulcan</SubtypeId>
+			</Id>
+			<DisplayName>"M61" Vulcan</DisplayName>
+			<Icon>textures\GUI\Icons\TelionAM_Icon.dds</Icon>
+			<Description>A great turret for taking out suit warriors as well as lightly armored fighters, but deals low amounts of damage. 800m range, poor accuracy. 
 		  Very high ROF and good bullet speed.</Description>
-		  <CubeSize>Large</CubeSize>
-		  <BlockTopology>TriangleMesh</BlockTopology>
-		  <Size x="3" y="2" z="3" />
-		  <Center x="1" y="0" z="1" />
-		  <ModelOffset x="0" y="0" z="0" />
-		  <Model>Models\Cubes\large\TelionBase.mwm</Model>
-		  <UseModelIntersection>true</UseModelIntersection>
-		  
-		  
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="3" y="2" z="3" />
+			<Center x="1" y="0" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\large\TelionBase.mwm</Model>
+			<UseModelIntersection>true</UseModelIntersection>
+
+
 			<!-- SURVIVAL BALANCE-->
-		  <BuildTimeSeconds>120</BuildTimeSeconds>
-		  <InventoryMaxVolume>0.384</InventoryMaxVolume>	<!-- Assembler workaround :( -->
-      <Components>
-        <Component Subtype="SteelPlate" Count="30" />
-        <Component Subtype="Construction" Count="25" />
-        <Component Subtype="MetalGrid" Count="15" />
-        <Component Subtype="SmallTube" Count="12" />
-        <Component Subtype="Motor" Count="8" />
-        <Component Subtype="SuperComputer" Count="5" />
-        <Component Subtype="Computer" Count="10" />
-        <Component Subtype="Construction" Count="5" />
-        <Component Subtype="SteelPlate" Count="30" />
-      </Components>
-      <CriticalComponent Subtype="SuperComputer" Index="0" />
-	        <PCU>50</PCU>
+			<BuildTimeSeconds>120</BuildTimeSeconds>
+			<InventoryMaxVolume>0.384</InventoryMaxVolume>			<!-- Assembler workaround :( -->
+			<Components>
+				<Component Subtype="SteelPlate" Count="30" />
+				<Component Subtype="Construction" Count="25" />
+				<Component Subtype="MetalGrid" Count="15" />
+				<Component Subtype="SmallTube" Count="12" />
+				<Component Subtype="Motor" Count="8" />
+				<Component Subtype="SuperComputer" Count="5" />
+				<Component Subtype="Computer" Count="10" />
+				<Component Subtype="Construction" Count="5" />
+				<Component Subtype="SteelPlate" Count="30" />
+			</Components>
+			<CriticalComponent Subtype="SuperComputer" Index="0" />
+			<PCU>50</PCU>
 			<!-- SURVIVAL BALANCE-->
-		  
-		  
-		  <MountPoints>
-			<MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="3" />
-		  </MountPoints>
-		  <BuildProgressModels>
-			<Model BuildPercentUpperBound="0.2" File="Models\Cubes\Large\TelionAM_Con1.mwm" />
-			<Model BuildPercentUpperBound="0.5" File="Models\Cubes\Large\TelionAM_Con2.mwm" />
-			<Model BuildPercentUpperBound="0.7" File="Models\Cubes\Large\TelionAM_Con3.mwm" />
-			<Model BuildPercentUpperBound="1.0" File="Models\Cubes\Large\TelionAM_Con4.mwm" />
-		  </BuildProgressModels>
-		  <VoxelPlacement>
-			<!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
-			<StaticMode>
-			  <PlacementMode>OutsideVoxel</PlacementMode>
-			  <MaxAllowed>0.2</MaxAllowed>
-			  <MinAllowed>0</MinAllowed>
-			</StaticMode>
-			<DynamicMode>
-			  <PlacementMode>OutsideVoxel</PlacementMode>
-			  <MaxAllowed>0.2</MaxAllowed>
-			  <MinAllowed>0.01</MinAllowed>
-			</DynamicMode>
-		  </VoxelPlacement>
-		  <BlockPairName>TelionAMACM</BlockPairName>
-		  <MirroringY>Z</MirroringY>
-		  <MirroringZ>Y</MirroringZ>
-		  <EdgeType>Light</EdgeType>
-		  <OverlayTexture>Textures\GUI\Screens\turret_overlay.dds</OverlayTexture>
-		  <WeaponDefinitionId Subtype="LargeVulcan" />
-		  <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
-		  <DamagedSound>ParticleWeapExpl</DamagedSound>
-		  <DestroyEffect>Explosion_Missile</DestroyEffect>
-		  <DestroySound>WepSmallMissileExpl</DestroySound>
-		  <ResourceSinkGroup>Defense</ResourceSinkGroup>
-      <MinElevationDegrees>-30</MinElevationDegrees> 
-      <MaxElevationDegrees>90</MaxElevationDegrees>
-      <MinAzimuthDegrees>-180</MinAzimuthDegrees>
-      <MaxAzimuthDegrees>180</MaxAzimuthDegrees>
-      <RotationSpeed>0.004</RotationSpeed>
-      <ElevationSpeed>0.004</ElevationSpeed>
-		  <MaxRangeMeters>800</MaxRangeMeters>
-		  <AiEnabled>false</AiEnabled>
-		  <EmissiveColorPreset>Default</EmissiveColorPreset>
-		  <MinFov>0.1</MinFov>
-		  <MaxFov>1.04719755</MaxFov>
-	  
-    </Definition>
-  </CubeBlocks>
+
+
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="3" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.2" File="Models\Cubes\Large\TelionAM_Con1.mwm" />
+				<Model BuildPercentUpperBound="0.5" File="Models\Cubes\Large\TelionAM_Con2.mwm" />
+				<Model BuildPercentUpperBound="0.7" File="Models\Cubes\Large\TelionAM_Con3.mwm" />
+				<Model BuildPercentUpperBound="1.0" File="Models\Cubes\Large\TelionAM_Con4.mwm" />
+			</BuildProgressModels>
+			<VoxelPlacement>
+				<!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+				<StaticMode>
+					<PlacementMode>OutsideVoxel</PlacementMode>
+					<MaxAllowed>0.2</MaxAllowed>
+					<MinAllowed>0</MinAllowed>
+				</StaticMode>
+				<DynamicMode>
+					<PlacementMode>OutsideVoxel</PlacementMode>
+					<MaxAllowed>0.2</MaxAllowed>
+					<MinAllowed>0.01</MinAllowed>
+				</DynamicMode>
+			</VoxelPlacement>
+			<BlockPairName>LargeVulcan</BlockPairName>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<EdgeType>Light</EdgeType>
+			<OverlayTexture>Textures\GUI\Screens\turret_overlay.dds</OverlayTexture>
+			<WeaponDefinitionId Subtype="LargeVulcan" />
+			<DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+			<DamagedSound>ParticleWeapExpl</DamagedSound>
+			<DestroyEffect>Explosion_Missile</DestroyEffect>
+			<DestroySound>WepSmallMissileExpl</DestroySound>
+			<ResourceSinkGroup>Defense</ResourceSinkGroup>
+			<MinElevationDegrees>-30</MinElevationDegrees>
+			<MaxElevationDegrees>90</MaxElevationDegrees>
+			<MinAzimuthDegrees>-180</MinAzimuthDegrees>
+			<MaxAzimuthDegrees>180</MaxAzimuthDegrees>
+			<RotationSpeed>0.004</RotationSpeed>
+			<ElevationSpeed>0.004</ElevationSpeed>
+			<MaxRangeMeters>800</MaxRangeMeters>
+			<AiEnabled>false</AiEnabled>
+			<IdleRotation>false</IdleRotation>
+			<EmissiveColorPreset>Default</EmissiveColorPreset>
+			<MinFov>0.1</MinFov>
+			<MaxFov>1.04719755</MaxFov>
+
+		</Definition>
+	</CubeBlocks>
 </Definitions>

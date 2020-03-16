@@ -4,10 +4,10 @@
     <Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
 		
 		  <Id>
-			<TypeId>LargeGatlingTurret</TypeId>
+			<TypeId>LargeMissileTurret</TypeId>
 			<SubtypeId>PDC</SubtypeId>
 		  </Id>
-		  <DisplayName>Telion Anti-Fighter Turret</DisplayName>
+		  <DisplayName>PointDefenceCannon</DisplayName>
 		  <Icon>textures\GUI\Icons\TelionSphereAF_Icon.dds</Icon>
 		  <Description>Telion Anti-Fighter Turrets are configurable automated turrets that target anything hostile within its range.
 			
@@ -50,7 +50,7 @@
 			<Model BuildPercentUpperBound="0.6" File="Models\Large\TurretBase_Con2.mwm" />
 			<Model BuildPercentUpperBound="1.0" File="Models\Large\TurretBase_Con3.mwm" />
 		  </BuildProgressModels>
-		  <BlockPairName>TelionAFGen2</BlockPairName>
+		  <BlockPairName>PDC</BlockPairName>
 		  <MirroringY>Z</MirroringY>
 		  <MirroringZ>Y</MirroringZ>
 		  <EdgeType>Light</EdgeType>

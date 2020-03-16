@@ -11,7 +11,7 @@ namespace WeaponThread
 {   // Don't edit above this line
     partial class Weapons
     {
-        WeaponDefinition Static88mm => new WeaponDefinition
+        WeaponDefinition AutoCannon300mm_3 => new WeaponDefinition
         {
             Assignments = new ModelAssignmentsDef
             {
@@ -19,9 +19,9 @@ namespace WeaponThread
                 {
                     new MountPointDef
                     {
-                        SubtypeId = "Static30mm",
+                        SubtypeId = "300mmAutoCannon_3",
                         AimPartId = "MissileTurretBarrels",
-                        MuzzlePartId = "None",
+                        MuzzlePartId = "MissileTurretBarrels",
                     },
                     
                 },
@@ -29,21 +29,22 @@ namespace WeaponThread
                 {
                     //FIXTHIS "muzzle_barrel_001",
                     "muzzle_missile_001",
-
+                    "muzzle_missile_002",
+                    "muzzle_missile_003",
                 },
             },
             Targeting = new TargetingDef
             {
                 Threats = new[]
                 {
-                    Grids,
+                    Grids, Other,
                 },
                 SubSystems = new[]
                 {
                     Thrust, Utility, Offense, Power, Production, Any,
                 },
-                ClosestFirst = true, // tries to pick closest targets first (blocks on grids, projectiles, etc...).
-                MinimumDiameter = 1, // 0 = unlimited, Minimum radius of threat to engage.
+                ClosestFirst = false, // tries to pick closest targets first (blocks on grids, projectiles, etc...).
+                MinimumDiameter = 10, // 0 = unlimited, Minimum radius of threat to engage.
                 MaximumDiameter = 0, // 0 = unlimited, Maximum radius of threat to engage.
                 TopTargets = 4, // 0 = unlimited, max number of top targets to randomize between.
                 TopBlocks = 4, // 0 = unlimited, max number of blocks to randomize between
@@ -51,8 +52,8 @@ namespace WeaponThread
             },
             HardPoint = new HardPointDef
             {
-                WeaponName = "Cannon88mm", // name of weapon in terminal
-                DeviateShotAngle = 0.2f,
+                WeaponName = "300mmAutoCannon", // name of weapon in terminal
+                DeviateShotAngle = 0.8f,
                 AimingTolerance = 4f, // 0 - 180 firing angle
                 AimLeadingPrediction = Advanced, // Off, Basic, Accurate, Advanced
                 DelayCeaseFire = 0, // Measured in game ticks (6 = 100ms, 60 = 1 seconds, etc..).
@@ -66,23 +67,23 @@ namespace WeaponThread
                 },
                 Ai = new AiDef
                 {
-                    TrackTargets = false,
-                    TurretAttached = false,
-                    TurretController = false,
-                    PrimaryTracking = false,
+                    TrackTargets = true,
+                    TurretAttached = true,
+                    TurretController = true,
+                    PrimaryTracking = true,
                     LockOnFocus = false,
                 },
                 HardWare = new HardwareDef
                 {
-                    RotateRate = 0.0014f,
+                    RotateRate = 0.0012f,
                     ElevateRate = 0.0014f,
                     MinAzimuth = -180,
                     MaxAzimuth = 180,
-                    MinElevation = -180,
-                    MaxElevation = 180,
+                    MinElevation = -5,
+                    MaxElevation = 25,
                     FixedOffset = false,
-                    InventorySize = 0.132f,
-                    Offset = Vector(x: 0, y: 0, z: 0),
+                    InventorySize = 0.7308f,
+                    Offset = Vector(x: 0, y: 0.35, z: 0),
                 },
                 Other = new OtherDef
                 {
@@ -94,12 +95,12 @@ namespace WeaponThread
                 },
                 Loading = new LoadingDef
                 {
-                    RateOfFire = 5,
+                    RateOfFire = 60,
                     BarrelSpinRate = 0, // visual only, 0 disables and uses RateOfFire
-                    BarrelsPerShot = 1,
+                    BarrelsPerShot = 3,
                     TrajectilesPerBarrel = 1, // Number of Trajectiles per barrel per fire event.
                     SkipBarrels = 0,
-                    ReloadTime = 720, // Measured in game ticks (6 = 100ms, 60 = 1 seconds, etc..).
+                    ReloadTime = 1200, // Measured in game ticks (6 = 100ms, 60 = 1 seconds, etc..).
                     DelayUntilFire = 0, // Measured in game ticks (6 = 100ms, 60 = 1 seconds, etc..).
                     HeatPerShot = 0, //heat generated per shot
                     MaxHeat = 20000, //max heat before weapon enters cooldown (70% of max heat)
@@ -107,13 +108,13 @@ namespace WeaponThread
                     HeatSinkRate = 200000, //amount of heat lost per second
                     DegradeRof = false, // progressively lower rate of fire after 80% heat threshold (80% of max heat)
                     ShotsInBurst = 1,
-                    DelayAfterBurst = 720, // Measured in game ticks (6 = 100ms, 60 = 1 seconds, etc..).
+                    DelayAfterBurst = 0, // Measured in game ticks (6 = 100ms, 60 = 1 seconds, etc..).
                     FireFullBurst = false,
                 },
                 Audio = new HardPointAudioDef
                 {
-                    PreFiringSound = "ArcStaticCannon",
-                    FiringSound = "ArcStaticCannon", // WepShipGatlingShot
+                    PreFiringSound = "",
+                    FiringSound = "ArcMK3CannonShot", // WepShipGatlingShot
                     FiringSoundPerShot = true,
                     ReloadSound = "",
                     NoAmmoSound = "",
@@ -125,7 +126,7 @@ namespace WeaponThread
                     Barrel1 = new ParticleDef //FIXTHIS
                     {
                         Name = "Muzzle_Flash_Large", // Smoke_LargeGunShot
-                        Color = Color(red: 1, green: 1, blue: 1, alpha: 1),
+                        Color = Color(red: 3, green: 3, blue: 3, alpha: 1),
                         Offset = Vector(x: 0, y: 0, z: 0),
                         Extras = new ParticleOptionDef
                         {
@@ -133,7 +134,7 @@ namespace WeaponThread
                             Restart = false,
                             MaxDistance = 500,
                             MaxDuration = 1,
-                            Scale = 2f,
+                            Scale = 4f,
                         },
                     },
                     Barrel2 = new ParticleDef //FIXTHIS
@@ -154,7 +155,7 @@ namespace WeaponThread
             },
 
             Ammos = new[] {
-                HEShell88mmAmmo
+                Ammo300mmShell
             },
         };
     }

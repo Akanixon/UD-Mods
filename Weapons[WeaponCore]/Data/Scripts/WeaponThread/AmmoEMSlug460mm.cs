@@ -13,17 +13,17 @@ namespace WeaponThread
 { // Don't edit above this line
     partial class Weapons
     {
-        private AmmoDef HEShell330mmAmmo => new AmmoDef
+        private AmmoDef EMSlug460mmAmmo => new AmmoDef
         {
-            AmmoMagazine = "HEShell330mm",
-            AmmoRound = "HEShell330mmAmmo",
+            AmmoMagazine = "EMSlug460mm",
+            AmmoRound = "EMSlug460mmAmmo",
             HybridRound = false, //AmmoMagazine based weapon with energy cost
-            EnergyCost = 0.000001f, //(((EnergyCost * DefaultDamage) * ShotsPerSecond) * BarrelsPerShot) * ShotsPerBarrel
-            BaseDamage = 1f,
-            Mass = 75f, // in kilograms
+            EnergyCost = 0.00000001f, //(((EnergyCost * DefaultDamage) * ShotsPerSecond) * BarrelsPerShot) * ShotsPerBarrel
+            BaseDamage = 100000f,
+            Mass = 1500f, // in kilograms
             Health = 0, // 0 = disabled, otherwise how much damage it can take from other trajectiles before dying.
             BackKickForce = 7000f,
-            HardPointUsable = true, // set to false if this is a shrapnel ammoType and you don't want the turret to be able to select it directly.
+            //HardPointUsable = true, // set to false if this is a shrapnel ammoType and you don't want the turret to be able to select it directly.
 
             Shape = new ShapeDef //defines the collision shape of projectile, defaults line and visual Line Length if set to 0
             {
@@ -33,9 +33,9 @@ namespace WeaponThread
             ObjectsHit = new ObjectsHitDef
             {
                 MaxObjectsHit = 10, // 0 = disabled
-                CountBlocks = false, // counts gridBlocks and not just entities hit
+                CountBlocks = true, // counts gridBlocks and not just entities hit
             },
-            Shrapnel = new ShrapnelDef //FIX MANUALLY
+            Shrapnel = new ShrapnelDef
             {
                 AmmoRound = "",
                 Fragments = 0,
@@ -91,8 +91,8 @@ namespace WeaponThread
             AreaEffect = new AreaDamageDef
             {
                 AreaEffect = Explosive, // Disabled = do not use area effect at all, Explosive, Radiant, AntiSmart, JumpNullField, JumpNullField, EnergySinkField, AnchorField, EmpField, OffenseField, NavField, DotField.
-                AreaEffectDamage = 5000f, // 0 = use spillover from BaseDamage, otherwise use this value.
-                AreaEffectRadius = 4f,
+                AreaEffectDamage = 1f, // 0 = use spillover from BaseDamage, otherwise use this value.
+                AreaEffectRadius = 1f,
                 Pulse = new PulseDef // interval measured in game ticks (60 == 1 second), pulseChance chance (0 - 100) that an entity in field will be hit
                 {
                     Interval = 30,
@@ -100,7 +100,7 @@ namespace WeaponThread
                 },
                 Explosions = new ExplosionDef
                 {
-                    NoVisuals = false,
+                    NoVisuals = true,
                     NoSound = false,
                     Scale = 1,
                     CustomParticle = "",
@@ -108,12 +108,12 @@ namespace WeaponThread
                 },
                 Detonation = new DetonateDef
                 {
-                    DetonateOnEnd = false,
+                    DetonateOnEnd = true,
                     ArmOnlyOnHit = false,
-                    DetonationDamage = 0,
-                    DetonationRadius = 70,
+                    DetonationDamage = 10000f,
+                    DetonationRadius = 10,
                 },
-                EwarFields = new EwarFieldsDef //FIX Manually
+                EwarFields = new EwarFieldsDef
                 {
                     Duration = 60,
                     StackDuration = true,
@@ -138,9 +138,9 @@ namespace WeaponThread
                 MaxLifeTime = 0, // 0 is disabled, Measured in game ticks (6 = 100ms, 60 = 1 seconds, etc..).
                 AccelPerSec = 0f,
                 DesiredSpeed = 1000f,
-                MaxTrajectory = 2000f,
+                MaxTrajectory = 10000f,
                 FieldTime = 0, // 0 is disabled, a value causes the projectile to come to rest, spawn a field and remain for a time (Measured in game ticks, 60 = 1 second)
-                SpeedVariance = Random(start: 0, end: 50), // subtracts value from DesiredSpeed
+                SpeedVariance = Random(start: 0, end: 0), // subtracts value from DesiredSpeed
                 RangeVariance = Random(start: 0, end: 0), // subtracts value from MaxTrajectory
                 Smarts = new SmartsDef
                 {
@@ -169,8 +169,8 @@ namespace WeaponThread
                 {
                     Ammo = new ParticleDef
                     {
-                        Name = "", //ShipWelderArc
-                        Color = Color(red: 128, green: 0, blue: 0, alpha: 32),
+                        Name = "ShipWelderArc", //ShipWelderArc
+                        Color = Color(red: 0, green: 10, blue: 10, alpha: 32),
                         Offset = Vector(x: 0, y: 0, z: 0),
                         Extras = new ParticleOptionDef
                         {
@@ -178,15 +178,15 @@ namespace WeaponThread
                             Restart = false,
                             MaxDistance = 5000,
                             MaxDuration = 1,
-                            Scale = 1,
+                            Scale = 0.2f,
                         },
                     },
                     Hit = new ParticleDef
                     {
-                        Name = "Exp_ShockSpark", //ShipWelderArc Exp_ShockSpark
+                        Name = "Exp_Spark_large",
                         ApplyToShield = true,
-                        ShrinkByDistance = false,
-                        Color = Color(red: 2, green: 2, blue: 2, alpha: 1),
+                        ShrinkByDistance = true,
+                        Color = Color(red: 0, green: 190, blue: 190, alpha: 1),
                         Offset = Vector(x: 0, y: 0, z: 0),
                         Extras = new ParticleOptionDef
                         {
@@ -194,7 +194,7 @@ namespace WeaponThread
                             Restart = false,
                             MaxDistance = 5000,
                             MaxDuration = 1,
-                            Scale = 2.0f,
+                            Scale = 0.6f,
                             HitPlayChance = 1f,
                         },
                     },
@@ -202,31 +202,31 @@ namespace WeaponThread
                 Lines = new LineDef
                 {
                     TracerMaterial = "WeaponLaser", // WeaponLaser, ProjectileTrailLine, WarpBubble, etc..
-                    ColorVariance = Random(start: 0.75f, end: 2f), // multiply the color by random values within range.
-                    WidthVariance = Random(start: 0f, end: 0.15f), // adds random value to default width (negatives shrinks width)
+                    ColorVariance = Random(start: 0.5f, end: 1.0f), // multiply the color by random values within range.
+                    WidthVariance = Random(start: 0f, end: 0.1f), // adds random value to default width (negatives shrinks width)
                     Tracer = new TracerBaseDef
                     {
                         Enable = true,
-                        Length = 3f,
-                        Width = 0.3f,
-                        Color = Color(red: 10, green: 4, blue: 0, alpha: 1),
+                        Length = 300f,
+                        Width = 0.1f,
+                        Color = Color(red: 0, green: 20, blue: 40, alpha: 1),
                     },
                     Trail = new TrailDef
                     {
                         Enable = true,
                         Material = "WeaponLaser",
-                        DecayTime = 2,
-                        Color = Color(red: 5, green: 2, blue: 0, alpha: 1),
+                        DecayTime = 120,
+                        Color = Color(red: 0, green: 10, blue: 25, alpha: 1),
                         Back = false,
-                        CustomWidth = 0.3f,
+                        CustomWidth = 0.35f,
                         UseWidthVariance = false,
                         UseColorFade = true,
                     },
                     OffsetEffect = new OffsetEffectDef
                     {
-                        MaxOffset = 0.3,// 0 offset value disables this effect
-                        MinLength = 3f,
-                        MaxLength = 3f,
+                        MaxOffset = 3.0,// 0 offset value disables this effect
+                        MinLength = 1,
+                        MaxLength = 5,
                     },
                 },
             },

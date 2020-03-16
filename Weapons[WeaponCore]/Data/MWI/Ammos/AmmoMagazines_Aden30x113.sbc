@@ -7,7 +7,7 @@
         <SubtypeId>Aden30x113</SubtypeId>
       </Id>
       <DisplayName>"30x113" Aden</DisplayName>
-      <Icon>Textures\GUI\AdenAmmo30x113.dds</Icon>
+      <Icon>Textures\icon\150mmAmmo_icon.dds</Icon>
       <Size>
         <X>0.25</X>
         <Y>0.2</Y>
@@ -15,7 +15,7 @@
       </Size>
       <Mass>125</Mass>
       <Volume>50</Volume>
-      <Model>Models\Weapons\Ammo_Box_30x113.mwm</Model>
+      <Model>Models\Ammo\30mmAmmo.mwm</Model>
       <PhysicalMaterial>Ammo</PhysicalMaterial>
       <Capacity>1</Capacity>
       <AmmoDefinitionId Subtype="Blank" />

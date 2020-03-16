@@ -13,16 +13,16 @@ namespace WeaponThread
 { // Don't edit above this line
     partial class Weapons
     {
-        private AmmoDef HEShell355mmAmmo => new AmmoDef
+        private AmmoDef Ammo300mmShell => new AmmoDef
         {
-            AmmoMagazine = "HEShell355mm",
-            AmmoRound = "HEShell355mmAmmo",
+            AmmoMagazine = "300mmShell",
+            AmmoRound = "Ammo300mmShell",
             HybridRound = false, //AmmoMagazine based weapon with energy cost
             EnergyCost = 0.0000001f, //(((EnergyCost * DefaultDamage) * ShotsPerSecond) * BarrelsPerShot) * ShotsPerBarrel
             BaseDamage = 1f,
-            Mass = 100f, // in kilograms
+            Mass = 200f, // in kilograms
             Health = 0, // 0 = disabled, otherwise how much damage it can take from other trajectiles before dying.
-            BackKickForce = 7000f,
+            BackKickForce = 1000f,
             HardPointUsable = true, // set to false if this is a shrapnel ammoType and you don't want the turret to be able to select it directly.
 
             Shape = new ShapeDef //defines the collision shape of projectile, defaults line and visual Line Length if set to 0
@@ -91,8 +91,8 @@ namespace WeaponThread
             AreaEffect = new AreaDamageDef
             {
                 AreaEffect = Radiant, // Disabled = do not use area effect at all, Explosive, Radiant, AntiSmart, JumpNullField, JumpNullField, EnergySinkField, AnchorField, EmpField, OffenseField, NavField, DotField.
-                AreaEffectDamage = 5000f, // 0 = use spillover from BaseDamage, otherwise use this value.
-                AreaEffectRadius = 8f,
+                AreaEffectDamage = 8000f, // 0 = use spillover from BaseDamage, otherwise use this value.
+                AreaEffectRadius = 4.5f,
                 Pulse = new PulseDef // interval measured in game ticks (60 == 1 second), pulseChance chance (0 - 100) that an entity in field will be hit
                 {
                     Interval = 30,
@@ -136,9 +136,9 @@ namespace WeaponThread
                 TargetLossDegree = 80f,
                 TargetLossTime = 0, // 0 is disabled, Measured in game ticks (6 = 100ms, 60 = 1 seconds, etc..).
                 MaxLifeTime = 0, // 0 is disabled, Measured in game ticks (6 = 100ms, 60 = 1 seconds, etc..).
-                AccelPerSec = 0f,
-                DesiredSpeed = 450f,
-                MaxTrajectory = 1000f,
+                AccelPerSec = 800f,
+                DesiredSpeed = 1000f,
+                MaxTrajectory = 10000f,
                 GravityMultiplier = 1.0f,
                 FieldTime = 0, // 0 is disabled, a value causes the projectile to come to rest, spawn a field and remain for a time (Measured in game ticks, 60 = 1 second)
                 SpeedVariance = Random(start: 0, end: 0), // subtracts value from DesiredSpeed

@@ -10,7 +10,7 @@ namespace WeaponThread
 { // Don't edit above this line
     partial class Weapons
     {
-        private AnimationDef X3_Animation => new AnimationDef
+        private AnimationDef AutoCannon900mm_3_Animation => new AnimationDef
         {
             //Emissives = new []
             //{

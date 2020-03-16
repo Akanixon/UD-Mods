@@ -1,24 +1,28 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <AmmoMagazines>
-    <AmmoMagazine>
+  
+	<AmmoMagazine>
       <Id>
         <TypeId>AmmoMagazine</TypeId>
-        <SubtypeId>Bofors40mm</SubtypeId>
+        <SubtypeId>NATO_20x102mm</SubtypeId>
       </Id>
-      <DisplayName>Bofors 40mm</DisplayName>
-      <Icon>Textures\GUI\Icons\Telion_30mmAmmo_icon.dds</Icon>
+      <DisplayName>20x102mm NATO Belt</DisplayName>
+      <Icon>Textures\icon\150mmAmmo_icon.dds</Icon>
       <Size>
         <X>0.25</X>
         <Y>0.2</Y>
         <Z>0.2</Z>
       </Size>
-      <Mass>36</Mass>
-      <Volume>28</Volume>
+	  <!--  <Mass>45</Mass>
+      <Volume>60</Volume> Baseline 200mm Missile-->
+      <Mass>4500</Mass>
+      <!-- Original <Volume>6000</Volume> 6 per shell -->
+      <Volume>1000</Volume> <!-- Assembler workaround :( -->
       <Model>Models\Weapons\Telion_30mmAmmo.mwm</Model>
-      <PhysicalMaterial>Ammo</PhysicalMaterial>
-      <Capacity>50</Capacity>
+      <Capacity>1000</Capacity>
       <AmmoDefinitionId Subtype="Blank" />
     </AmmoMagazine>
+
   </AmmoMagazines>
 </Definitions>
