@@ -37,7 +37,7 @@
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Large\HydrogenTankSmallConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\HydrogenTankSmallConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>HydrogenTankSmall</BlockPairName>
+      <BlockPairName>HydrogenTankSmallMK2</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -103,7 +103,7 @@
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Large\HydrogenTankSmallConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\HydrogenTankSmallConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>HydrogenTankSmall</BlockPairName>
+      <BlockPairName>HydrogenTankSmallMK3</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -170,7 +170,7 @@
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Large\HydrogenTankSmallConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\HydrogenTankSmallConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>HydrogenTankSmall</BlockPairName>
+      <BlockPairName>HydrogenTankSmallMK4</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -237,7 +237,7 @@
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Large\HydrogenTankSmallConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\HydrogenTankSmallConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>HydrogenTankSmall</BlockPairName>
+      <BlockPairName>HydrogenTankSmallMK5</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -304,7 +304,7 @@
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Large\HydrogenTankSmallConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\HydrogenTankSmallConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>HydrogenTankSmall</BlockPairName>
+      <BlockPairName>HydrogenTankSmallMK6</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -371,7 +371,7 @@
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Large\HydrogenTankSmallConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\HydrogenTankSmallConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>HydrogenTankSmall</BlockPairName>
+      <BlockPairName>HydrogenTankSmallMK7</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -438,7 +438,7 @@
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Large\HydrogenTankSmallConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\HydrogenTankSmallConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>HydrogenTankSmall</BlockPairName>
+      <BlockPairName>HydrogenTankSmallMK8</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -505,7 +505,7 @@
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Large\HydrogenTankSmallConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\HydrogenTankSmallConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>HydrogenTankSmall</BlockPairName>
+      <BlockPairName>HydrogenTankSmallMK9</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -571,7 +571,7 @@
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\HydrogenTankSmallConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\HydrogenTankSmallConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>HydrogenTankSmall</BlockPairName>
+      <BlockPairName>HydrogenTankSmallMK2</BlockPairName>
       <MirroringX>Y</MirroringX>
       <MirroringY>X</MirroringY>
       <EdgeType>Light</EdgeType>
@@ -637,7 +637,7 @@
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\HydrogenTankSmallConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\HydrogenTankSmallConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>HydrogenTankSmall</BlockPairName>
+      <BlockPairName>HydrogenTankSmallMK3</BlockPairName>
       <MirroringX>Y</MirroringX>
       <MirroringY>X</MirroringY>
       <EdgeType>Light</EdgeType>
@@ -704,7 +704,7 @@
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\HydrogenTankSmallConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\HydrogenTankSmallConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>HydrogenTankSmall</BlockPairName>
+      <BlockPairName>HydrogenTankSmallMK4</BlockPairName>
       <MirroringX>Y</MirroringX>
       <MirroringY>X</MirroringY>
       <EdgeType>Light</EdgeType>
@@ -771,7 +771,7 @@
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\HydrogenTankSmallConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\HydrogenTankSmallConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>HydrogenTankSmall</BlockPairName>
+      <BlockPairName>HydrogenTankSmallMK5</BlockPairName>
       <MirroringX>Y</MirroringX>
       <MirroringY>X</MirroringY>
       <EdgeType>Light</EdgeType>
@@ -838,7 +838,7 @@
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\HydrogenTankSmallConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\HydrogenTankSmallConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>HydrogenTankSmall</BlockPairName>
+      <BlockPairName>HydrogenTankSmallMK6</BlockPairName>
       <MirroringX>Y</MirroringX>
       <MirroringY>X</MirroringY>
       <EdgeType>Light</EdgeType>
@@ -905,7 +905,7 @@
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\HydrogenTankSmallConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\HydrogenTankSmallConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>HydrogenTankSmall</BlockPairName>
+      <BlockPairName>HydrogenTankSmallMK7</BlockPairName>
       <MirroringX>Y</MirroringX>
       <MirroringY>X</MirroringY>
       <EdgeType>Light</EdgeType>
@@ -972,7 +972,7 @@
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\HydrogenTankSmallConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\HydrogenTankSmallConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>HydrogenTankSmall</BlockPairName>
+      <BlockPairName>HydrogenTankSmallMK8</BlockPairName>
       <MirroringX>Y</MirroringX>
       <MirroringY>X</MirroringY>
       <EdgeType>Light</EdgeType>
@@ -1039,7 +1039,7 @@
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\HydrogenTankSmallConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\HydrogenTankSmallConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>HydrogenTankSmall</BlockPairName>
+      <BlockPairName>HydrogenTankSmallMK9</BlockPairName>
       <MirroringX>Y</MirroringX>
       <MirroringY>X</MirroringY>
       <EdgeType>Light</EdgeType>
