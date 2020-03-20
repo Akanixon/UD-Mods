@@ -285,7 +285,7 @@
       </Position> 
     </BlockPosition>
     <BlockPosition> 
-      <Name>Pyrobolt</Name> 
+      <Name>InteriorPillar</Name> 
       <Position> 
         <X>9</X> 
         <Y>3</Y> 
@@ -761,6 +761,13 @@
       <Name>ThFR</Name>
       <Position>
         <X>3</X>
+        <Y>11</Y>
+      </Position>
+    </BlockPosition>
+    <BlockPosition>
+      <Name>ThFRAdv</Name>
+      <Position>
+        <X>4</X>
         <Y>11</Y>
       </Position>
     </BlockPosition>
@@ -1462,7 +1469,7 @@
       </Position>
     </BlockPosition>
     <BlockPosition>
-      <Name>Kitchen</Name>
+      <Name>CouchCorner</Name>
       <Position>
         <X>1</X>
         <Y>25</Y>

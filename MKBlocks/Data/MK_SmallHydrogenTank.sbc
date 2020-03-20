@@ -24,7 +24,7 @@
         <Component Subtype="Construction" Count="64" />
         <Component Subtype="SteelPlate" Count="32" />
       </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
+      <CriticalComponent Subtype="SuperComputer" Index="0" />
       <MountPoints>
         <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
         <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
@@ -90,7 +90,7 @@
         <Component Subtype="Construction" Count="102" />
         <Component Subtype="SteelPlate" Count="51" />
       </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
+      <CriticalComponent Subtype="SuperComputer" Index="0" />
       <MountPoints>
         <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
         <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
@@ -153,6 +153,7 @@
         <Component Subtype="LargeTube" Count="164" />
         <Component Subtype="SmallTube" Count="246" />
         <Component Subtype="Computer" Count="33" />
+        <Component Subtype="SuperComputer" Count="1" />
         <Component Subtype="Construction" Count="164" />
         <Component Subtype="SteelPlate" Count="82" />
       </Components>
@@ -219,6 +220,7 @@
         <Component Subtype="LargeTube" Count="262" />
         <Component Subtype="SmallTube" Count="393" />
         <Component Subtype="Computer" Count="52" />
+        <Component Subtype="SuperComputer" Count="1" />
         <Component Subtype="Construction" Count="262" />
         <Component Subtype="SteelPlate" Count="131" />
       </Components>
@@ -285,6 +287,7 @@
         <Component Subtype="LargeTube" Count="419" />
         <Component Subtype="SmallTube" Count="629" />
         <Component Subtype="Computer" Count="84" />
+        <Component Subtype="SuperComputer" Count="2" />
         <Component Subtype="Construction" Count="419" />
         <Component Subtype="SteelPlate" Count="210" />
       </Components>
@@ -351,6 +354,7 @@
         <Component Subtype="LargeTube" Count="671" />
         <Component Subtype="SmallTube" Count="1007" />
         <Component Subtype="Computer" Count="134" />
+        <Component Subtype="SuperComputer" Count="3" />
         <Component Subtype="Construction" Count="671" />
         <Component Subtype="SteelPlate" Count="336" />
       </Components>
@@ -417,6 +421,7 @@
         <Component Subtype="LargeTube" Count="1074" />
         <Component Subtype="SmallTube" Count="1611" />
         <Component Subtype="Computer" Count="215" />
+        <Component Subtype="SuperComputer" Count="4" />
         <Component Subtype="Construction" Count="1074" />
         <Component Subtype="SteelPlate" Count="537" />
       </Components>
@@ -483,6 +488,7 @@
         <Component Subtype="LargeTube" Count="1718" />
         <Component Subtype="SmallTube" Count="2577" />
         <Component Subtype="Computer" Count="344" />
+        <Component Subtype="SuperComputer" Count="6" />
         <Component Subtype="Construction" Count="1718" />
         <Component Subtype="SteelPlate" Count="859" />
       </Components>
@@ -552,7 +558,7 @@
         <Component Subtype="Construction" Count="10" />
         <Component Subtype="SteelPlate" Count="3" />
       </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
+      <CriticalComponent Subtype="SuperComputer" Index="0" />
       <MountPoints>
         <MountPoint Side="Top" StartX="0" StartY="0" EndX="2" EndY="1" />
         <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="2" EndY="1" Default="true" />
@@ -618,7 +624,7 @@
         <Component Subtype="Construction" Count="15" />
         <Component Subtype="SteelPlate" Count="5" />
       </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
+      <CriticalComponent Subtype="SuperComputer" Index="0" />
       <MountPoints>
         <MountPoint Side="Top" StartX="0" StartY="0" EndX="2" EndY="1" />
         <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="2" EndY="1" Default="true" />
@@ -681,6 +687,7 @@
         <Component Subtype="LargeTube" Count="8" />
         <Component Subtype="SmallTube" Count="16" />
         <Component Subtype="Computer" Count="33" />
+        <Component Subtype="SuperComputer" Count="0" />
         <Component Subtype="Construction" Count="25" />
         <Component Subtype="SteelPlate" Count="8" />
       </Components>
@@ -747,6 +754,7 @@
         <Component Subtype="LargeTube" Count="13" />
         <Component Subtype="SmallTube" Count="26" />
         <Component Subtype="Computer" Count="52" />
+        <Component Subtype="SuperComputer" Count="1" />
         <Component Subtype="Construction" Count="39" />
         <Component Subtype="SteelPlate" Count="13" />
       </Components>
@@ -813,6 +821,7 @@
         <Component Subtype="LargeTube" Count="21" />
         <Component Subtype="SmallTube" Count="42" />
         <Component Subtype="Computer" Count="84" />
+        <Component Subtype="SuperComputer" Count="1" />
         <Component Subtype="Construction" Count="63" />
         <Component Subtype="SteelPlate" Count="21" />
       </Components>
@@ -879,6 +888,7 @@
         <Component Subtype="LargeTube" Count="34" />
         <Component Subtype="SmallTube" Count="67" />
         <Component Subtype="Computer" Count="134" />
+        <Component Subtype="SuperComputer" Count="2" />
         <Component Subtype="Construction" Count="101" />
         <Component Subtype="SteelPlate" Count="34" />
       </Components>
@@ -945,6 +955,7 @@
         <Component Subtype="LargeTube" Count="54" />
         <Component Subtype="SmallTube" Count="107" />
         <Component Subtype="Computer" Count="215" />
+        <Component Subtype="SuperComputer" Count="3" />
         <Component Subtype="Construction" Count="161" />
         <Component Subtype="SteelPlate" Count="54" />
       </Components>
@@ -1011,6 +1022,7 @@
         <Component Subtype="LargeTube" Count="86" />
         <Component Subtype="SmallTube" Count="172" />
         <Component Subtype="Computer" Count="344" />
+        <Component Subtype="SuperComputer" Count="4" />
         <Component Subtype="Construction" Count="258" />
         <Component Subtype="SteelPlate" Count="86" />
       </Components>
