@@ -9,9 +9,7 @@
 		  </Id>
 		  <DisplayName>PointDefenceCannon</DisplayName>
 		  <Icon>textures\GUI\Icons\TelionSphereAF_Icon.dds</Icon>
-		  <Description>Telion Anti-Fighter Turrets are configurable automated turrets that target anything hostile within its range.
-			
-			Requires 40mm Wolfram Slug Belts. Can be controlled manually from a cockpit. Use conveyors to allow automatic reloading.
+		  <Description>[Placeholder]
 			</Description>
 		  <CubeSize>Large</CubeSize>
 		  <BlockTopology>TriangleMesh</BlockTopology>

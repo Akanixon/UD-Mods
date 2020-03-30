@@ -11,7 +11,7 @@
 			</Id>
 			<DisplayName>LittleDavid</DisplayName>
 			<Icon>Textures\icon\Static150mm_icon.dds</Icon>
-			<Description>A static long range weapon that deals massive amounts of damage to a single block. 
+			<Description>[Placeholder WIP]A static long range weapon that deals massive amounts of damage to a single block. 
 		If a deformable block is hit, all connected blocks are destroyed. 
 		High bullet speed and good accuracy. Large grid only.</Description>
 			<CubeSize>Large</CubeSize>
@@ -25,6 +25,7 @@
 			<BuildTimeSeconds>640</BuildTimeSeconds>
 			<InventoryMaxVolume>1</InventoryMaxVolume>			<!-- Holds 5 Mags on 1x -->
 			<Components>
+				<Component Subtype="AdminCoin" Count="1" />
 				<Component Subtype="SteelPlate" Count="400" />
 				<Component Subtype="Construction" Count="25" />
 				<Component Subtype="SmallTube" Count="25" />

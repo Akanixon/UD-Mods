@@ -5,16 +5,13 @@
 		
 		  <Id>
 			<TypeId>LargeMissileTurret</TypeId>
-			<SubtypeId>SmallAF</SubtypeId>
+			<SubtypeId>SmallAFCannon</SubtypeId>
 		  </Id>
-		  <DisplayName>SmallAF</DisplayName>
+		  <DisplayName>SmallAFCannon</DisplayName>
 		  <Icon>textures\GUI\Icons\TelionAF_Icon.dds</Icon>
-		  <Description>Telion Flak Turrets are configurable automated turrets that target anything hostile within its range.
-			
-			Requires 40mm Flak Shell Stacks. Can be controlled manually from a cockpit. Use conveyors to allow automatic reloading.
+		  <Description>[Placeholder WIP]
 			</Description>
 		  <CubeSize>Small</CubeSize>
-		  <Public>false</Public>
 		  <BlockTopology>TriangleMesh</BlockTopology>
 		  <Size x="5" y="5" z="5" />
 		  <Center x="2" y="0" z="2" />
@@ -27,15 +24,9 @@
 		  <BuildTimeSeconds>90</BuildTimeSeconds>
 		  <InventoryMaxVolume>0.768</InventoryMaxVolume> <!-- Holds 4 Mags on 1x -->
 		  <Components>
-			<Component Subtype="SteelPlate" Count="40" />
-			<Component Subtype="Construction" Count="35" />
-			<Component Subtype="LargeTube" Count="12" />
-			<Component Subtype="Motor" Count="15" />
-			<Component Subtype="Computer" Count="8" />
-			<Component Subtype="Construction" Count="12" />
-			<Component Subtype="SteelPlate" Count="30" />
+			<Component Subtype="AdminCoin" Count="1" />
 		  </Components>
-		  <CriticalComponent Subtype="Computer" Index="0" />
+		  <CriticalComponent Subtype="AdminCoin" Index="0" />
 			<!-- SURVIVAL BALANCE-->
 		  
 		  
@@ -49,12 +40,12 @@
 			<Model BuildPercentUpperBound="0.8" File="Models\Cubes\Large\TeliosCon4.mwm" />
 			<Model BuildPercentUpperBound="1.0" File="Models\Cubes\Large\TeliosCon6.mwm" />
 		  </BuildProgressModels>
-		  <BlockPairName>SmallAF</BlockPairName>
+		  <BlockPairName>SmallAFCannon</BlockPairName>
 		  <MirroringY>Z</MirroringY>
 		  <MirroringZ>Y</MirroringZ>
 		  <EdgeType>Light</EdgeType>
 		  <OverlayTexture>Textures\GUI\Screens\turret_overlay.dds</OverlayTexture>
-		  <WeaponDefinitionId Subtype="SmallAF" />
+		  <WeaponDefinitionId Subtype="SmallAFCannon" />
 		  <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
 		  <DamagedSound>ParticleWeapExpl</DamagedSound>
 		  <DestroyEffect>Explosion_Missile</DestroyEffect>

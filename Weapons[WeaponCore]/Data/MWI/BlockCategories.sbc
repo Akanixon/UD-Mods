@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CategoryClasses>
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>WeaponCore</DisplayName>
+      <Name>WeaponCore</Name>
+      <ItemIds>
+        <string>300mmAutoCannon_1</string>
+        <string>300mmBattery</string>
+        <string>900mmAutoCannon_3</string>
+        <string>900mmBattery</string>
+        <string>40mmBofors</string>
+        <string>LargeAden</string>
+        <string>LargeVulcan</string>
+        <string>PDC</string>
+        <string>Railgun</string>
+        <string>LittleDavid</string>
+        <string>SmallAFCannon</string>
+      </ItemIds>
+    </Category>
+  </CategoryClasses>
+</Definitions>

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AmmoMagazines>
+
+<AmmoMagazine>
+      <Id>
+        <TypeId>AmmoMagazine</TypeId>
+        <SubtypeId>Vulcan20x102</SubtypeId>
+      </Id>
+      <DisplayName>"20x102mm" Vulcan</DisplayName>
+      <Icon>Textures\GUI\GatlingAmmo20x102.dds</Icon>
+      <Size>
+        <X>0.25</X>
+        <Y>0.2</Y>
+        <Z>0.2</Z>
+      </Size>
+      <Mass>35</Mass>
+      <Volume>16</Volume>
+      <Model>Models\Weapons\Ammo_Box_20x102.mwm</Model>
+      <Capacity>200</Capacity>
+      <AmmoDefinitionId Subtype="Blank" />
+    </AmmoMagazine>
+  </AmmoMagazines>
+</Definitions>

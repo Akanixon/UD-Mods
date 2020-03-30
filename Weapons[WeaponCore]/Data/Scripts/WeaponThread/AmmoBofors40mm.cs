@@ -19,10 +19,10 @@ namespace WeaponThread
             AmmoRound = "AmmoBofors40mm",
             HybridRound = false, //AmmoMagazine based weapon with energy cost
             EnergyCost = 0.00000001f, //(((EnergyCost * DefaultDamage) * ShotsPerSecond) * BarrelsPerShot) * ShotsPerBarrel
-            BaseDamage = 400f,
-            Mass = 5f, // in kilograms
+            BaseDamage = 1500f,
+            Mass = 50f, // in kilograms
             Health = 0, // 0 = disabled, otherwise how much damage it can take from other trajectiles before dying.
-            BackKickForce = 200f,
+            BackKickForce = 500f,
             HardPointUsable = true, // set to false if this is a shrapnel ammoType and you don't want the turret to be able to select it directly.
 
             Shape = new ShapeDef //defines the collision shape of projectile, defaults line and visual Line Length if set to 0
@@ -92,8 +92,8 @@ namespace WeaponThread
             AreaEffect = new AreaDamageDef
             {
                 AreaEffect = Explosive, // Disabled = do not use area effect at all, Explosive, Radiant, AntiSmart, JumpNullField, JumpNullField, EnergySinkField, AnchorField, EmpField, OffenseField, NavField, DotField.
-                AreaEffectDamage = 50f, // 0 = use spillover from BaseDamage, otherwise use this value.
-                AreaEffectRadius = 4f,
+                AreaEffectDamage = 0f, // 0 = use spillover from BaseDamage, otherwise use this value.
+                AreaEffectRadius = 0f,
                 Pulse = new PulseDef // interval measured in game ticks (60 == 1 second), pulseChance chance (0 - 100) that an entity in field will be hit
                 {
                     Interval = 30,
@@ -137,9 +137,9 @@ namespace WeaponThread
                 TargetLossDegree = 360f,
                 TargetLossTime = 0, // 0 is disabled, Measured in game ticks (6 = 100ms, 60 = 1 seconds, etc..).
                 MaxLifeTime = 0, // 0 is disabled, Measured in game ticks (6 = 100ms, 60 = 1 seconds, etc..).
-                AccelPerSec = 0f,
-                DesiredSpeed = 700f,
-                MaxTrajectory = 1500f,
+                AccelPerSec = 800f,
+                DesiredSpeed = 800f,
+                MaxTrajectory = 1100f,
                 FieldTime = 0, // 0 is disabled, a value causes the projectile to come to rest, spawn a field and remain for a time (Measured in game ticks, 60 = 1 second)
                 SpeedVariance = Random(start: 0, end: 0), // subtracts value from DesiredSpeed
                 RangeVariance = Random(start: 0, end: 0), // subtracts value from MaxTrajectory

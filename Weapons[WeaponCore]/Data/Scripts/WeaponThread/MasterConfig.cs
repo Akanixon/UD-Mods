@@ -22,7 +22,7 @@
                 PDC,
                 Railgun,
                 LittleDavid,
-                SmallAF
+                SmallAFCannon
                             );//XB1BeamBattery, XB3BeamBattery, BattleshipCannon
         }
     }

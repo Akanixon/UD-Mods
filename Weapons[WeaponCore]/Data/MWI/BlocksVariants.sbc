@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Definitions>
+  <BlockVariantGroups>
+    <BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="300mmAutoCannon" />
+      <Icon>Textures\GUI\Icons\CannonMK1_overlay.dds</Icon>
+      <DisplayName>300mmAutoCannon</DisplayName>
+      <Description></Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_LargeMissileTurret" Subtype="300mmAutoCannon_1" />
+        <Block Type="MyObjectBuilder_LargeMissileTurret" Subtype="300mmAutoCannon_2" />
+        <Block Type="MyObjectBuilder_LargeMissileTurret" Subtype="300mmAutoCannon_3" />
+      </Blocks>
+    </BlockVariantGroup>
+  </BlockVariantGroups>
+</Definitions>

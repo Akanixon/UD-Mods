@@ -4,7 +4,7 @@
     <Weapon>
       <Id>
         <TypeId>WeaponDefinition</TypeId>
-        <SubtypeId>SmallAF</SubtypeId>
+        <SubtypeId>SmallAFCannon</SubtypeId>
       </Id>
       <ProjectileAmmoData RateOfFire="1" ShootSoundName="WepShipGatlingShot" ShotsInBurst="1" />
       <ReleaseTimeAfterFire>100</ReleaseTimeAfterFire>

@@ -19,10 +19,10 @@ namespace WeaponThread
             AmmoRound = "Aden30x113Ammo",
             HybridRound = false, //AmmoMagazine based weapon with energy cost
             EnergyCost = 0.00000001f, //(((EnergyCost * DefaultDamage) * ShotsPerSecond) * BarrelsPerShot) * ShotsPerBarrel
-            BaseDamage = 1f,
-            Mass = 100f, // in kilograms
+            BaseDamage = 500f,
+            Mass = 500f, // in kilograms
             Health = 0f, // 0 = disabled, otherwise how much damage it can take from other trajectiles before dying.
-            BackKickForce = 7000f,
+            BackKickForce = 500f,
 
             Shape = new ShapeDef //defines the collision shape of projectile, defaults line and visual Line Length if set to 0
             {
@@ -90,8 +90,8 @@ namespace WeaponThread
             AreaEffect = new AreaDamageDef
             {
                 AreaEffect = Radiant, // Disabled = do not use area effect at all, Explosive, Radiant, AntiSmart, JumpNullField, JumpNullField, EnergySinkField, AnchorField, EmpField, OffenseField, NavField, DotField.
-                AreaEffectDamage = 3000f, // 0 = use spillover from BaseDamage, otherwise use this value.
-                AreaEffectRadius = 6f,
+                AreaEffectDamage = 0f, // 0 = use spillover from BaseDamage, otherwise use this value.
+                AreaEffectRadius = 0f,
                 Pulse = new PulseDef // interval measured in game ticks (60 == 1 second), pulseChance chance (0 - 100) that an entity in field will be hit
                 {
                     Interval = 60,
@@ -136,7 +136,7 @@ namespace WeaponThread
                 TargetLossTime = 0, // 0 is disabled, Measured in game ticks (6 = 100ms, 60 = 1 seconds, etc..).
                 MaxLifeTime = 0, // 0 is disabled, Measured in game ticks (6 = 100ms, 60 = 1 seconds, etc..).
                 AccelPerSec = 0f,
-                DesiredSpeed = 500f,
+                DesiredSpeed = 1350f,
                 MaxTrajectory = 1000f,
                 GravityMultiplier = 1.0f,
                 FieldTime = 0, // 0 is disabled, a value causes the projectile to come to rest, spawn a field and remain for a time (Measured in game ticks, 60 = 1 second)

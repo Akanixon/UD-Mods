@@ -15,7 +15,7 @@
       <SecondarySoundName>WepShipGatlingRotation</SecondarySoundName>
 	  <ReloadTime>0</ReloadTime>
       <AmmoMagazines>
-        <AmmoMagazine Subtype="NATO_20x102mm" />
+        <AmmoMagazine Subtype="Vulcan20x102" />
       </AmmoMagazines>
     </Weapon>
   </Weapons>

@@ -19,7 +19,7 @@ namespace WeaponThread
             AmmoRound = "Ammo900mmShell",
             HybridRound = false, //AmmoMagazine based weapon with energy cost
             EnergyCost = 0.000000001f, //(((EnergyCost * DefaultDamage) * ShotsPerSecond) * BarrelsPerShot) * ShotsPerBarrel
-            BaseDamage = 1f,
+            BaseDamage = 17000f,
             Mass = 4000f, // in kilograms
             Health = 0, // 0 = disabled, otherwise how much damage it can take from other trajectiles before dying.
             BackKickForce = 10000f,
@@ -91,7 +91,7 @@ namespace WeaponThread
             AreaEffect = new AreaDamageDef
             {
                 AreaEffect = Explosive, // Disabled = do not use area effect at all, Explosive, Radiant, AntiSmart, JumpNullField, JumpNullField, EnergySinkField, AnchorField, EmpField, OffenseField, NavField, DotField.
-                AreaEffectDamage = 17000f, // 0 = use spillover from BaseDamage, otherwise use this value.
+                AreaEffectDamage = 0f, // 0 = use spillover from BaseDamage, otherwise use this value.
                 AreaEffectRadius = 4.5f,
                 Pulse = new PulseDef // interval measured in game ticks (60 == 1 second), pulseChance chance (0 - 100) that an entity in field will be hit
                 {

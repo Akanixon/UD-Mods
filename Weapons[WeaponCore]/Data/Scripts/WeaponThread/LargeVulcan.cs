@@ -158,7 +158,7 @@ namespace WeaponThread
             },
 
             Ammos = new[] {
-                NATO_102mmAmmo
+                Vulcan20x102Ammo
             },
         };
     }
