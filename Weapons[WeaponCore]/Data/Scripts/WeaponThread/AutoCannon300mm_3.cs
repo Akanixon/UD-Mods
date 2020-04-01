@@ -97,7 +97,7 @@ namespace WeaponThread
                 {
                     RateOfFire = 42,
                     BarrelSpinRate = 0, // visual only, 0 disables and uses RateOfFire
-                    BarrelsPerShot = 3,
+                    BarrelsPerShot = 1,
                     TrajectilesPerBarrel = 1, // Number of Trajectiles per barrel per fire event.
                     SkipBarrels = 0,
                     ReloadTime = 300, // Measured in game ticks (6 = 100ms, 60 = 1 seconds, etc..).
@@ -107,7 +107,7 @@ namespace WeaponThread
                     Cooldown = .999f, //percent of max heat to be under to start firing again after overheat accepts .2-.95
                     HeatSinkRate = 200000, //amount of heat lost per second
                     DegradeRof = false, // progressively lower rate of fire after 80% heat threshold (80% of max heat)
-                    ShotsInBurst = 1,
+                    ShotsInBurst = 3,
                     DelayAfterBurst = 0, // Measured in game ticks (6 = 100ms, 60 = 1 seconds, etc..).
                     FireFullBurst = false,
                 },
