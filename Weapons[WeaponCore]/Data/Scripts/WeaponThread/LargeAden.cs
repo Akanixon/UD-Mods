@@ -74,14 +74,14 @@ namespace WeaponThread
                 },
                 HardWare = new HardwareDef
                 {
-                    RotateRate = 0.0014f,
-                    ElevateRate = 0.0014f,
+                    RotateRate = 0.003f,
+                    ElevateRate = 0.003f,
                     MinAzimuth = -180,
                     MaxAzimuth = 180,
-                    MinElevation = -20,
-                    MaxElevation = 90,
+                    MinElevation = -40,
+                    MaxElevation = 60,
                     FixedOffset = false,
-                    InventorySize = 3.24f,
+                    InventorySize = 0.384f,
                     Offset = Vector(x: 0, y: 0, z:0),
                 },
                 Other = new OtherDef
