@@ -51,7 +51,7 @@ namespace WeaponThread
             HardPoint = new HardPointDef
             {
                 WeaponName = "300mmAutoCannon", // name of weapon in terminal
-                DeviateShotAngle = 0.55f,
+                DeviateShotAngle = 0.15f,
                 AimingTolerance = 4f, // 0 - 180 firing angle
                 AimLeadingPrediction = Advanced, // Off, Basic, Accurate, Advanced
                 DelayCeaseFire = 10, // Measured in game ticks (6 = 100ms, 60 = 1 seconds, etc..).
@@ -73,14 +73,14 @@ namespace WeaponThread
                 },
                 HardWare = new HardwareDef
                 {
-                    RotateRate = 0.0012f,
-                    ElevateRate = 0.0014f,
+                    RotateRate = 0.0006f,
+                    ElevateRate = 0.0006f
                     MinAzimuth = -180,
                     MaxAzimuth = 180,
-                    MinElevation = -5,
-                    MaxElevation = 30,
+                    MinElevation = -10,
+                    MaxElevation = 50,
                     FixedOffset = false,
-                    InventorySize = 0.6858f,
+                    InventorySize = 0.5f,
                     Offset = Vector(x: 0, y: 0.619, z:0),
                 },
                 Other = new OtherDef
@@ -93,12 +93,12 @@ namespace WeaponThread
                 },
                 Loading = new LoadingDef
                 {
-                    RateOfFire = 600,
+                    RateOfFire = 28,
                     BarrelSpinRate = 0, // visual only, 0 disables and uses RateOfFire
                     BarrelsPerShot = 1,
                     TrajectilesPerBarrel = 1, // Number of Trajectiles per barrel per fire event.
                     SkipBarrels = 0,
-                    ReloadTime = 900, // Measured in game ticks (6 = 100ms, 60 = 1 seconds, etc..).
+                    ReloadTime = 240, // Measured in game ticks (6 = 100ms, 60 = 1 seconds, etc..).
                     DelayUntilFire = 0, // Measured in game ticks (6 = 100ms, 60 = 1 seconds, etc..).
                     HeatPerShot = 0, //heat generated per shot
                     MaxHeat = 20000, //max heat before weapon enters cooldown (70% of max heat)
