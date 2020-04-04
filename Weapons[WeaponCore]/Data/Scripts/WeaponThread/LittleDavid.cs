@@ -42,7 +42,7 @@ namespace WeaponThread
                     Thrust, Utility, Offense, Power, Production, Any,
                 },
                 ClosestFirst = true, // tries to pick closest targets first (blocks on grids, projectiles, etc...).
-                MinimumDiameter = 1, // 0 = unlimited, Minimum radius of threat to engage.
+                MinimumDiameter = 0, // 0 = unlimited, Minimum radius of threat to engage.
                 MaximumDiameter = 0, // 0 = unlimited, Maximum radius of threat to engage.
                 TopTargets = 4, // 0 = unlimited, max number of top targets to randomize between.
                 TopBlocks = 4, // 0 = unlimited, max number of blocks to randomize between
