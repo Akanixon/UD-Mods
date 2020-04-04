@@ -7,7 +7,7 @@
         <SubtypeId>LittleDavidCannon</SubtypeId>
       </Id>
       <ProjectileAmmoData RateOfFire="1" ShootSoundName="WepShipGatlingShot" ShotsInBurst="1" />
-      <ReleaseTimeAfterFire>100</ReleaseTimeAfterFire>
+      <ReleaseTimeAfterFire>0</ReleaseTimeAfterFire>
       <DeviateShotAngle>0</DeviateShotAngle>
       <MuzzleFlashLifeSpan>0</MuzzleFlashLifeSpan>
       <NoAmmoSoundName>WepShipGatlingNoAmmo</NoAmmoSoundName>

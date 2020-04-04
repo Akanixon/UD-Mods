@@ -54,7 +54,7 @@ namespace WeaponThread
             HardPoint = new HardPointDef
             {
                 WeaponName = "40mmBofors", // name of weapon in terminal
-                DeviateShotAngle = 7f,
+                DeviateShotAngle = .15f,
                 AimingTolerance = 4f, // 0 - 180 firing angle
                 AimLeadingPrediction = Advanced, // Off, Basic, Accurate, Advanced
                 DelayCeaseFire = 0, // Measured in game ticks (6 = 100ms, 60 = 1 seconds, etc..).
@@ -83,7 +83,7 @@ namespace WeaponThread
                     MinElevation = -20,
                     MaxElevation = 70,
                     FixedOffset = false,
-                    InventorySize = 2.304f,
+                    InventorySize = 0.5f,
                     Offset = Vector(x: 0, y: 0, z:0),
                 },
                 Other = new OtherDef

@@ -53,14 +53,14 @@ namespace WeaponThread
                 Grids = new GridSizeDef
                 {
                     Large = -1f,
-                    Small = 0.25f,
+                    Small = 0.5f,
                 },
                 Armor = new ArmorDef
                 {
                     Armor = 0.75f,
                     Light = 0.9f,
                     Heavy = 0.75f,
-                    NonArmor = 1.1f,
+                    NonArmor = 1f,
                 },
                 Shields = new ShieldDef
                 {
