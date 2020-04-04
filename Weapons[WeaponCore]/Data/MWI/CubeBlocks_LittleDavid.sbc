@@ -83,7 +83,7 @@
 			<MaxAzimuthDegrees>0</MaxAzimuthDegrees>
 			<RotationSpeed>0.0</RotationSpeed>
 			<ElevationSpeed>0.0</ElevationSpeed>
-			<MaxRangeMeters>1000</MaxRangeMeters>
+			<MaxRangeMeters>0</MaxRangeMeters>
 			<AiEnabled>false</AiEnabled>
 			<IdleRotation>false</IdleRotation>
 		</Definition>
