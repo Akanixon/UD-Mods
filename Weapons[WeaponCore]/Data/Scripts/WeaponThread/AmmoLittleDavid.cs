@@ -32,7 +32,7 @@ namespace WeaponThread
             },
             ObjectsHit = new ObjectsHitDef
             {
-                MaxObjectsHit = 10, // 0 = disabled
+                MaxObjectsHit = 0, // 0 = disabled
                 CountBlocks = false, // counts gridBlocks and not just entities hit
             },
             Shrapnel = new ShrapnelDef //FIX MANUALLY
@@ -111,7 +111,7 @@ namespace WeaponThread
                     DetonateOnEnd = false,
                     ArmOnlyOnHit = false,
                     DetonationDamage = 0,
-                    DetonationRadius = 70,
+                    DetonationRadius = 0,
                 },
                 EwarFields = new EwarFieldsDef //FIX Manually
                 {
@@ -139,8 +139,9 @@ namespace WeaponThread
                 AccelPerSec = 0f,
                 DesiredSpeed = 1000f,
                 MaxTrajectory = 2000f,
+                GravityMultiplier = 1.0f,
                 FieldTime = 0, // 0 is disabled, a value causes the projectile to come to rest, spawn a field and remain for a time (Measured in game ticks, 60 = 1 second)
-                SpeedVariance = Random(start: 0, end: 50), // subtracts value from DesiredSpeed
+                SpeedVariance = Random(start: 0, end: 0), // subtracts value from DesiredSpeed
                 RangeVariance = Random(start: 0, end: 0), // subtracts value from MaxTrajectory
                 Smarts = new SmartsDef
                 {
@@ -195,7 +196,7 @@ namespace WeaponThread
                             MaxDistance = 5000,
                             MaxDuration = 1,
                             Scale = 2.0f,
-                            HitPlayChance = 1f,
+                            HitPlayChance = 1.25f,
                         },
                     },
                 },
