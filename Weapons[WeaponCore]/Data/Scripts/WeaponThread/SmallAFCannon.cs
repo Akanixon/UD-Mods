@@ -55,7 +55,7 @@ namespace WeaponThread
             HardPoint = new HardPointDef
             {
                 WeaponName = "SmallAFCannon", // name of weapon in terminal
-                DeviateShotAngle = 4.5f,
+                DeviateShotAngle = .3f,
                 AimingTolerance = 2f, // 0 - 180 firing angle
                 AimLeadingPrediction = Accurate, // Off, Basic, Accurate, Advanced
                 DelayCeaseFire = 0, // Measured in game ticks (6 = 100ms, 60 = 1 seconds, etc..).
@@ -97,7 +97,7 @@ namespace WeaponThread
                 },
                 Loading = new LoadingDef
                 {
-                    RateOfFire = 300,
+                    RateOfFire = 30,
                     BarrelSpinRate = 0, // visual only, 0 disables and uses RateOfFire
                     BarrelsPerShot = 1,
                     TrajectilesPerBarrel = 1, // Number of Trajectiles per barrel per fire event.
@@ -109,7 +109,7 @@ namespace WeaponThread
                     Cooldown = .999f, //percent of max heat to be under to start firing again after overheat accepts .2-.95
                     HeatSinkRate = 200000, //amount of heat lost per second
                     DegradeRof = false, // progressively lower rate of fire after 80% heat threshold (80% of max heat)
-                    ShotsInBurst = 16,
+                    ShotsInBurst = 15,
                     DelayAfterBurst = 180, // Measured in game ticks (6 = 100ms, 60 = 1 seconds, etc..).
                     FireFullBurst = false,
                 },
