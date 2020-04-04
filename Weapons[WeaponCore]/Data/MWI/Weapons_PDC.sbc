@@ -12,7 +12,7 @@
       <MuzzleFlashLifeSpan>0</MuzzleFlashLifeSpan>
       <NoAmmoSoundName>WepShipGatlingNoAmmo</NoAmmoSoundName>
       <SecondarySoundName>WepShipGatlingRotation</SecondarySoundName>
-      <ReloadTime>3500</ReloadTime>
+      <ReloadTime>0</ReloadTime>
       <AmmoMagazines>
         <AmmoMagazine Subtype="NATO_20x102mm" />
       </AmmoMagazines>

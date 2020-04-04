@@ -14,9 +14,7 @@
       <SecondarySoundName>WepShipGatlingRotation</SecondarySoundName>
 	  <ReloadTime>0</ReloadTime>
       <AmmoMagazines>
-	  
         <AmmoMagazine Subtype="Bofors40mm" />
-		
       </AmmoMagazines>
     </Weapon>
   </Weapons>
