@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BlockVariantGroups>
+
+    <BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AQD_Group_Gyro_Expansion" />
+      <Icon>Textures\GUI\Icons\Cubes\AQD_LG_GyroUpgrade.dds</Icon>
+      <DisplayName>{LOC:DisplayName_AQD_LG_GyroUpgrade_Enhanced}</DisplayName>
+      <Description>{LOC:Description_AQD_LG_GyroUpgrade}</Description>
+      <Blocks>
+          <Block Type="MyObjectBuilder_UpgradeModule" Subtype="AQD_LG_GyroBooster_Enhanced" />
+          <Block Type="MyObjectBuilder_UpgradeModule" Subtype="AQD_LG_GyroBooster_Advanced" />
+          <Block Type="MyObjectBuilder_UpgradeModule" Subtype="AQD_LG_GyroBooster_Elite" />
+          <Block Type="MyObjectBuilder_UpgradeModule" Subtype="AQD_SG_GyroBooster_Enhanced" />
+          <Block Type="MyObjectBuilder_UpgradeModule" Subtype="AQD_SG_GyroBooster_Advanced" />
+          <Block Type="MyObjectBuilder_UpgradeModule" Subtype="AQD_SG_GyroBooster_Elite" />
+          <Block Type="MyObjectBuilder_UpgradeModule" Subtype="AQD_LG_GyroUpgrade_Enhanced" />
+          <Block Type="MyObjectBuilder_UpgradeModule" Subtype="AQD_LG_GyroUpgrade_Advanced" />
+          <Block Type="MyObjectBuilder_UpgradeModule" Subtype="AQD_LG_GyroUpgrade_Elite" />
+      </Blocks>
+    </BlockVariantGroup>
+
+  </BlockVariantGroups>
+</Definitions>

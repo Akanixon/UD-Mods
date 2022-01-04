@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<BlueprintClassEntries>
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="UpgradeModule/AQD_LG_GyroUpgrade_Enhanced"/>
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="UpgradeModule/AQD_LG_GyroUpgrade_Advanced"/>
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="UpgradeModule/AQD_LG_GyroUpgrade_Elite"/>
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="UpgradeModule/AQD_LG_GyroBooster_Enhanced"/>
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="UpgradeModule/AQD_LG_GyroBooster_Advanced"/>
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="UpgradeModule/AQD_LG_GyroBooster_Elite"/>
+		<Entry Class="SmallBlocks" BlueprintSubtypeId="UpgradeModule/AQD_SG_GyroBooster_Enhanced"/>
+		<Entry Class="SmallBlocks" BlueprintSubtypeId="UpgradeModule/AQD_SG_GyroBooster_Advanced"/>
+		<Entry Class="SmallBlocks" BlueprintSubtypeId="UpgradeModule/AQD_SG_GyroBooster_Elite"/>
+	</BlueprintClassEntries>
+</Definitions>
